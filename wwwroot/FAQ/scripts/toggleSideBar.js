@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+//Buscar lógica alternativa al location.reload()
+
 window.addEventListener("resize", function(){
     if (window.innerWidth > 1300) {
         location.reload();
     }
 });
-
-

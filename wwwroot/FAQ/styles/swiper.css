@@ -1,0 +1,98 @@
+
+.swiper-wrapper {
+    display: flex;
+    width: 200px;
+    height: 400px;
+  }
+
+  .swiper-button-next,.swiper-button-prev{
+    display: none;
+  }
+
+  .swiper-pagination{
+    
+        --swiper-pagination-color:#f8c76c ;
+
+        --swiper-pagination-left: auto;
+        --swiper-pagination-right: 8px;
+        --swiper-pagination-bottom: 8px;
+        --swiper-pagination-top: auto;
+        --swiper-pagination-fraction-color: inherit;
+        --swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.25);
+        --swiper-pagination-progressbar-size: 4px;
+        --swiper-pagination-bullet-size: 10px;
+        --swiper-pagination-bullet-width: 10px;
+        --swiper-pagination-bullet-height: 10px;
+        --swiper-pagination-bullet-inactive-color: #6d4907;
+        --swiper-pagination-bullet-inactive-opacity: 1  ;
+        --swiper-pagination-bullet-opacity: 1;
+        --swiper-pagination-bullet-horizontal-gap: 4px;
+        --swiper-pagination-bullet-vertical-gap: 6px;
+      
+  }
+
+
+
+    button.modeloBoton {
+    /*  margin-top: 5px; */
+        /* background-color: #f8c76c; */
+        border: none;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
+       border-radius: 3%;
+    }
+
+    button.modeloBoton img{
+        width: 103px;
+        height: auto;
+        margin-bottom: -3px;  /* Quitar cuando se tengan las imágenes de fondo */
+    }
+    
+    button.modeloBoton:hover {
+    
+        box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+        transition: all 0.2s ease;
+    }
+    
+    button.modeloBoton.selected {
+
+        border: 3px solid #f8c76c;
+        box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+        transition: all 0.2s ease;
+    }
+
+   
+
+    @media (max-width: 1300px) {
+      .swiper{
+        position: relative;
+        margin: 5px;
+      }
+      .swiper-wrapper{
+        width: 100%;
+        height: auto;
+        margin: 1em 3em;
+      }
+      .swiper.swiper-slide{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .swiper-pagination{
+        position: absolute;
+      }
+      }
+      @media (max-width: 768px) {
+        .swiper{
+          position: relative;
+        }
+        .swiper-wrapper{
+          width: 100%;
+          height: auto;
+          margin: 1em 2em;
+        }
+        .swiper-pagination{
+          position: absolute;
+        }
+      }
