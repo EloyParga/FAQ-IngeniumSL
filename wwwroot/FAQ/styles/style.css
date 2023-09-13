@@ -526,6 +526,10 @@ h2:first-of-type {
     left: 0;
   }
 
+  .sidebar ul li{
+    height: 50px;
+  }
+
   .video-container {
     margin: 0;
     display: flex;
@@ -590,6 +594,10 @@ h2:first-of-type {
 }
 
 @media (max-width: 768px) {
+.sidebar ul li{
+  height: fit-content;
+}
+
   .scrollMid {
     /* Asegura que la barra de desplazamiento solo se muestre cuando sea necesario */
     overflow-y: hidden;

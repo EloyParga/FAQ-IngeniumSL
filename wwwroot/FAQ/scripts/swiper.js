@@ -25,7 +25,7 @@ const swiper = new Swiper('.swiper', {
         769:{
             direction: 'horizontal',
             loop: false,
-            slidesPerView: 4,
+            slidesPerView: 5, //o 4?
         },
         300:{
             direction: 'horizontal',
