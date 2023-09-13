@@ -19,17 +19,17 @@ const swiper = new Swiper('.swiper', {
     breakpoints:{
         1301:{
             direction: 'vertical',
-            loop: false,
+            loop: true,
             slidesPerView: 3,
         },
         769:{
             direction: 'horizontal',
-            loop: false,
+            loop: true,
             slidesPerView: 5, //o 4?
         },
         300:{
             direction: 'horizontal',
-            loop: false,
+            loop: true,
             slidesPerView: 3,
         }
     }
