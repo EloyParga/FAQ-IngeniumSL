@@ -1,0 +1,30 @@
+
+footer {
+    background-color: #050505;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #div-logos-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo-footer-clic{
+    height: 60px;
+    width: 250px;
+    
+  }
+  
+  #logo-footer-li{
+    height: 50px;
+    width: auto;
+  }
+  @media (max-width: 1120px) {
+  footer {
+    flex-direction: column;
+  }
+}

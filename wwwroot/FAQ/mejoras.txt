@@ -1,0 +1,6 @@
+display de botones diferente en pantalla pequeña
+script para botones de móvil (la página se carga sin mostrar la lista de problemas para que sea más rápido)
+cuando se carga una página con un param, el carousel muestra ese botón y lo activa
+logo cambia ruta imagen en pantalla pequeña
+corregidos bugs del nav (toggle-menu ocupaba espacio)
+mobile responsive acabado?

@@ -1,0 +1,8 @@
+.sidebar ul li:first-child{
+  background-color: #6d4907;
+  color: #fff;
+}
+
+.sidebar ul li:first-child a:hover{
+  color: #050505;
+}
