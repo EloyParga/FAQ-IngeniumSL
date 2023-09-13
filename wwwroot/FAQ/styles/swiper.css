@@ -10,9 +10,7 @@
   }
 
   .swiper-pagination{
-    
         --swiper-pagination-color:#f8c76c ;
-
         --swiper-pagination-left: auto;
         --swiper-pagination-right: 8px;
         --swiper-pagination-bottom: 8px;
@@ -28,14 +26,11 @@
         --swiper-pagination-bullet-opacity: 1;
         --swiper-pagination-bullet-horizontal-gap: 4px;
         --swiper-pagination-bullet-vertical-gap: 6px;
-      
   }
 
 
 
     button.modeloBoton {
-    /*  margin-top: 5px; */
-        /* background-color: #f8c76c; */
         border: none;
         padding: 0;
         margin: 0;
@@ -50,29 +45,31 @@
     }
     
     button.modeloBoton:hover {
-    
         box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
         transition: all 0.2s ease;
     }
     
     button.modeloBoton.selected {
-
         border: 3px solid #f8c76c;
         box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
         transition: all 0.2s ease;
     }
 
-   
 
+
+    @media (min-width: 1300px) {
+      .swiper-pagination{
+        margin-top: -60px;
+      }}
     @media (max-width: 1300px) {
       .swiper{
         position: relative;
-        margin: 5px;
+        max-width: 100%;
       }
       .swiper-wrapper{
         width: 100%;
         height: auto;
-        margin: 1em 3em;
+        margin: 1em 2em 1em 2em
       }
       .swiper.swiper-slide{
         display: flex;
@@ -86,6 +83,7 @@
       @media (max-width: 768px) {
         .swiper{
           position: relative;
+          max-width: 100%;
         }
         .swiper-wrapper{
           width: 100%;

@@ -1,9 +1,6 @@
 const swiper = new Swiper('.swiper', {
     // Optional parameters
 
-    direction: 'vertical',
-    loop: true,
-    slidesPerView: 3,
     spaceBetween:10,
   
     // If we need pagination
