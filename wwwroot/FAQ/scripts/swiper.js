@@ -9,9 +9,6 @@ const swiper = new Swiper('.swiper', {
       clickable: true,
     },
   
-    // Navigation arrows
- 
-  
     // And if we need scrollbar
     scrollbar: {
       el: '.swiper-scrollbar',
