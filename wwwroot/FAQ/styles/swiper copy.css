@@ -1,20 +1,10 @@
 
-.swiper{
-  margin-top: -100px;
-}
 .swiper-wrapper {
   display: flex;
   width: 200px;
   height: 400px;
 }
 
-
-.swiper-slide{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 .swiper-button-next,.swiper-button-prev{
   display: none;
 }
@@ -68,13 +58,11 @@
 
 
   @media (min-width: 1300px) {
- 
     .swiper-pagination{
       margin-top: -60px;
     }}
   @media (max-width: 1300px) {
     .swiper{
-      margin-top: 0;  /* reset */
       position: relative;
       max-width: 100%;
     }
@@ -94,7 +82,6 @@
     }
     @media (max-width: 768px) {
       .swiper{
-        margin-top: 0;  /* reset */
         position: relative;
         max-width: 100%;
       }

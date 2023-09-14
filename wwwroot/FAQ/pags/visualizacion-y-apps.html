@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../styles/style.css">
   <link rel="stylesheet" href="../styles/visualizacion-y-apps.css">
-
-  <link rel="stylesheet" href="../styles/rightButtons.css">
+  <link rel="stylesheet" href="../styles/swiper.css">
   <link rel="stylesheet" href="../styles/footer.css">
   <title>Problemas técnicos de pulsadores y termostatos</title>
 </head>
@@ -42,7 +42,13 @@
     <h1>Preguntas más frecuentes</h1>
     <div class="main-container">
       <div class="left">
+        <button id="toggleSidebarButton">
+          <img src="../img/bookmark.png" alt="toggleSidebarButton">
+        </button>
         <div class="sidebar">
+          <button id="toggleSidebarCloseButton">
+            <img src="../img/cerrar.png" alt="toggleSidebarCloseButton">
+          </button>
           <ul>
             <li><a href="pulsadores-y-termostatos.html">Pulsadores y termostatos</a></li>
             <li><a href="visualizacion-y-apps.html">Pantallas</a></li>
@@ -73,56 +79,56 @@
         </div>
       </div>
 
-      <div class="right carousel-container">
+      <div class="right swiper">
 
-        <div class="pagination" id="pagination">
-          <!-- Puntos de paginación se generan dinámicamente aquí -->
-        </div>
-        <div class="carousel" id="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+           
               <button class="modeloBoton carousel-button" value="VIIP-10"><img class="modelo-dispositivos"
                   src="../img/img-visualizacion-y-apps/VIIP10.png" alt="Modelo VIIP-10"></button>
               <p>VIIP 10</p>
             </div>
-            <div class="carousel-item">
+            <div class="swiper-slide">
               <button class="modeloBoton carousel-button" value="VIIP-7"><img class="modelo-dispositivos"
                   src="../img/img-visualizacion-y-apps/VIIP7.png" alt="Modelo VIIP-7"></button>
               <p>VIIP 7</p>
             </div>
-            <div class="carousel-item">
+            <div class="swiper-slide">
               <button class="modeloBoton carousel-button" value="PPL10-G"><img class="modelo-dispositivos"
                   src="../img/img-visualizacion-y-apps/PPL10-G.png" alt="Modelo PPL10-G"></button>
               <p>PPL10-G</p>
             </div>
-            <div class="carousel-item">
+            <div class="swiper-slide">
               <button class="modeloBoton carousel-button" value="PPL7-G"><img class="modelo-dispositivos"
                   src="../img/img-visualizacion-y-apps/PPL7-G.png" alt="Modelo PPL7-G"></button>
               <p>PPL7-G</p>
             </div>
-            <div class="carousel-item">
+            <div class="swiper-slide">
               <button class="modeloBoton carousel-button" value="PPL4-G"><img class="modelo-dispositivos"
                   src="../img/img-visualizacion-y-apps/PPKL4-G.png" alt="Modelo PPL4-G"></button>
               <p>PPL4-G</p>
             </div>
-            <div class="carousel-item">
+            <div class="swiper-slide">
               <button class="modeloBoton carousel-button" value="ST2"><img class="modelo-dispositivos"
                   src="../img/img-visualizacion-y-apps/ST2.png" alt="Modelo ST2"></button>
               <p>ST2</p>
             </div>
-            <div class="carousel-item">
+            <div class="swiper-slide">
               <button class="modeloBoton carousel-button" value="Smart-Touch-Plus"><img class="modelo-dispositivos"
                   src="../img/img-visualizacion-y-apps/Smart_Touch.png" alt="Modelo Smart Touch Plus"></button>
               <p>Smart Touch Plus</p>
             </div>
-            <div class="carousel-item">
+            <div class="swiper-slide">
               <button class="modeloBoton carousel-button" value="Smart-Touch-Basic"><img class="modelo-dispositivos"
                   src="../img/img-visualizacion-y-apps/Smart_Touch.png" alt="Modelo Smart Touch Basic"></button>
               <p>Smart Touch Basic</p>
             </div>
-            
-
           </div>
+          
+          
+              <div class="swiper-pagination"></div>
+
         </div>
       </div>
     </div>
@@ -134,8 +140,10 @@
       <img id="logo-footer-li" src="../img/icono.png" alt="logo li">
     </div>
   </footer>
+  <script src="../scripts/toggleSideBar.js"></script>
   <script src="../scripts/problemsFilter.js"></script>
-  <script src="../scripts/carousel.js"></script>
   <script src="../scripts/mid&SmallScreensButtons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="../scripts/swiper.js"></script>
 </body>
 </html>

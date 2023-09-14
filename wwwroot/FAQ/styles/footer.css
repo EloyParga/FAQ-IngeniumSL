@@ -14,16 +14,15 @@ footer {
   }
   
   #logo-footer-clic{
-    height: 60px;
-    width: 250px;
-    
+    height: auto;
+    width: 250px;  
   }
   
   #logo-footer-li{
     height: 50px;
     width: auto;
   }
-  @media (max-width: 1120px) {
+  @media (max-width: 1300px) {
   footer {
     flex-direction: column;
   }

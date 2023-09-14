@@ -103,16 +103,18 @@ input[type="search"]:focus {
 
 
 .mid {
-  max-width: 50%;
+  max-width: 55%;
   min-width: 50%;
   height: 440px;
-  margin-right: 10em;
-  margin-left: 10em;
+  margin-right: 6em;
+  margin-left: 6em;
 }
 
 .right{
   margin-right: 10em;
   min-width: 10%;
+  display: flex;
+  justify-content: center;
 }
 
 .scrollMid {
@@ -541,7 +543,8 @@ h2:first-of-type {
     display: flex;
     align-items: center;
     order: -1;
-    margin-left: 20px;
+    margin-left: 8px;
+    margin-right: 8px;
   }
 
   .hamburger {
@@ -578,7 +581,7 @@ h2:first-of-type {
 
   .languages {
     order: 4;
-    margin: 0 3em;
+    margin: 0;
   }
 
   input {
@@ -609,9 +612,8 @@ h2:first-of-type {
   }
 
   .languages {
-    margin-right: 0;
+    margin-right:20px;
     order: 4;
-    margin-left: 15px;
   }
 
   #logo-header {
@@ -620,6 +622,7 @@ h2:first-of-type {
     width: 60px;
     height: 60px;
   }
+
 
   #problemsList {
     display: none;
@@ -647,4 +650,3 @@ h2:first-of-type {
   }
    
 }
-
