@@ -1,0 +1,8 @@
+.sidebar ul li:nth-child(2){
+  background-color: #6d4907;
+  color: #fff;
+}
+
+.sidebar ul li:nth-child(2):hover{
+  color: #050505;
+}
