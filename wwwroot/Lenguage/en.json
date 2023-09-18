@@ -1,0 +1,33 @@
+{
+    "navbar":{
+        "inico":"HOME",
+        "usuario":"PROFILE",
+        "seguridad":"SECURUTY",
+        "instalaciones":"FACILITIES",
+        "servicios":"CONTRACTING",
+        "facturas":"INVOICING",
+        "barra-busqueda":"Search..."
+    },
+
+    "menu-lateral":{
+        "pulsadores":"Buttons and Thermostats",
+        "pantallas":"Screens",
+        "actuadores":"Actuators",
+        "reguladores":"Controllers",
+        "sensores":"Sensors",
+        "pasarelas":"Integration and Gateways",
+        "alarmas":"Security",
+        "fuentes-alimentacion":"Power Supplies",
+        "otros-dispositivos":"Other Devices",
+        "calidad-aire":"Air Quality",
+        "climatizacion-zonificada":"Zonified Climate Control",
+        "listar-todos":"List All"
+    },
+
+    "main-body":{
+        "preguntas-mas-frecuentes":"FREQUENTLY ASKED QUESTIONS"
+
+        
+    }
+
+}
