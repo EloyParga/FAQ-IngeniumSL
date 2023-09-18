@@ -594,9 +594,11 @@ h2:first-of-type {
     margin: 0 15px;
     display: none;
   }
+  
 }
 
 @media (max-width: 768px) {
+  
 .sidebar ul li{
   height: fit-content;
 }
