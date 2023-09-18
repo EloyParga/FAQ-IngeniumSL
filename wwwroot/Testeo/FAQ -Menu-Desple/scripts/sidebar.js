@@ -9,6 +9,7 @@ const main = document.querySelector("main");
 
 menu.addEventListener("click",()=>{
     barraLateral.classList.toggle("max-barra-lateral");
+   
     if(barraLateral.classList.contains("max-barra-lateral")){
         menu.children[0].style.display = "none";
         menu.children[1].style.display = "block";
@@ -34,6 +35,7 @@ palanca.addEventListener("click",()=>{
 }); */
 
 flechaDesplegable.addEventListener("click",()=>{
+    flechaDesplegable.classList.toggle("reverse");
     barraLateral.classList.toggle("mini-barra-lateral");
     main.classList.toggle("min-main");
     spans.forEach((span)=>{

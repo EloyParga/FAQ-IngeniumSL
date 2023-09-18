@@ -8,7 +8,14 @@
   <link rel="stylesheet" href="../styles/pulsadores-y-termostatos.css">
   <link rel="stylesheet" href="../styles/sidebar.css">
   <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/swiper.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
   <title>Problemas técnicos de pulsadores y termostatos</title>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 </head>
 
 <body>
@@ -53,7 +60,7 @@
       <div class="barra-lateral">
           <div>
               <div class="nombre-pagina">
-                <ion-icon id="right-arrow" name="arrow-forward-outline"></ion-icon>
+                <ion-icon id="right-arrow" name="arrow-back-outline"></ion-icon>
                   <span>Menu</span>
               </div>
              <!--  <button class="boton">
@@ -94,18 +101,7 @@
                           <span>Actuadores</span>
                       </a>
                   </li>
-                  <li>
-                      <a href="#">
-                          <ion-icon name="alert-circle-outline"></ion-icon>
-                          <span>Sensores</span>
-                      </a>
-                  </li>
-                  <li>
-                      <a href="#">
-                          <ion-icon name="trash-outline"></ion-icon>
-                          <span>Seguridad</span>
-                      </a>
-                  </li>
+                 
               </ul>
           </nav>
   
@@ -141,13 +137,24 @@
         </div>
       </div>
       
-      <div class="right">
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/hrm1A04OiDU" allowfullscreen></iframe>
-          <iframe src="https://www.youtube.com/embed/LtgzxNLC-Ks" allowfullscreen></iframe>
-        </div>
-        
+
+      <div class="right swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper video-container">
+          <!-- Slides -->
+          <div class="swiper-slide"><iframe class="swiper-slide" src="https://www.youtube.com/embed/hrm1A04OiDU" allowfullscreen ></iframe></div>
+          <div class="swiper-slide"><iframe class="swiper-slide" src="https://www.youtube.com/embed/gZ38dfgtPwU" allowfullscreen ></iframe></div>
+          <div class="swiper-slide"><iframe class="swiper-slide" src="https://www.youtube.com/embed/RTgPwwhv8MI" allowfullscreen ></iframe></div>
+          <div class="swiper-slide"><iframe class="swiper-slide" src="https://www.youtube.com/embed/hrm1A04OiDU" allowfullscreen ></iframe></div>
+          <div class="swiper-slide"><iframe class="swiper-slide" src="https://www.youtube.com/embed/gZ38dfgtPwU" allowfullscreen ></iframe></div>
+         
+        </div> 
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
       </div>
+
+
     </div>
   </main>
   <footer>
@@ -162,6 +169,9 @@
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script src="../scripts/sidebar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="../scripts/swiper.js"></script>
+
 
 </body>
 </html>
