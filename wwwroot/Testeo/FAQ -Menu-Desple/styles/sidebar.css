@@ -80,7 +80,7 @@
     overflow: hidden;
     padding: 20px 15px;
     background-color: var(--color-barra-lateral);
-    transition: width 0.5s ease,background-color 0.3s ease,left 0.5s ease;
+    transition: width 0.3s ease,background-color 0.3s ease,left 0.3s ease;
     z-index: 50;
 }
 
@@ -93,7 +93,7 @@
     font-size: 18px;
     text-align: left;
     opacity: 1;
-    transition: opacity 0.5s ease,width 0.5s ease;
+    transition: opacity 0.3s ease,width 0.3s ease;
 }
 .barra-lateral span.oculto{
     opacity: 0;
@@ -234,7 +234,7 @@
     background-color: var(--color-switch-circulo);
     border-radius: 50%;
     left: 2px;
-    transition: left 0.5s ease;
+    transition: left 0.3s ease;
 }
 .barra-lateral .modo-oscuro .circulo.prendido{
     left: 15px;

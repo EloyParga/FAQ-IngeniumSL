@@ -1,5 +1,5 @@
 
-const cloud = document.getElementById("right-arrow");
+const flechaDesplegable = document.getElementById("right-arrow");
 const barraLateral = document.querySelector(".barra-lateral");
 const spans = document.querySelectorAll("span");
 const palanca = document.querySelector(".switch");
@@ -25,15 +25,15 @@ menu.addEventListener("click",()=>{
         })
     }
 });
-
+/* 
 palanca.addEventListener("click",()=>{
     let body = document.body;
     body.classList.toggle("dark-mode");
     body.classList.toggle("");
     circulo.classList.toggle("prendido");
-});
+}); */
 
-cloud.addEventListener("click",()=>{
+flechaDesplegable.addEventListener("click",()=>{
     barraLateral.classList.toggle("mini-barra-lateral");
     main.classList.toggle("min-main");
     spans.forEach((span)=>{
