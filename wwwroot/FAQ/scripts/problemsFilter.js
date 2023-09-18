@@ -13,7 +13,7 @@ const modeloBotones = document.querySelectorAll('.modeloBoton');
 let problemas = [];
 let modeloSeleccionado = null;
 
-fetch('problemas.json')
+fetch('esProblemas.json')
   .then(response => response.json())
   .then(data => {
     problemas = data;

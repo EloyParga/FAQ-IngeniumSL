@@ -1,0 +1,31 @@
+{
+    "navbar":{
+        "inico":"ГЛАВНАЯ",
+        "usuario":"ПРОФИЛЬ",
+        "seguridad":"БЕЗОПАСНОСТЬ",
+        "instalaciones":"ОБОРУДОВАНИЕ",
+        "servicios":"КОНТРАКТАЦИЯ",
+        "facturas":"СЧЕТА",
+        "barra-busqueda":"Поиск..."
+    },
+
+    "menu-lateral":{
+        "pulsadores":"Кнопки и Термостаты",
+        "pantallas":"Экраны",
+        "actuadores":"Приводы",
+        "reguladores":"Регуляторы",
+        "sensores":"Сенсоры",
+        "pasarelas":"Интеграция и Шлюзы",
+        "alarmas":"Безопасность",
+        "fuentes-alimentacion":"Источники Питания",
+        "otros-dispositivos":"Другие Устройства",
+        "calidad-aire":"Качество Воздуха",
+        "climatizacion-zonificada":"Зонированный Климатический Контроль",
+        "listar-todos":"Список Всех"
+    },
+
+    "main-body":{
+        "preguntas-mas-frecuentes":"ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ"
+        
+    }
+}
