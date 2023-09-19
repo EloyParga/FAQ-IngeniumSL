@@ -23,6 +23,7 @@ footer {
     height: 50px;
     width: auto;
   }
+  
   @media (max-width: 1300px) {
   footer {
     flex-direction: column;

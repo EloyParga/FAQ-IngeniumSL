@@ -5,36 +5,57 @@ const swiper = new Swiper('.swiper', {
       clickable:true,
     },
     // Navigation arrows
+    
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-
     breakpoints:{
-        1301:{
-            direction: 'vertical',
-            loop: true,
-            slidesPerView: 3,
-            effect: "coverflow",
-/*             coverflow: {
-                rotate: 180,
-                scale:2,
-                depth: 200,
-                modifier: 2,
-                opacity:0.9,
-                slideShadows: true,
-              }, */
-        },
-        769:{
+      1300:{
+        autoHeight:'true',
+        direction: 'vertical',
+        loop: false,
+        slidesPerView: 3,
+      },
+      768:{
+          direction: 'horizontal',
+          loop: true,
+          slidesPerView: 3,
+          spaceBetween:100,
+          },
+          300:{
             direction: 'horizontal',
             loop: true,
-            slidesPerView: 2,
-        },
-        300:{
-            direction: 'horizontal',
-            loop: true,
-            effect:"creative",
             slidesPerView: 1,
         }
     }
   });
+
+
+//Función para ocultar navigation buttons en pantalla grande
+
+  window.addEventListener('DOMContentLoaded', function() {
+    // Función para ocultar los elementos de navegación
+    function hideNavigationButtons() {
+      var screenWidth = window.innerWidth;
+      var navigationButtons = document.querySelectorAll('.swiper-button-prev, .swiper-button-next');
+  
+      if (screenWidth > 1300) {
+        navigationButtons.forEach(function(button) {
+          button.style.display = 'none';
+        });
+      } else {
+        navigationButtons.forEach(function(button) {
+          button.style.display = 'block'; // O el valor CSS deseado para mostrar los botones
+        });
+      }
+    }
+  
+    // Llama a la función al cargar la página y cuando la ventana cambie de tamaño
+    hideNavigationButtons();
+  
+    window.addEventListener('resize', function() {
+      hideNavigationButtons();
+    });
+  });
+  

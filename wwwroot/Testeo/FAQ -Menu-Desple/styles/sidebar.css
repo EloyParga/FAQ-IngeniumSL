@@ -26,7 +26,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+
 }
 
 
@@ -59,13 +59,14 @@
     height: 100%;
     overflow: hidden;
     padding: 20px 15px;
-    background-color: var(--color-barra-lateral);
+    background-color: transparent;
     transition: width 0.3s ease,background-color 0.3s ease,left 0.3s ease;
     z-index: 50;
 }
 
 .mini-barra-lateral{
     width: 80px;
+    background-color: transparent;
 }
 
 .barra-lateral span{
@@ -80,6 +81,8 @@
     opacity: 0;
     width: 0;
 }
+
+
 
 /*------------> Nombre de la página */
 .barra-lateral .nombre-pagina{
@@ -168,94 +171,6 @@
     background-color: var(--color-linea);
 }
 
-/*----------------> Modo Oscuro*/
-.barra-lateral .modo-oscuro{
-    width: 100%;
-    margin-bottom: 80px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-.barra-lateral .modo-oscuro .info{
-    width: 150px;
-    height: 45px;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    color: var(--color-texto-menu);
-}
-.barra-lateral .modo-oscuro ion-icon{
-
-    width: 50px;
-    font-size: 20px;
-}
-
-/*--->switch*/
-.barra-lateral .modo-oscuro .switch{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 50px;
-    height: 45px;
-    cursor: pointer;
-}
-.barra-lateral .modo-oscuro .base{
-    position: relative;
-    display: flex;
-    align-items: center;
-    width: 35px;
-    height: 20px;
-    background-color: var(--color-switch-base);
-    border-radius: 50px;
-}
-.barra-lateral .modo-oscuro .circulo{
-    position: absolute;
-    width: 18px;
-    height: 90%;
-    background-color: var(--color-switch-circulo);
-    border-radius: 50%;
-    left: 2px;
-    transition: left 0.3s ease;
-}
-.barra-lateral .modo-oscuro .circulo.prendido{
-    left: 15px;
-}
-
-/*---------------> Usuario*/
-.barra-lateral .usuario{
-    width: 100%;
-    display: flex;
-}
-.barra-lateral .usuario img{
-    width: 50px;
-    min-width: 50px;
-    border-radius: 10px;
-}
-.barra-lateral .usuario .info-usuario{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--color-texto);
-    overflow: hidden;
-}
-.barra-lateral .usuario .nombre-email{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 5px;
-}
-.barra-lateral .usuario .nombre{
-    font-size: 15px;
-    font-weight: 600;
-}
-.barra-lateral .usuario .email{
-    font-size: 13px;
-}
-.barra-lateral .usuario ion-icon{
-    font-size: 20px;
-}
-
 
 /*-------------main*/
 
@@ -265,9 +180,7 @@
 }
 
 
-.modo-oscuro{
-visibility: hidden;
-}
+
 
 .linea{
     
@@ -293,7 +206,6 @@ visibility: hidden;
 
 #right-arrow.reverse {
     transform: translateX(20px) rotate(180deg) scale(1.4); /* Mover 20 píxeles a la derecha */
-
 }
 
 #right-arrow.reverse::before {
@@ -305,24 +217,13 @@ visibility: hidden;
 }
 
 
-
-@media (max-width: 600px){
+@media (max-width: 1300px) {
     .barra-lateral{
-        position: fixed;
+        background-color:  #032325;
+        width: 100%;
     }
-    .max-barra-lateral{
-        left: 0;
+    .mini-barra-lateral{
+        background-color: transparent;
+        width:80px;
     }
-    .menu{
-        display: flex;
-    }
-    .menu ion-icon:nth-child(2){
-        display: none;
-    }
-    main{
-        margin-left: 0;
-    }
-    main.min-main{
-        margin-left: 0;
-    }
-}
+  }

@@ -103,9 +103,8 @@ input[type="search"]:focus {
 .mid {
   display: flex;
   justify-content: center;
-  max-width: 55%;
+  max-width: 60%;
   height: auto;
-  
 }
 
 
@@ -155,7 +154,7 @@ h1::before {
   position: absolute;
   left: 200;
   bottom: 0;
-  width: 485px;
+  width: 490px;
   height: 3px;
   background-color: #f8c76c;
 }
@@ -333,6 +332,7 @@ h2:first-of-type {
     justify-content: space-around;
   }
 
+
   #logo-header {
     margin: 0 20px;
   }
@@ -343,10 +343,9 @@ h2:first-of-type {
 
 /*   Reset de estilos */
 
-
   .left,
   .mid,
-  .scrollMid,
+  .right
   .main-container,
   .video-container {
     position: static;
@@ -354,18 +353,36 @@ h2:first-of-type {
     margin: 0;
     max-width: 100%;
     min-width: 100%;
-    height: auto;
+    height: fit-content;
   }
   
   .scrollMid {
     overflow: auto; /* Asegura que la barra de desplazamiento solo se muestre cuando sea necesario */
     overflow-y: scroll;
+    height: fit-content;
   }
   
-  
+  .main-container{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+    .left{
+      display: block;
+    }
+
+    .mid{
+      display: block;
+    padding:0 4em;
+
+    }
+
     .right {
-      min-width: 50%;
-        }
+      margin-top: 30px;
+      display: block;
+      width: 100%;
+    }
  
 
   .menu-toggle {
@@ -421,14 +438,15 @@ h2:first-of-type {
   }
   #problemsList {
     margin: 0 15px;
-    display: none;
+     /*  display: none; 
+   En pantalla pequeña debería mostrarse sólo cuando se pulse un botón de filtrado
+   */
   }
   
 }
 
 @media (max-width: 768px) {
   
-
 
    .scrollMid { 
     /* Asegura que la barra de desplazamiento solo se muestre cuando sea necesario */
@@ -458,7 +476,9 @@ min-width: 50%;
 
 
   #problemsList {
-    display: none;
-    margin: 0 3em;
+   /*  display: none; 
+   En pantalla pequeña debería mostrarse sólo cuando se pulse un botón de filtrado
+   */
+    margin: 0 1em;
   }   
 }
