@@ -39,6 +39,7 @@ a{
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 70vh;
+        height: 92vh;
         display: flex;
         align-items: center;
 }
@@ -610,17 +611,20 @@ form{
 .sticker-instalacion{
    /*Contenedor,modificarparaqueeltamañoseahorizontal*/padding: 30px;
    width: 500px;
-   border-radius:50px ;
+   border-radius:10% ;
    background-color: #01474b;
    box-shadow: rgb(58, 58, 58,0.8);
    padding: 20px 20px 20px 20px;
    text-align: center;
    min-height: 450px;
-   -webkit-border-radius:50px ;
-   -moz-border-radius:50px ;
-   -ms-border-radius:50px ;
-   -o-border-radius:50px ;
+   overflow: hidden;
+   -webkit-border-radius:10% ;
+   -moz-border-radius:10% ;
+   -ms-border-radius:10% ;
+   -o-border-radius:10% ;
 }
+
+
 
 .icons{
     display: flex;
@@ -864,8 +868,205 @@ form{
     color: #a08450;
 }
 
+/*Promociones Obra neva*/
 
-/*Animacion Grafca*/
+.promos-content{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    gap: 50px;
+}
+
+
+.sticker-promocion{
+   /*Contenedor,modificarparaqueeltamañoseahorizontal*/padding: 30px;
+   width: 500px;
+   border-radius:10% ;
+   background-color: #01474b;
+   box-shadow: rgb(58, 58, 58,0.8);
+   padding: 20px 20px 20px 20px;
+   text-align: center;
+   min-height: 350px;
+   overflow: hidden;
+   -webkit-border-radius:10% ;
+   -moz-border-radius:10% ;
+   -ms-border-radius:10% ;
+   -o-border-radius:10% ;
+}
+
+
+
+.promocion-content{
+    margin-top: 20PX;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.sticker-promocion span{
+    font-size: 35px;
+    text-align: center;
+    color: #a08450;
+    font-weight: bold;
+}
+
+.promocion-txt{
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.promocion-txt ul{
+    height: 100px;
+    width: 220px;;
+}
+
+
+.promocion-txt li {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px; 
+}
+
+.promocion-txt h3{
+    font-weight: lighter;
+    font-size: 18px;
+    color: #fefcfb;
+    text-transform: uppercase;
+    text-align: left;
+    float: left;
+}
+
+.promocion-txt p{
+    font-size: 14px;
+    color: #ccc;
+    float: left;
+    margin-left: 10px;
+    text-align: right;
+}
+.obra-progres{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.obra-progres .grafic-details-obra{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.obra-progres .grafic-details-obra #span{
+    font-weight: lighter;
+    font-size: 18px;
+    color: #fefcfb;
+    text-transform: uppercase;
+    text-align: left;
+    float: left;
+}
+
+.promocion-img{
+    max-width: 150px;;
+    flex-basis: 50%;
+    text-align: right;
+
+}
+
+.promocion-img img{
+    width: 150px;
+}
+
+.btn-3{
+    display: inline-block;
+    padding: 13px 55px;
+    border: 2px solid #a08450;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    color: #a08450;
+    text-decoration: none;
+    margin-top: 50px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.grafic-obra{
+    position: relative;
+    border: 1px solid #a08450;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.grafic-obra div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: #a08450;
+}
+.grafic-details-obra{
+    justify-content: space-around;
+}
+
+#grafic-a{
+    animation: anim-a 2s forwards;
+    -webkit-animation: anim-a 2s forwards;
+}
+
+#grafic-b{
+    animation: anim-b 2s forwards;
+    -webkit-animation: anim-b 2s forwards;
+}
+
+#grafic-c{
+    animation: anim-c 2s forwards;
+    -webkit-animation: anim-c 2s forwards;
+}
+
+#grafic-d{
+    animation: anim-d 2s forwards;
+    -webkit-animation: anim-d 2s forwards;
+}
+
+@keyframes anim-a{
+    100%{
+        width: 70%;
+    }
+}
+
+@keyframes anim-b{
+    100%{
+        width: 10%;
+    }
+}
+
+@keyframes anim-c{
+    100%{
+        width: 92%;
+    }
+}
+
+@keyframes anim-d{
+    100%{
+        width: 42%;
+    }
+}
+
+
+
+/*Animacion Grafica*/
 
 #grafic-1{
     animation: anim-1 2s forwards;
@@ -1247,6 +1448,15 @@ form .btn-4 input{
         justify-content: center;
     }
 
+     /*Promos*/
+     .promos-content{
+        display: grid;
+        justify-content: center;
+        place-items: center;
+        grid-template-columns: repeat(1, 1fr) ;
+        gap: 50px;
+    }
+
 }
 
 @media(max-width:900px){
@@ -1367,6 +1577,7 @@ form .btn-4 input{
     }
 
 
+   
 
 }
 
