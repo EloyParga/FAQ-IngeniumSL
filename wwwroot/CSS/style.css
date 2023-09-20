@@ -1343,7 +1343,7 @@ form .btn-4 input{
     }
 
     .header{
-        min-height: 0vh;
+        max-height: 82vh;
     }
 
     .header-content{

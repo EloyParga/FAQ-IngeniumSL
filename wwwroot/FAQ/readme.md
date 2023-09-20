@@ -17,7 +17,6 @@ La "problemList" está cargada?
 Sí: (la primera vez que se carga la página aparecerá con un "display=none" para que no haya un scroll con toda la lista de problemas sin filtrar y facilitar la UX). Si la "problemList" no está cargada le da un "display=block" para mostrarla.
 
 
-
 Caso negativo: Si la problemList no está cargada 
 
 ##

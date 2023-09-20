@@ -12,22 +12,21 @@ const swiper = new Swiper('.swiper', {
     },
     breakpoints:{
       1300:{
-        autoHeight:'true',
+        autoHeight: true,
         direction: 'vertical',
         loop: false,
         slidesPerView: 3,
       },
       768:{
           direction: 'horizontal',
-          loop: true,
-          slidesPerView: 3,
-          spaceBetween:100,
+          loop: false,
+          slidesPerView: 1,
           },
-          300:{
+      300:{
             direction: 'horizontal',
-            loop: true,
+            loop: false,
             slidesPerView: 1,
-        }
+      }
     }
   });
 

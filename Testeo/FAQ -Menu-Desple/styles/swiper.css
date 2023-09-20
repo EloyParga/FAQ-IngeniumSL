@@ -71,6 +71,9 @@ justify-content: space-around;
 position: relative;
 max-width: 100%;
 overflow: hidden;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 /* Ajusta el tamaño de las flechas de navegación */
@@ -83,22 +86,20 @@ color: white;
 display: flex;
 align-items: center;
 justify-content: center;
-position: absolute;
-top: 50%;
-transform: translateY(-50%);
-z-index: 1;
+position: static;
+margin-top: 10px;
 cursor: pointer;
 }
 
-/* Posiciona la flecha izquierda a la izquierda del contenedor */
+/* Posiciona la flecha izquierda a la izquierda del contenedor 
 .swiper-button-prev {
-left: 0;
+left: 10px;
 }
 
-/* Posiciona la flecha derecha a la derecha del contenedor */
+/* Posiciona la flecha derecha a la derecha del contenedor 
 .swiper-button-next {
 right: 0;
-}
+} */
 
 /* Estilos para el contenedor de los videos y la paginación */
 .swiper-wrapper,
@@ -118,7 +119,7 @@ height: auto;
 .swiper-pagination {
 --swiper-pagination-color: #f8c76c;
 --swiper-pagination-left: auto;
---swiper-pagination-right: 0;
+--swiper-pagination-right: auto;
 --swiper-pagination-bottom: 8px;
 --swiper-pagination-top: auto;
 --swiper-pagination-fraction-color: inherit;
