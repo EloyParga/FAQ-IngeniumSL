@@ -537,7 +537,7 @@ form{
     display: block;
     font-size: 16px;
     margin-bottom: 5px;
-    color: #555;
+    color: #a7a5a5;
 }
 
 .campo input[type="password"] {
@@ -616,7 +616,6 @@ form{
    box-shadow: rgb(58, 58, 58,0.8);
    padding: 20px 20px 20px 20px;
    text-align: center;
-   min-height: 450px;
    overflow: hidden;
    -webkit-border-radius:10% ;
    -moz-border-radius:10% ;
@@ -693,7 +692,7 @@ form{
 
 .btn-3{
     display: inline-block;
-    padding: 13px 55px;
+    padding: 13px ;
     border: 2px solid #a08450;
     border-radius: 25px;
     -webkit-border-radius: 25px;
@@ -702,9 +701,7 @@ form{
     -o-border-radius: 25px;
     color: #a08450;
     text-decoration: none;
-    margin-top: 50px;
     font-weight: bold;
-    margin-top: 20px;
 }
 
 
@@ -1575,10 +1572,46 @@ form .btn-4 input{
         width: 100%;
         padding: 0;
     }
-
-
    
 
+}
+@media (max-width : 450px) {
+
+    .instalacion-txt h3{
+        font-weight: lighter;
+        font-size: 10px;
+        color: #fefcfb;
+        text-transform: uppercase;
+        text-align: left;
+        float: left;
+    }
+    
+    .instalacion-txt p{
+        font-size: 10px;
+        color: #ccc;
+        float: left;
+        margin-left: 10px;
+        text-align: right;
+    }
+
+    .instalacion-img{
+        width: 50%;
+    }
+    
+    .sticker-instalacion{
+        /*Contenedor,modificarparaqueeltamañoseahorizontal*/padding: 30px;
+        width: 500px;
+        border-radius:10% ;
+        background-color: #01474b;
+        box-shadow: rgb(58, 58, 58,0.8);
+        padding: 10px 10px 10px 10px;
+        text-align: center;
+        overflow: hidden;
+        -webkit-border-radius:10% ;
+        -moz-border-radius:10% ;
+        -ms-border-radius:10% ;
+        -o-border-radius:10% ;
+     }
 }
 
 

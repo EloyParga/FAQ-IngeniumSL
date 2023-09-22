@@ -5,7 +5,6 @@ const swiper = new Swiper('.swiper', {
       clickable:true,
     },
     // Navigation arrows
-    
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -18,6 +17,7 @@ const swiper = new Swiper('.swiper', {
         slidesPerView: 3,
       },
       768:{
+          autoHeight:true,
           direction: 'horizontal',
           loop: false,
           slidesPerView: 1,
