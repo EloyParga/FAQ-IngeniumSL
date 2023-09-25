@@ -734,6 +734,12 @@ form{
 .node-1 img{
     width: 100%;
     height: 40%;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 .node-txt{
@@ -1462,7 +1468,7 @@ form .btn-4 input{
     }
 
     .product-content{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 30px;
     }
 }
@@ -1536,7 +1542,7 @@ form .btn-4 input{
     }
 
     .nodes-content{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 30px;
     }
 
@@ -1550,7 +1556,16 @@ form .btn-4 input{
     }
 }
 
+@media (max-width:600px) {
+     .nodes-content{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+}
+
 @media (max-width: 550px) {
+
+   
     .seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
     padding: 4px 4px; 
     width: 80px;
