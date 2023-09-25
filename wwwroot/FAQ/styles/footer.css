@@ -6,6 +6,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 150px;
   }
   
   #div-logos-footer {
@@ -22,6 +23,7 @@ footer {
     height: 50px;
     width: auto;
   }
+  
   @media (max-width: 1300px) {
   footer {
     flex-direction: column;

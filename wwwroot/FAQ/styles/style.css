@@ -4,6 +4,7 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Bebas Neue", sans-serif;
   background-color: #050505;
   background-image: linear-gradient(rgba(0, 98, 104, 0.4), rgba(0, 0, 0, 0.6));
@@ -89,38 +90,34 @@ input[type="search"]:focus {
 .main-container {
   margin-top: 25px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
+
+
 
 .left {
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  margin-top: -200px;
-  top: 200px;
-  margin-left: 10em;
+  min-width: 18%;
+  height: auto;
 }
-
 
 .mid {
-  max-width: 55%;
-  min-width: 50%;
-  height: 440px;
-  margin-right: 6em;
-  margin-left: 6em;
-}
-
-.right{
-  margin-right: 10em;
-  min-width: 10%;
   display: flex;
   justify-content: center;
+  max-width: 60%;
+  height: auto;
 }
+
+
+.right{
+max-width: 20%
+}
+
+
 
 .scrollMid {
   overflow: auto; /* Asegura que la barra de desplazamiento solo se muestre cuando sea necesario */
   overflow-y: scroll;
-  height: 440px;
+  height: 620px;
 }
 
 /* Estilo de la barra de desplazamiento */
@@ -141,70 +138,6 @@ input[type="search"]:focus {
   border: 2px solid wheat; /* Borde del pulgar de la barra de desplazamiento */
 }
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  margin-top: 60px;
-}
-
-.sidebar ul {
-  border: solid 1px #f8c76c;
-  width: fit-content;
-  padding: 0; /* Agrega esto para quitar el espacio interior del <ul> */
-  height: fit-content;
-}
-
-.sidebar ul li {
-  padding: 0;
-  list-style: none;
-  border-bottom: solid 1px #f8c76c;
-  position: relative; /* Agrega esto para que el pseudo-elemento esté posicionado relativo a <li> */
-  height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.sidebar ul li a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  padding: 10px 40px; /* Agrega un espaciado para hacer clic más fácilmente */
-  position: relative;
-  z-index: 2;
-}
-
-.sidebar ul li:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #f8c76c;
-  transition: all 0.35s;
-}
-
-.sidebar ul li a:hover {
-  transition: all 0.35s;
-  color: #050505;
-}
-
-.sidebar ul li:hover::after {
-  width: 100%;
-}
-
-.sidebar ul li a:link,
-a:visited,
-a:active {
-  text-decoration: none;
-}
-
-.sidebar ul li:last-child {
-  border-bottom: none;
-}
 
 
 /* Header */
@@ -221,7 +154,7 @@ h1::before {
   position: absolute;
   left: 200;
   bottom: 0;
-  width: 485px;
+  width: 490px;
   height: 3px;
   background-color: #f8c76c;
 }
@@ -249,7 +182,6 @@ li {
   height: auto;
   margin-top: 40px;
   margin-right: 15px; /* Separar scrollbar de problemsList*/
-
   padding: 20px; /* Ajusta el relleno según sea necesario */
 }
 ul#problemsList {
@@ -372,20 +304,6 @@ h2:first-of-type {
   margin-top: -1px;
 }
 
-.video-container {
-  margin-top: 3em;
-  display: flex;
-  justify-content: space-around;
-  height: 50%;
-}
-
-.video-container iframe {
-  width: 250px;
-  margin: 0 1em;
-  height: 200px; /* Ajusta la altura según tus necesidades */
-  border: none;
-}
-
 /* Hamburger Menu Styles */
 .hamburger {
   display: none;
@@ -400,6 +318,7 @@ h2:first-of-type {
 
 
 /* Media query específico para pantallas de hasta 1300px */
+
 @media (max-width: 1300px) {
   header {
     display: flex;
@@ -413,6 +332,7 @@ h2:first-of-type {
     justify-content: space-around;
   }
 
+
   #logo-header {
     margin: 0 20px;
   }
@@ -421,11 +341,11 @@ h2:first-of-type {
     display: none;
   }
 
-  /* Reset de estilos*/
+/*   Reset de estilos */
+
   .left,
   .mid,
-  .right,
-  .scrollMid,
+  .right
   .main-container,
   .video-container {
     position: static;
@@ -433,111 +353,37 @@ h2:first-of-type {
     margin: 0;
     max-width: 100%;
     min-width: 100%;
-    height: auto;
+    height: fit-content;
   }
-
-  .left {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    position: fixed;
-    z-index: 2;
-  }
-
-  .right {
-    order: 1;
-  }
-
-  .mid {
-    order: 2;
-  }
-
+  
   .scrollMid {
     overflow: auto; /* Asegura que la barra de desplazamiento solo se muestre cuando sea necesario */
     overflow-y: scroll;
-  }
-  /* Estilo para el botón de alternar */
-  #toggleSidebarButton {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 9999; /* Coloca el botón sobre la barra lateral */
-    /* Cambia esto según tu diseño */
-    /* Cambia el color del texto según tu diseño */
-    border: none;
-  }
-  #toggleSidebarCloseButton {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 9999; /* Coloca el botón sobre la barra lateral */
-    /* Cambia esto según tu diseño */
-    /* Cambia el color del texto según tu diseño */
-    border: none;
-  }
-
-  #toggleSidebarButton {
-    margin-left: -10px;
-    background-color: transparent;
+    height: fit-content;
   }
   
-  #toggleSidebarButton img {
-    width: 60px;
-    height: 30px;
-  }
-  #toggleSidebarCloseButton {
-
-    z-index: 1;
-    border: none;
-    background-color: transparent;
-  }
-  
-  #toggleSidebarCloseButton img {
-    width: 25px;
-    height: 25px;
-  }
-  .sidebar {
-    position: fixed;
-    margin-top: 170px;
-    top: 0;
-    left: -100%; /* Ancho inicial de la barra lateral cuando está oculta */
-    width: 100%; /* Ancho de la barra lateral cuando está visible */
-    height:max-content;
-    z-index: 2; /* Coloca la barra lateral sobre el contenido */
-    transition: left 0.3s ease;
-  }
-
-  
-
-  /* Estilo para ocultar el contenido cuando la barra lateral está visible */
-  .sidebar-visible ul {
-    left: 0;
-    background-color: #032325;
-    width: 100%;
-    margin: 0 10px;
-  }
-
-  /* Estilo para mostrar el contenido cuando la barra lateral está oculta */
-  .sidebar-hidden {
-    left: 0;
-  }
-
-  .sidebar ul li{
-    height: 50px;
-  }
-
-  .video-container {
-    margin: 0;
+  .main-container{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+
   }
+
+    .left{
+      display: block;
+    }
+
+    .mid{
+      display: block;
+    padding:0 4em;
+
+    }
+
+    .right {
+      margin-top: 30px;
+      display: block;
+      width: 100%;
+    }
+ 
 
   .menu-toggle {
     display: flex;
@@ -592,22 +438,25 @@ h2:first-of-type {
   }
   #problemsList {
     margin: 0 15px;
-    display: none;
+     /*  display: none; 
+   En pantalla pequeña debería mostrarse sólo cuando se pulse un botón de filtrado
+   */
   }
   
 }
 
 @media (max-width: 768px) {
   
-.sidebar ul li{
-  height: fit-content;
-}
 
-  .scrollMid {
+   .scrollMid { 
     /* Asegura que la barra de desplazamiento solo se muestre cuando sea necesario */
-    overflow-y: hidden;
+     overflow-y: hidden;
   }
 
+  .right {
+min-width: 50%;
+  }
+  
   input {
     min-width: 35%;
     color: #fefcfb;
@@ -627,28 +476,9 @@ h2:first-of-type {
 
 
   #problemsList {
-    display: none;
-    margin: 0 3em;
-  }
-  #toggleSidebarButton {
-    margin-left: -10px;
-    background-color: transparent;
-  }
-  
-  #toggleSidebarButton img {
-    width: 60px;
-    height: 30px;
-  }
-  #toggleSidebarCloseButton {
-
-    z-index: 1;
-    border: none;
-    background-color: transparent;
-  }
-  
-  #toggleSidebarCloseButton img {
-    width: 25px;
-    height: 25px;
-  }
-   
+   /*  display: none; 
+   En pantalla pequeña debería mostrarse sólo cuando se pulse un botón de filtrado
+   */
+    margin: 0 1em;
+  }   
 }
