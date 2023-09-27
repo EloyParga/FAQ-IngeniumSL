@@ -66,73 +66,81 @@ justify-content: space-around;
 
   @media (max-width < 1300)
    {
-    /* Estilos para el contenedor principal */
-.right.swiper {
-position: relative;
-max-width: 100%;
-overflow: hidden;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-/* Ajusta el tamaño de las flechas de navegación */
-.swiper-button-prev,
-.swiper-button-next {
-width: 60px;
-height: 60px;
-background-color: #f8c76c;
-color: white;
-display: flex;
-align-items: center;
-justify-content: center;
-position: static;
-margin-top: 10px;
-cursor: pointer;
-}
-
-/* Posiciona la flecha izquierda a la izquierda del contenedor 
-.swiper-button-prev {
-left: 10px;
-}
-
-/* Posiciona la flecha derecha a la derecha del contenedor 
-.swiper-button-next {
-right: 0;
-} */
-
-/* Estilos para el contenedor de los videos y la paginación */
-.swiper-wrapper,
-.video-container {
-width: 100%;
-height: auto;
-}
-
-/* Estilos para los videos dentro del contenedor */
-.video-container iframe {
-border: none;
-width: 100%;
-height: auto;
-}
-
-/* Estilos para la paginación */
-.swiper-pagination {
---swiper-pagination-color: #f8c76c;
---swiper-pagination-left: auto;
---swiper-pagination-right: auto;
---swiper-pagination-bottom: 8px;
---swiper-pagination-top: auto;
---swiper-pagination-fraction-color: inherit;
---swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.25);
---swiper-pagination-progressbar-size: 4px;
---swiper-pagination-bullet-size: 10px;
---swiper-pagination-bullet-width: 10px;
---swiper-pagination-bullet-height: 10px;
---swiper-pagination-bullet-inactive-color: #6d4907;
---swiper-pagination-bullet-inactive-opacity: 1;
---swiper-pagination-bullet-opacity: 1;
---swiper-pagination-bullet-horizontal-gap: 4px;
---swiper-pagination-bullet-vertical-gap: 6px;
-}
-
+      /* Estilos para el contenedor principal */
+  .right.swiper {
+  position: absolute;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   }
+
+  /* Ajusta el tamaño de las flechas de navegación */
+  .swiper-button-prev,
+  .swiper-button-next {
+  width: 60px;
+  height: 60px;
+  background-color: #f8c76c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  margin-top: 10px;
+  cursor: pointer;
+  }
+
+  /* Posiciona la flecha izquierda a la izquierda del contenedor 
+  .swiper-button-prev {
+  left: 10px;
+  }
+
+  /* Posiciona la flecha derecha a la derecha del contenedor 
+  .swiper-button-next {
+  right: 0;
+  } */
+
+
+
+  /* Estilos para el contenedor de los videos y la paginación */
+  .swiper-wrapper,
+  .video-container {
+    justify-content: space-around;
+  width: 100%;
+  height: auto;
+  }
+
+  /* Estilos para los videos dentro del contenedor */
+  .video-container iframe {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  }
+
+  .swiper-slide {
+    text-align: center; /* Centrar el contenido dentro de cada diapositiva */
+  }
+
+  /* Estilos para la paginación */
+  .swiper-pagination {
+  --swiper-pagination-color: #f8c76c;
+  --swiper-pagination-left: auto;
+  --swiper-pagination-right: auto;
+  --swiper-pagination-bottom: 8px;
+  --swiper-pagination-top: auto;
+  --swiper-pagination-fraction-color: inherit;
+  --swiper-pagination-progressbar-bg-color: rgba(0, 0, 0, 0.25);
+  --swiper-pagination-progressbar-size: 4px;
+  --swiper-pagination-bullet-size: 10px;
+  --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-height: 10px;
+  --swiper-pagination-bullet-inactive-color: #6d4907;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+  --swiper-pagination-bullet-vertical-gap: 6px;
+  }
+}

@@ -23,7 +23,8 @@ const swiper = new Swiper('.swiper', {
           slidesPerView: 1,
           },
       300:{
-            direction: 'horizontal',
+            autoHeight:true,
+            direction: 'horizontal',  
             loop: false,
             slidesPerView: 1,
       }

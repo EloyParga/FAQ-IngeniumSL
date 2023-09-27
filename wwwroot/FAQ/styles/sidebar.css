@@ -52,13 +52,14 @@
 /*----------------Barra Lateral*/
 .barra-lateral{
     position: fixed;
+    margin-top: -40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 200px;
+    width: 230px;
     height: 100%;
     overflow: hidden;
-    padding: 20px 15px;
+    padding: 0px  15px;
     background-color: transparent;
     transition: width 0.3s ease,background-color 0.3s ease,left 0.3s ease;
     z-index: 50;
@@ -220,6 +221,7 @@
 @media (max-width: 1300px) {
     .barra-lateral{
         background-color:  #032325;
+        margin-top: 8px;
         width: 100%;
     }
     .mini-barra-lateral{

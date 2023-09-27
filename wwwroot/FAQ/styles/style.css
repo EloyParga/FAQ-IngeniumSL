@@ -170,6 +170,8 @@ li {
   padding: 10px;
 }
 
+
+
 .problema {
   font-weight: bold;
 }
@@ -320,6 +322,8 @@ h2:first-of-type {
 /* Media query específico para pantallas de hasta 1300px */
 
 @media (max-width: 1300px) {
+ 
+
   header {
     display: flex;
     justify-content: space-between;
@@ -328,6 +332,7 @@ h2:first-of-type {
   }
 
   .main-container {
+    
     flex-direction: column;
     justify-content: space-around;
   }
