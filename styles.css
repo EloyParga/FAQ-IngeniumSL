@@ -12,7 +12,7 @@ body{
     justify-content:  center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(../../wwwroot/img/backLog.jpg) ;
+    background-image: url(wwwroot/img/backLog.jpg) ;
     background-size: cover;
     background-position: center;
 }
