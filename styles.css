@@ -35,13 +35,13 @@ body{
 }
 
 .wrapper img{
-    width: 80px;
+    width: 100px;
     position: absolute;
-    transform: translateY(-115px) translateX(130px);
-    -webkit-transform: translateY(-115px) translateX(130px);
-    -moz-transform: translateY(-115px) translateX(130px);
-    -ms-transform: translateY(-115px) translateX(130px);
-    -o-transform: translateY(-115px) translateX(130px);
+    transform: translateY(-115px) translateX(125px);
+    -webkit-transform: translateY(-115px) translateX(125px);
+    -moz-transform: translateY(-115px) translateX(125px);
+    -ms-transform: translateY(-115px) translateX(125px);
+    -o-transform: translateY(-115px) translateX(125px);
 }
 
 .wrapper .input-box{
