@@ -233,7 +233,7 @@ form{
 
 .campo{
     width: 220%;
-    background-color:#201f23 ;
+    background-color:var(--secundary-color) ;
     padding: 17px 35px;
     outline: none;
     color: #7e7e7e;
@@ -423,6 +423,7 @@ form{
     width: 100%;
     font-size: 1.75em;
     margin-bottom: 0.5rem;
+    color: var(--white);
 }
 
 .seccion-perfil-usuario .perfil-usuario-body .texto {
@@ -436,7 +437,7 @@ form{
     flex-wrap: wrap;
     padding: 1.5rem 2rem;
     box-shadow: 0 0 12px rgba(0, 0, 0, .8);
-    background-color: var(--secundary-color);
+    background-color: var(--primary-color);
     border-radius: 15px;
     width: 100%;
     color: var(--amarillo-ing-color);
@@ -512,9 +513,10 @@ form{
     max-width: 750px; /* Establece un ancho máximo */
     margin: 0 auto; /* Centra el contenido horizontalmente */
     padding: 30px;
-    background-color: #fff;
+    background-color: var(--primary-color);
     border-radius: 15px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 12px rgba(0, 0, 0, .8);
+
     margin-bottom: 30px;
 }
 
@@ -522,7 +524,7 @@ form{
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
-    color: #000000;
+    color: var(--white);
 }
 
 .cambio-contrasena form{
