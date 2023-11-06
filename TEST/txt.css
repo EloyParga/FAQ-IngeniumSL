@@ -215,7 +215,7 @@ h2{
     margin-bottom: 15px;
 }
 
-.h2-contact{
+.h2-form{
     display: flex;
     justify-content: center;
 }
@@ -231,7 +231,13 @@ h2{
     justify-content: space-between;
     padding: 50px;
 }
-
+.contact{
+    background-image: url(/webGestion/img/contact_bg.png);
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 50px 0;
+    max-width: 100%;
+}
 
 .footer-content{
     display: flex;
@@ -241,24 +247,17 @@ h2{
 .footer-form{
     width: 50%;
 }
-.form-contact{
-    width: 100%;
-}
 
 form{
     display: flex;
     width: 360px;
     flex-direction: column;
-    
+    width: 100%;
+    padding: 10px;
+    position: relative;
 }
-.contact{
-    background-image: url(/webGestion/img/contact_bg.png);
-    background-color: var(--primary-color);
-    color: #fff;
-    padding: 50px 0;
-    max-width: 100%;
-}
-.campo-contact{
+
+.campo{
     display: block;
     width: 100%;
     padding: 18px;
@@ -267,15 +266,6 @@ form{
     background-color: var(--secundary-color);
     color: #fff;
     font-size: 18px
-}
-.campo{
-    width: 220%;
-    background-color:var(--secundary-color) ;
-    padding: 17px 35px;
-    outline: none;
-    color: #7e7e7e;
-    border: 0;
-    margin-bottom: 10px;
 }
 
 .campo::placeholder{
@@ -313,7 +303,7 @@ form{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 150px;
+    padding: 30px;
     
 }
 
@@ -591,11 +581,6 @@ form{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.form-pass{
-    margin-left: 200px;
-    width: 360px;
 }
 
 
