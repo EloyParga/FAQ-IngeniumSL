@@ -190,7 +190,7 @@ a{
 }
 
 .about{
-    padding: 15px;
+    margin-bottom: 50px;
     display: flex;
 }
 
@@ -308,19 +308,34 @@ form{
     color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
-
+.footer-2 .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #9900b8;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+    -webkit-transform: translateX(-50%) translateY(-100%);
+    -moz-transform: translateX(-50%) translateY(-100%);
+    -ms-transform: translateX(-50%) translateY(-100%);
+    -o-transform: translateX(-50%) translateY(-100%);
+}
 .footer-2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 150px;
+    padding: 40px;
     
 }
 
 
-
 .footer-2 .footer-2-txt font{
-   
+   display: flow;
     text-align: center;
     font-size: 10px;
     color: #e0e0e0;
@@ -331,6 +346,29 @@ form{
     text-align: center;
     font-size: 16px;
     color: #afadad;
+}
+#back-to-top {
+    position: absolute;
+    z-index: 1000;
+    bottom: 20px;
+    top:2230px;
+    right: 20px;
+    display: none;
+}
+
+#back-to-top a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: rgba(0,0,0,0.5) url(/webGestion/img/backtotop.png) no-repeat center center;
+    text-indent: -9999px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: 0.4s all ease;
+    -moz-transition: 0.4s all ease;
+    -o-transition: 0.4s all ease;
+    transition: 0.4s all ease;
 }
 
 
@@ -1492,10 +1530,16 @@ form .btn-4 input{
         grid-template-columns: repeat(1, 1fr) ;
         gap: 50px;
     }
+    #back-to-top {
+        opacity :0;
+    }
 
 }
 
 @media(max-width:900px){
+    #back-to-top {
+        opacity :0;
+    }
     .product{
         padding: 30px;
     }
@@ -1507,6 +1551,9 @@ form .btn-4 input{
 }
 
 @media (max-width: 750px) {
+    #back-to-top {
+        opacity :0;
+    }
 
     /*seguridad*/
 
@@ -1594,11 +1641,16 @@ form .btn-4 input{
         grid-template-columns: repeat(1,1fr);
         gap: 30px;
     }
+    #back-to-top {
+        opacity :0;
+    }
 }
 
 @media (max-width: 550px) {
 
-   
+    #back-to-top {
+        opacity :0;
+    }
     .seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
     padding: 4px 4px; 
     width: 80px;
@@ -1624,6 +1676,9 @@ form .btn-4 input{
 
 }
 @media (max-width : 450px) {
+    #back-to-top {
+        opacity :0;
+    }
 
     .instalacion-txt h3{
         font-weight: lighter;
