@@ -12,24 +12,17 @@ footer {
     width: 100%;
 
   }
-  #copyright .container .eight.columns{
-    width: auto;
+
+  font {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  a{
+    color: white;
+    
   }
 
-  #div-logos-footer {
-    display: flex;
-    align-items: center;
-  }
-  
-  #logo-footer-clic{
-    height: auto;
-    width: 250px;  
-  }
-  
-  #logo-footer-li{
-    height: 50px;
-    width: auto;
-  }
   
   @media (max-width: 1300px) {
     footer {

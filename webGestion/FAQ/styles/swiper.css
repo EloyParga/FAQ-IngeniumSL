@@ -3,6 +3,13 @@
   height: 300px;
 }
 
+.swaiper-autoheight{
+  margin-top: 10px;
+}
+.right{
+  margin-top: 20 px;
+}
+
 .swiper-slide{
   display: flex;
   justify-content: center;

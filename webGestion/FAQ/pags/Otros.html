@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="../styles/swiper.css">
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-  <title>Problemas técnicos de pulsadores y termostatos</title>
+  <title>Otros Problemas técnicos </title>
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 </head>
@@ -35,19 +35,17 @@
     </div>
     <nav class="top-nav">
       <ul>
-        <li><a href="../../indexFinalUser.html">INICIO</a></li>
-        <li><a href="../../FinalUser/perfil.html">PERFIL</a></li>
-        <li><a href="../../FinalUser/seguridad.html">SEGURIDAD</a></li>
-        <li><a href="../../FinalUser/instalaciones.html">INSTALACIONES</a></li>
-        <li><a href="../../FinalUser/servicios.html">CONTRATACIÓN</a></li>
-        <li><a href="../../FinalUser/facturas.html">FACTURACIÓN</a></li>
+        <li class="nav-txt"><a href="../../indexFinalUser.html">Inicio</a></li>
+        <li class="nav-txt"><a href="../../FinalUser/perfil.html">Perfil</a></li>
+        <li class="nav-txt"><a href="../../FinalUser/instalaciones.html">Instalaciones</a></li>
+        <li class="nav-txt"><a href="../../FinalUser/servicios.html">Contratación</a></li>
+        <li class="nav-txt"><a href="../../FinalUser/facturas.html">Facturas</a></li>
       </ul>
     </nav>
     <input type="search" id="inputFilter" placeholder="Buscar...">
   </header>
   <main>
 
-    <h1>Preguntas más frecuentes</h1>
     <div class="main-container">
       <div class="left sidebar-container">
         <div class="menu">
@@ -66,52 +64,52 @@
   
           <nav class="navegacion">
               <ul>
-                <li>
+                <li class="li-menu-lateral">
                   <a  href="../../FAQ/pags/Pantallas.html?modelo=Pantallas">
                       <ion-icon name="albums-outline"></ion-icon>
                       <span>Pantallas</span>
                   </a>
                 </li>
                 
-                <li >
+                <li class="li-menu-lateral">
                   <a href="../../FAQ/pags/VideoPortero.html?modelo=Video%20Portero">
                     <ion-icon name="videocam-outline"></ion-icon>
                     <span>Video Porteros</span>
                   </a>
                 </li>
-                <li >
+                <li class="li-menu-lateral">
                     <a  href="../../FAQ/pags/Luces.html?modelo=Luces">
                       <ion-icon name="sunny-outline"></ion-icon>                        
                         <span>Luces</span>
                     </a>
                 </li>
-                <li >
+                <li class="li-menu-lateral">
                    <!-- <a id="inbox" href="#">-->
                     <a  href="../../FAQ/pags/Persianas.html?modelo=Persianas">
                       <ion-icon name="archive-outline"></ion-icon>
                         <span>Persianas</span>
                     </a>
                 </li>
-                <li class="active">
+                <li class="li-menu-lateral">
                   <a href="../../FAQ/pags/Termostatos.html?modelo=Termostatos">
                       <ion-icon name="thermometer-outline"></ion-icon>
                       <span>Cubics y <br> Termostatos</span>
                   </a>
                 </li>
-                <li class="active">
+                <li class="li-menu-lateral">
                   <a  href="../../FAQ/pags/Alarmas.html?modelo=Alarmas">
                       <ion-icon name="notifications-outline"></ion-icon>
                       <span>Alarmas</span>
                   </a>
                 </li>
-                <li class="active">
+                <li class="li-menu-lateral">
                     <a href="../../FAQ/pags/Apps.html?modelo=Apps">
                         <ion-icon name="qr-code-outline"></ion-icon>
                         <span>Apps</span>
                     </a>
                 </li>
                 
-                <li class="active">
+                <li class="li-menu-lateral">
                     <a id="inbox" href="../../FAQ/pags/Otros.html?modelo=Otros">
                         <ion-icon name="construct-outline"></ion-icon>
                         <span>Otros</span>
@@ -170,12 +168,28 @@
     </div>
   </main>
   <footer>
-    <p>&copy; 2023 Ingenium S.L.</p>
-    <div id="div-logos-footer">
-      <img id="logo-footer-clic" src="../img/clic_cabecera_negra.png" alt="logo clic">
-      <img id="logo-footer-li" src="../img/icono.png" alt="logo li">
+    <div id="copyright" class="clearfix">
+      <div class="container">
+        
+        <div class="copyright-text eight columns">
+                    <a  href="https://web.ingeniumsl.com/website/politica-de-calidad/">Política&nbsp;de&nbsp;calidad</a> |&nbsp;
+                    <a  href="https://web.ingeniumsl.com/website/politica-de-privacidad/">Política&nbsp;de&nbsp;privacidad</a>&nbsp;|&nbsp;
+                    <a  href="https://web.ingeniumsl.com/website/politica-de-cookies/">Política&nbsp;de&nbsp;cookies</a>
+                    <br>
+        <font size="1">© 
+          <script type="text/javascript">
+            now = new Date
+            theYear=now.getFullYear()
+            document.write(theYear)
+          </script>
+          Ingenium Ingeniería y Domótica, S.L.&nbsp; Todos&nbsp;los&nbsp;derechos&nbsp;reservados.
+        </font>							
+        </div>
+              
+      </div>
     </div>
   </footer>
+
 
   <script src="../scripts/problemsFilter.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

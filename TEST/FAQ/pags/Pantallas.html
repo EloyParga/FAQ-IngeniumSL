@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es-es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/style.css">
+  <link rel="stylesheet" href="../styles/colors.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/sidebar.css">
+  <link rel="stylesheet" href="../styles/swiper.css">
+  <link rel="stylesheet" href="filtrado.js">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <title>Problemas técnicos Pantallas</title>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="languages">
+      <img id="logo-header" src="https://web.ingeniumsl.com/website/wp-content/uploads/logo_ingenium_header.svg"
+        alt="logo ingenium">
+     <!-- <a href="../english/touch-buttons.html"><img class="language-flag" src="../img/languages/en.png"
+          alt="swap to English"></a>
+      <a href="../pags/pulsadores-y-termostatos.html"><img class="language-flag" src="../img/languages/es.png"
+          alt="cambiar a español"></a>-->
+    </div>
+    <div class="menu-toggle">
+      <button id="toggle-button" class="hamburger">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+    <nav class="top-nav">
+      <ul>
+        <li class="nav-txt"><a href="../../indexFinalUser.html">Inicio</a></li>
+        <li class="nav-txt"><a href="../../FinalUser/perfil.html">Perfil</a></li>
+        <li class="nav-txt"><a href="../../FinalUser/seguridad.html">Seguridad</a></li>
+        <li class="nav-txt"><a href="../../FinalUser/instalaciones.html">Instalaciones</a></li>
+        <li class="nav-txt"><a href="../../FinalUser/servicios.html">Contratación</a></li>
+        <li class="nav-txt"><a href="../../FinalUser/facturas.html">Facturas</a></li>
+      </ul>
+    </nav>
+    <input onkeyup="filtrarVideos()" type="search" id="inputFilter" placeholder="Buscar...">
+  </header>
+  <main>
+
+    <div class="main-container">
+      <div class="left sidebar-container">
+        <div class="menu">
+          <ion-icon name="menu-outline"></ion-icon>
+          <ion-icon name="close-outline"></ion-icon>
+      </div>
+  
+      <div class="barra-lateral">
+          <div>
+              <div class="nombre-pagina">
+                <ion-icon id="right-arrow" name="arrow-forward-outline"></ion-icon>
+
+              </div>
+     
+          </div>
+  
+          <nav class="navegacion">
+              <ul>
+                  <li class="li-menu-lateral">
+                    <a id="inbox" href="../../FAQ/pags/Pantallas.html?modelo=Pantallas">
+                        <ion-icon name="albums-outline"></ion-icon>
+                        <span>Pantallas</span>
+                    </a>
+                  </li>
+                  
+                  <li class="li-menu-lateral">
+                    <a href="../../FAQ/pags/VideoPortero.html?modelo=Video%20Portero">
+                      <ion-icon name="videocam-outline"></ion-icon>
+                      <span>Video Porteros</span>
+                    </a>
+                  </li>
+                  <li class="li-menu-lateral">
+                      <a href="../../FAQ/pags/Luces.html?modelo=Luces">
+                        <ion-icon name="sunny-outline"></ion-icon>                        
+                          <span>Luces</span>
+                      </a>
+                  </li>
+                  <li class="li-menu-lateral">
+                     <!-- <a id="inbox" href="#">-->
+                      <a  href="../../FAQ/pags/Persianas.html?modelo=Persianas">
+                        <ion-icon name="archive-outline"></ion-icon>
+                          <span>Persianas</span>
+                      </a>
+                  </li>
+                  <li class="li-menu-lateral">
+                    <a href="../../FAQ/pags/Termostatos.html?modelo=Termostatos">
+                        <ion-icon name="thermometer-outline"></ion-icon>
+                        <span>Cubics y <br> Termostatos</span>
+                    </a>
+                  </li>
+                  <li class="li-menu-lateral">
+                    <a  href="../../FAQ/pags/Alarmas.html?modelo=Alarmas">
+                        <ion-icon name="notifications-outline"></ion-icon>
+                        <span>Alarmas</span>
+                    </a>
+                  </li>
+                  <li class="li-menu-lateral">
+                      <a href="../../FAQ/pags/Apps.html?modelo=Apps">
+                          <ion-icon name="qr-code-outline"></ion-icon>
+                          <span>Apps</span>
+                      </a>
+                  </li>
+                  
+                  <li class="li-menu-lateral">
+                      <a href="../../FAQ/pags/Otros.html?modelo=Otros">
+                          <ion-icon name="construct-outline"></ion-icon>
+                          <span>Otros</span>
+                      </a>
+                  </li>
+              </ul>
+          </nav>
+  
+      </div>
+  
+      </div>
+
+      <div class="mid">
+        <div class="scrollMid">
+          <ul id="problemsList">
+          </ul>
+        </div>
+      </div>
+      
+
+      <div class="right swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper video-container">
+          <!-- Slides -->
+          <div class="swiper-slide" data-category="Actualizar Viip">
+            <a href="https://www.youtube.com/watch?v=03I5B-ZYe8A&list=PLbyucI3lqojv_0yNAEMtmfBdtaTeH_Hsz&index=3">
+              <img src="/webGestion/FAQ/img/img-videos/ActualizarVipp-YT.png" alt="">
+            </a>
+          </div>
+
+          <div class="swiper-slide" data-category="Comprobar Conexion Viip">
+            <a href="/webGestion/FAQ/videos/Actualizar VIIP v01.mp4">
+              <img src="/webGestion/FAQ/img/img-videos/ComprobarConexionViip-YT.png" alt="">
+            </a>
+          </div>
+
+          <div class="swiper-slide" data-category="SmartTouch Internet" >
+            <a href="https://www.youtube.com/watch?v=pX9fCQXkd-U&list=PLbyucI3lqojv_0yNAEMtmfBdtaTeH_Hsz&index=1">
+              <img src="/webGestion/FAQ/img/img-videos/ConectarSTInternet-YT.png" alt="">
+            </a>
+          </div>
+
+          <div class="swiper-slide" data-category="VIIP Conectar Wiffi">
+            <a href="https://www.youtube.com/watch?v=pX9fCQXkd-U&list=PLbyucI3lqojv_0yNAEMtmfBdtaTeH_Hsz&index=1">
+              <img src="/webGestion/FAQ/img/img-videos/ConectarWifiVIIP.png" alt="">
+            </a>
+          </div>
+
+          <div class="swiper-slide" data-category="Subir Proyecto Nube Viip">
+            <a href="https://www.youtube.com/watch?v=pX9fCQXkd-U&list=PLbyucI3lqojv_0yNAEMtmfBdtaTeH_Hsz&index=1">
+              <img src="/webGestion/FAQ/img/img-videos/SubirProyectoNubeVIIP-YT.png" alt="">
+            </a>
+          </div>
+          
+        </div> 
+        
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+        
+        <!-- BOTONES ATRAS Y ADELANTE VIDEOS 
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>-->
+        
+        
+
+
+
+      </div>
+
+    </div>
+  </main>
+  <footer>
+    <div id="copyright" class="clearfix">
+      <div class="container">
+        
+        <div class="copyright-text eight columns">
+                    <a  href="https://web.ingeniumsl.com/website/politica-de-calidad/">Política&nbsp;de&nbsp;calidad</a> |&nbsp;
+                    <a  href="https://web.ingeniumsl.com/website/politica-de-privacidad/">Política&nbsp;de&nbsp;privacidad</a>&nbsp;|&nbsp;
+                    <a  href="https://web.ingeniumsl.com/website/">Política&nbsp;de&nbsp;cookies</a>
+                    <br>
+        <font size="1">© 
+          <script type="text/javascript">
+            now = new Date
+            theYear=now.getFullYear()
+            document.write(theYear)
+          </script>
+          Ingenium Ingeniería y Domótica, S.L.&nbsp; Todos&nbsp;los&nbsp;derechos&nbsp;reservados.
+        </font>							
+        </div>
+              
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="../scripts/problemsFilter.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="../scripts/sidebar.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="../scripts/swiper.js"></script>
+  <script src="../scripts/cambiarHover.js"></script>
+  <script src="filtrado.js"></script>
+
+
+</body>
+</html>

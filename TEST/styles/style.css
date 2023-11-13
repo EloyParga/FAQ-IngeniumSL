@@ -126,7 +126,7 @@ input[type="search"]:focus {
 /* Estilo de la barra de desplazamiento */
 .scrollMid::-webkit-scrollbar {
   width: 12px; /* Ancho de la barra de desplazamiento */
-  background-color: #6d4907; /* Color de fondo de la barra de desplazamiento */
+  background-color: var(--secundary-color); /* Color de fondo de la barra de desplazamiento */
   border-radius: 100vw;
 }
 

@@ -2,83 +2,90 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plantaforma de gestion de consumos</title>
-    <link rel = "stylesheet" href="CSS/style.css">
+    <title>Botones</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="../webGestion/CSS/styleInstaller.css">
+    <link rel="stylesheet" href="../webGestion/FAQ/styles/colors.css">
+    <link rel="stylesheet" href="../webGestion/FAQ/styles/footer.css">
 </head>
 <body>
-    <header class="header">
-        <div class="menu container">
-            <img href="#" class="logo" src="img/clic-logo-blanco.png"/>
-            <input type="checkbox" id="menu"/>
-            <label for="menu">
-                <img src="img/menu.png" class="menu-icon" alt="">
-            </label>
-            <nav class="navbar">
-                <ul>
-                    <li><a href="indexInstaler.html">INICIO</a></li> 
-                    <li><a href="Instalador/perfil.html">PERFIL</a></li>
-                    <li><a href="Instalador/seguridad.html">SEGURIDAD</a></li>
-                    <li><a href="#">AULA VIRTUAL</a></li>
-                    <li class="menu-movil"><a href="#">MIS INSTALACIONES</a></li>
-                    <li class="menu-movil"><a href="#">INSTALACIONES ABIERTAS</a></li>
-                    <li class="submenu-container"><a href="">INSTALACIONES</a> 
-                        <ul class="submenu">
-                            <li><a href="#">Acceso a Instalaciones</a></li>
-                            <li><a href="#">Instalaciones Abiertas</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-        </div>
 
-        <div class="header-content container" >
-            <div class="header-txt">
-                <h1>Plataforma de gestion de instalaciones</h1>
-                <p>
-                    "Nuestro apoyo está a solo un clic: <br> Respuestas a tus preguntas y soluciones a tu alcance."
+
+    <header class="header">
+            <img href="#" class="logo" src="img/logo_ingenium_header.svg"/>
+           
+            <div class="id-container" >
+                <p class="id-installer">
+                    ID: <span> 1234ab678L</span>
                 </p>
-                <a href="#" class="btn-1">Mas Información</a>
             </div>
-        </div>
+        
     </header>
 
-    <section class="direccion container">
-        <p>Parque Tecnológico
-            de Asturias
-        </p>
-        <p>ingenium@ingeniumsl.com</p>
-        <p>(+34) 985 118 859</p>
-        <a href="https://web.ingeniumsl.com/website/">www.ingeniumsl.com</a>
+    <section id="btns-funciones" class="btns-funciones">
+
+        <div class="btns-container">
+            <div class="btns-box">
+                <i class='bx bx-money-withdraw'></i>
+                <h3>Alquileres</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Natus deserunt nihil modi sint! Ex, natus asperiores accusantium 
+                </p>
+                <a href="#" class="btn-1">Click Me</a>
+            </div>
+
+            <div class="btns-box">
+                <i class='bx bx-trending-up' ></i>
+                <h3>Progreso Instalación SIDE</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Natus deserunt nihil modi sint! Ex, natus asperiores accusantium 
+                </p>
+                <a href="#" class="btn-1">Click Me</a>
+            </div>
+
+            <div class="btns-box">
+                <i class='bx bx-play-circle'></i>
+                <h3>Puesta en Marcha</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Natus deserunt nihil modi sint! Ex, natus asperiores accusantium 
+                </p>
+                <a href="#" class="btn-1">Click Me</a>
+            </div>
+
+            <div class="btns-box">
+                <i class='bx bx-leaf'></i>
+                <h3>Gestion Energetica</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Natus deserunt nihil modi sint! Ex, natus asperiores accusantium
+                </p>
+                <a href="#" class="btn-1">Click Me</a>
+            </div>
+        </div>
+
+        
     </section>
-
-    <footer class="footer container">
-        <div class="footer-content">
-            <div class="footer-form">
-                <h2>Contacta con nosotros</h2>
-                <form action="">
-                    <input class="campo" type="text" placeholder="Nombre">
-                    <input class="campo" type="email" placeholder="Correo">
-                    <textarea class="campo" cols="30" rows="10"></textarea>
-                    <input class="btn-2" type="submit" value="enviar">
-                </form>
-            </div>
-
-        </div>
-
+    
+    <footer>
         <div class="footer-2">
+        
             <div class="footer-2-txt">
-                <p>&copy2023 Ingenium S.L.</p>
-            </div>
-            <div class="footer-2-imagen-container">
-                <div class="footer-2-banner">
-                    <img src="img/clic_cabecera_negra.png" alt="">
-                </div>
-                <div class="footer-2-icon">
-                    <img src="img/icono.png" alt="">
-                </div>
-            </div>
+                <a  href="https://web.ingeniumsl.com/website/politica-de-calidad/">Política&nbsp;de&nbsp;calidad</a> |&nbsp;
+                <a  href="https://web.ingeniumsl.com/website/politica-de-privacidad/">Política&nbsp;de&nbsp;privacidad</a>&nbsp;|&nbsp;
+                <a  href="https://web.ingeniumsl.com/website/politica-de-cookies/">Política&nbsp;de&nbsp;cookies</a>
+                <br>
+                <font size="1">© 
+                <script type="text/javascript">
+                    now = new Date
+                    theYear=now.getFullYear()
+                    document.write(theYear)
+                </script>
+                Ingenium Ingeniería y Domótica, S.L.&nbsp; Todos&nbsp;los&nbsp;derechos&nbsp;reservados.
+                </font>                
+            </div>          
         </div>
+        
     </footer>
+
 </body>
 </html>

@@ -14,7 +14,7 @@ const swiper = new Swiper('.swiper', {
         autoHeight: true,
         direction: 'vertical',
         loop: false,
-        slidesPerView: 4
+        slidesPerView: 3
         ,
       },
       768:{
