@@ -228,7 +228,7 @@ li.problemaItem {
   margin-top: 5px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-  background-image: url("../img/svgs/flecha-hacia-abajo.svg");
+  background-image: url("../img/mas.png");
   background-size: cover;
   width: 20px;
   height: 20px;
@@ -239,7 +239,8 @@ li.problemaItem {
 
 /* Estilo para el botón cuando está activo */
 .solucionBtn.active {
-  background-color: #2ecc71;
+  background-image: url("../img/menos.png");
+
   transform: scaleY(-1);
 }
 
