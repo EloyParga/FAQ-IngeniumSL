@@ -341,6 +341,10 @@ h2:first-of-type {
     padding: 20px;
   }
 
+  ul#problemsList {
+    padding-right: 0px;
+  }
+
   .main-container {
     flex-direction: column;
     justify-content: space-around;
