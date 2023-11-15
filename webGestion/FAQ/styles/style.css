@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-around;
   min-height: 10vh;
@@ -335,7 +335,7 @@ h2:first-of-type {
  
 
   header {
-    display: flex;
+    display: none; 
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -463,6 +463,7 @@ h2:first-of-type {
 }
 
 @media (max-width: 768px) {
+
   
 
    .scrollMid { 
@@ -497,4 +498,9 @@ h2:first-of-type {
    */
     margin: 0 1em;
   }   
+  ul#problemsList {
+    list-style: none;
+    padding-right: 0px;
+    }
+
 }
