@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: space-around;
   min-height: 10vh;
@@ -163,7 +163,7 @@ ul {
 }
 
 li {
-  border-bottom: 1px solid var(--white);
+  border-bottom: 1px solid var(--primary-color)  ;
   padding: 10px;
 }
 
@@ -210,6 +210,9 @@ li.problemaItem {
 }
 
 .problemaTitulo {
+  display: none;
+  color: var(--amarillo-ing-color);
+  line-height: 150%;
   font-weight: bold;
   cursor: pointer;
 }
@@ -244,16 +247,21 @@ li.problemaItem {
   transform: scaleY(-1);
 }
 
+.p-problema{
+  font-size: 20px;
+}
+
 .p-solucion {
   max-height: 0;
   overflow: hidden;
   color: white;
-  font-weight: bold;
   opacity: 0;
   transition: max-height 0.7s ease-in-out, opacity 0.7s ease-in-out;
 }
 
 .p-solucion.visible {
+  margin-top: 10px;
+  line-height: 150%;
   max-height: fit-content;
   opacity: 1;
   transition: max-height 0.7s ease-in-out, opacity 0.7s ease-in-out;
@@ -261,7 +269,7 @@ li.problemaItem {
 }
 
 .p-solucion.visible strong {
-  color: #2ecc71;
+  color: var(--amarillo-ing-color);
 }
 
 .problemaContenido button {
@@ -296,7 +304,7 @@ ul,
 
 p,
 a {
-  color: #848484;
+  color: var(--white);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -309,7 +317,9 @@ h2 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 
 h2:first-of-type {
@@ -335,7 +345,7 @@ h2:first-of-type {
  
 
   header {
-    display: none; 
+    display: flex; 
     justify-content: space-between;
     align-items: center;
     padding: 20px;

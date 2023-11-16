@@ -48,7 +48,7 @@ a{
     overflow: hidden; /* Oculta el contenido que se desborde del contenedor */
   
     /* Añade el video como fondo */
-    background: linear-gradient(rgba(31, 46, 82, 0.479), rgba(75, 75, 75, 0)), url(/TEST/hero.mp4);
+    background: linear-gradient(rgba(31, 46, 82, 0.479), rgba(75, 75, 75, 0)), url(../video/IngeniumVideoPlataforma.mp4);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
