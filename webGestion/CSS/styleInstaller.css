@@ -17,6 +17,7 @@ body{
     color: white ;
 }
 
+
 .footer-2 .footer-2-txt a {
     text-align: center;
     font-size: 16px;
@@ -49,17 +50,11 @@ body{
     z-index: 100;
 }
 
-
-
-
 .id-container p{
     font-size: 1.7rem;
     color: var(--white);
     margin-left: 4rem;
 }
-
-
-
 
 .btn-1{
     display: inline-block;
@@ -148,6 +143,7 @@ body{
         padding-right: 20%;
         margin-top: 7%;
         display: grid;
+        justify-items: center;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
         gap: 3rem;

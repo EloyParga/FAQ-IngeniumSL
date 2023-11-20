@@ -201,18 +201,22 @@ a{
 }
 
 .about{
-    margin-bottom: 50px;
+    width: 100%;
+    background-color: var(--primary-color);
+    margin-bottom: 90px;
     display: flex;
     
 }
 
 .about-txt {
+    
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-content: space-around;
     justify-content: center;
     align-items: center;
+    margin: 50px;
+    margin-bottom: 60px;
 
 }
 
