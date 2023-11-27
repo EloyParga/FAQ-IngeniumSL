@@ -67,6 +67,7 @@ footer{
 
 .top-nav ul li a {
   text-decoration: none;
+  font-size: 20px;
   color: #fefcfb;
 }
 
@@ -87,7 +88,7 @@ input[type="search"] {
 
 input[type="search"]:focus {
   width: 12%;
-  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  box-shadow: 0 4px 16px var(--amarillo-ing-color);
   transition: all 0.2s ease;
   color: white;
 }
