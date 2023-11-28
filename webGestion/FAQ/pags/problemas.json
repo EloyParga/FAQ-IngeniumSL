@@ -28,8 +28,8 @@
   },
   {
     "modelo": "Video Portero",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
+    "problema": "No suenan las llamadas del Videoportero",
+    "solucion": ""
   },
 
   
@@ -51,17 +51,17 @@
 
   {
     "modelo": "Persianas",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
+    "problema": "La persiana no se ajusta al porcentaje solicitado",
+    "solucion": "Cuando se realizan varios movimientos parciales, la persiana va acumulando errores en su posicionamiento. Realizando una maniobra hasta el extremo superio y otra hasta el extremo inferior, la persiana reinicia sus posiciones de referencia y realiza un ajuste más preciso. Si esto no resuelve el problema, contacte con su instalador, ya que es posible que los tiempos de recorrido estén mal ajustados"
   },
   {
     "modelo": "Persianas",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
+    "problema": "La persiana realiza el movimienot inverso al solicitado",
+    "solucion": "Esto se debe a un cableado incorrecto del motor de la persiana. Contacte con su instalador para su corrección."
   },
   {
     "modelo": "Persianas",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
+    "problema": "La persiana no se mueve",
     "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
   },
 
@@ -84,46 +84,46 @@
 
   {
     "modelo": "Alarmas",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
+    "problema": "No aparecen las alertas de intrusion",
     "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
   },
   {
     "modelo": "Alarmas",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
+    "problema": "Las alarmas no funciona ",
     "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
   },
   {
     "modelo": "Alarmas",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
+    "problema": "No se rearma la alarma",
     "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
   },
 
 
   {
     "modelo": "Apps",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
+    "problema": "Problemas al iniciar sesion",
     "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
   },
   {
     "modelo": "Apps",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
+    "problema": "Error al leer el QR",
     "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
   },
   {
     "modelo": "Apps",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
+    "problema": "No me funciona el boton de rearmar",
     "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
   },
 
 
   {
     "modelo": "Otros",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
+    "problema": "Es posible que se elimine esta seccion",
     "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
   },
   {
     "modelo": "Otros",
-    "problema": "Las persianas se cierran muy lentamente incluso cuando se les proporciona un impulso inicial. Esta situación ha generado incomodidad y frustración, ya que la capacidad de controlar rápidamente la entrada de luz y la privacidad se ha visto seriamente comprometida.",
+    "problema": "Es posible que se elimine esta seccion",
     "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
   }
 ]
