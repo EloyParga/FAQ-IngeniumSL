@@ -89,14 +89,12 @@ a{
     float: left;
 }
 
-
 .menu .navbar ul li a{
     font-size: 20px;
     padding: 20px;
     color: #ffffff;
     display: block;
 }
-
 
 .menu .navbar ul li a:hover{
     color:var(--amarillo-ing-color) ; 
@@ -176,7 +174,6 @@ a{
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
-
 .direccion{
     display: flex;
     justify-content: space-between;
@@ -251,7 +248,6 @@ h2{
     padding: 50px;
 }
 
-
 .footer-content{
     display: flex;
     justify-content: center;
@@ -300,8 +296,6 @@ form{
 .campo::placeholder{
     color: #7e7e7e;
 }
-
-
 
 .btn-2 {
     display: inline-block;
@@ -748,6 +742,8 @@ form{
 }
 
 .instalacion-txt span{
+    display: flex;
+    padding-bottom: 20px;
     font-size: 25px;
     color: var(--amarillo-ing-color);
     font-weight: bold;
@@ -853,10 +849,6 @@ form{
     text-align: center;
     padding:50px 30px ;
 }
-
-
-
-
 
 .h3-node{
     text-align: center;
@@ -985,7 +977,6 @@ form{
     gap: 50px;
 }
 
-
 .sticker-promocion{
    /*Contenedor,modificarparaqueeltamañoseahorizontal*/padding: 30px;
    width: 500px;
@@ -1001,8 +992,6 @@ form{
    -ms-border-radius:10% ;
    -o-border-radius:10% ;
 }
-
-
 
 .promocion-content{
     margin-top: 20PX;
@@ -1030,7 +1019,6 @@ form{
     height: 100px;
     width: 220px;;
 }
-
 
 .promocion-txt li {
     display: flex; 
@@ -1086,7 +1074,6 @@ form{
 .promocion-img img{
     width: 150px;
 }
-
 
 .grafic-obra{
     position: relative;
