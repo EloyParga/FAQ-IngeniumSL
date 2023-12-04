@@ -4,27 +4,31 @@
     "problema": "",
     "solucion": ""
     
-  },{ 
+  },
+  { 
     "modelo": "Wings",
     "problema": "",
     "solucion": ""
     
-  },{ 
+  },
+  { 
     "modelo": "Wings",
     "problema": "",
     "solucion": ""
     
-  },{ 
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"Codigo del menú de videoportería no conocido. ",
+    "solucion": "Codigo ajustes de fábrica. Se puede utilizar tanto el codigo 5555 como 666"
+  },
+  { 
     "modelo": "Origen",
     "problema": "",
     "solucion": ""
     
-  },{ 
-    "modelo": "Origen",
-    "problema": "",
-    "solucion": ""
-    
-  },{ 
+  },
+  { 
     "modelo": "Origen",
     "problema": "",
     "solucion": ""
@@ -73,5 +77,5 @@
     "problema": "",
     "solucion": ""
     
-  },
+  }
 ]

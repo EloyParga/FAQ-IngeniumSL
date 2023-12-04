@@ -1,59 +1,37 @@
 [
   { 
     "modelo": "Pantallas",
-    "problema": "Pantalla en blanco o sin respuesta",
-    "solucion": "Posible causa: Puede deberse a una pérdida de energía, un fallo en el suministro eléctrico o un problema con el hardware. Solución: Verifica la conexión eléctrica, restablece la energía y, si es necesario, reinicia la pantalla. Si el problema persiste, puede ser necesario revisar o reemplazar el hardware defectuoso."
+    "problema": "Alarma activada, candado en la VIIP icono cerrado, pide codigo para desactivar",
+    "solucion": "Codigo de fábrica '1234'"
     
   },
   {
     "modelo": "Pantallas",
-    "problema": " Conexión Wi-Fi o de red perdida",
-    "solucion": "Posible causa: Problemas de señal Wi-Fi, contraseñas incorrectas o configuración de red incorrecta. Solución: Asegúrate de que la señal Wi-Fi sea lo suficientemente fuerte en la ubicación de la pantalla. Verifica la configuración de red y las contraseñas. Si es necesario, reinicia el enrutador o configura la red nuevamente"
+    "problema": "Para instaladores: Codigo de menú de videoportería no conocido, codigo ajustes de fábrica",
+    "solucion": "Se puede utilizar tanto '5555' como '666'"
   },
   {
     "modelo": "Pantallas",
-    "problema": "Pantalla táctil no responde correctamente",
-    "solucion": "Posible causa: Suciedad en la pantalla táctil, calibración incorrecta o daño físico. Solución: Limpia la pantalla táctil con un paño suave y sin pelusa. Si la calibración es un problema, busca la opción de calibración en la configuración de la pantalla y sigue las instrucciones. Si la pantalla está dañada, puede ser necesario reemplazarla."
+    "problema": "Error al crear usuario/Actualizar/Pantalla domotica desconectada en la app",
+    "solucion": "Revisar conexión a internet>Menú>Ajustes>Conexiones>Comprobar conexión >Si da error de conexión entonces>WI-FI>Selección de red>Una vez conectado volver a intentar crear usuario"
+  },
+  {
+    "modelo": "Pantallas",
+    "problema": "Pantalla en negro, o bloqueada en blanco",
+    "solucion": "Reiniciar pantalla quitando tensión si no se soluciona llamar a tecnico SAT de zona"
+  },
+  {
+    "modelo": "Pantallas",
+    "problema": "ST no se conecta a red wifi de mi casa",
+    "solucion": "Probar a conectar con otra red como por ejemplo la red de datos moviles compartida desde nuestro telefono>Si funciona es problema de la red wifi de la vivienda> Si no se conecta llamar SAT de Zona"
   },
 
   {
-    "modelo":"Pantallas",
-    "problema":"Para instaladores: Codigo de menú de videoportería no conocido, codigo ajustes de fábrica",
-    "solucion": "Se puede utilizar tanto 5555 como 666"
-  },
-
-  {
-    "modelo": "Video Portero",
-    "problema": "No abre la puerta desde del Video Portero",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
-  },
-  {
-    "modelo": "Video Portero",
-    "problema": "Las persianas se cierran muy lentamente ",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
-  },
-  {
-    "modelo": "Video Portero",
-    "problema": "No suenan las llamadas del Videoportero",
+    "modelo": "Luces",
+    "problema": "",
     "solucion": ""
   },
-
   
-  {
-    "modelo": "Luces",
-    "problema": "No encienden las luces.",
-    "solucion": "Intente acceder a la configuracion y compruebe que este encendido"
-  },
-  {
-    "modelo": "Luces",
-    "problema": "Consumo de energía excesivo",
-    "solucion": "Para abordar el consumo excesivo de energía en una instalación domótica, considera estas soluciones: 1-Reevalúa la programación: Revise y ajusta la programación de las luces y otros dispositivos conectados para asegurarte de que se apaguen cuando no se necesiten y de que se ajusten a los horarios y las necesidades reales.  2-Utiliza dispositivos eficientes: Reemplaza las bombillas incandescentes por bombillas LED de bajo consumo energético. Además, considera la instalación de dispositivos de iluminación regulable para ajustar la intensidad según sea necesario.  3-Sensores de luz: Instala sensores de luz para que las luces se enciendan o apaguen automáticamente según la luz natural disponible. Esto puede ayudar a evitar que las luces permanezcan encendidas innecesariamente durante el día."
-  },
-  {
-    "modelo": "Luces",
-    "problema": "Luces que no se encienden o apagan correctamente",
-    "solucion": "1-Verifica la conexion electrica, 2-Revisa los sensores, 3-Revisa la programación"
-  },
 
   {
     "modelo": "Persianas",
@@ -63,73 +41,30 @@
   {
     "modelo": "Persianas",
     "problema": "La persiana realiza el movimienot inverso al solicitado",
-    "solucion": "Esto se debe a un cableado incorrecto del motor de la persiana. Contacte con su instalador para su corrección."
+    "solucion": "Si se puede escuchar el actuador>Persianista.Si el actuador no cambia los estados de los reles>SAT.(Solo valido para todos los relés que no sean TRIAC)"
   },
   {
     "modelo": "Persianas",
     "problema": "La persiana no se mueve",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
+    "solucion": "Si se puede escuchar el actuador>Persianista.Si el actuador no cambia los estados de los reles>SAT.(Solo valido para todos los relés que no sean TRIAC)"
   },
 
   {
     "modelo": "Termostatos",
-    "problema": "No se muestran datos en pantalla ",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
+    "problema": "Solo TLZ o TZ: Molestia de brillo en stand by del equipo/Termostato apagado ",
+    "solucion": "Mantener pulsado boton de encendido hasta que aparezca un menú de brillo B0.0> el más alto sería B0.5 y el más bajo B0.0 llegando a apagarse en este nivel.Si el equipo no se enciende al pulsar sobre el mismo llamar SAT de zona"
   },
-  {
-    "modelo": "Termostatos",
-    "problema": "No va el tactil",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
-  },
-  {
-    "modelo": "Termostatos",
-    "problema": "No se hace el medido tras acceder al configurador CUBIC",
-    "solucion": "Entrar al configurador Cubic no implica hacer un pedido."
-  },
-
-
-  {
-    "modelo": "Alarmas",
-    "problema": "No aparecen las alertas de intrusion",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
-  },
-  {
-    "modelo": "Alarmas",
-    "problema": "Las alarmas no funciona ",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
-  },
-  {
-    "modelo": "Alarmas",
-    "problema": "No se rearma la alarma",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
-  },
-
 
   {
     "modelo": "Apps",
-    "problema": "Problemas al iniciar sesion",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
+    "problema": "",
+    "solucion": ""
   },
-  {
-    "modelo": "Apps",
-    "problema": "Error al leer el QR",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
-  },
-  {
-    "modelo": "Apps",
-    "problema": "No me funciona el boton de rearmar",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
-  },
-
-
+  
   {
     "modelo": "Otros",
-    "problema": "Es posible que se elimine esta seccion",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
-  },
-  {
-    "modelo": "Otros",
-    "problema": "Es posible que se elimine esta seccion",
-    "solucion": "Para resolver este problema complejo, siga los siguientes pasos detenidamente. En primer lugar, inspeccione las lamas de las persianas para verificar si están limpias y sin acumulación de polvo o suciedad. Las lamas obstruidas pueden generar resistencia al movimiento y ralentizar el proceso de cierre. Limpie las lamas con cuidado utilizando un paño suave o una toalla ligeramente humedecida. Luego, examine los mecanismos de resorte en la parte superior de las persianas. Asegúrese de que estén correctamente ajustados y en buenas condiciones. Si los resortes están desgastados o deformados, podría ser necesario reemplazarlos para restaurar la velocidad de cierre adecuada. En caso de que las medidas anteriores no resuelvan el problema, podría ser necesario desmontar la persiana y verificar la alineación de los mecanismos internos. Como siempre, si no se siente cómodo realizando estas acciones por sí mismo, buscar asesoramiento profesional es recomendable."
+    "problema": "",
+    "solucion": ""
   }
+  
 ]

@@ -32,7 +32,6 @@ const swiper = new Swiper('.swiper', {
     }
   });
 
-
 //Función para ocultar navigation buttons en pantalla grande
 
   window.addEventListener('DOMContentLoaded', function() {
@@ -51,10 +50,10 @@ const swiper = new Swiper('.swiper', {
         });
       }
     }
-  
+
     // Llama a la función al cargar la página y cuando la ventana cambie de tamaño
     hideNavigationButtons();
-  
+
     window.addEventListener('resize', function() {
       hideNavigationButtons();
     });
