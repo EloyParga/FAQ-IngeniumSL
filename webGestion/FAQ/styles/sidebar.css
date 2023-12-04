@@ -161,7 +161,7 @@
     border-radius: 10px;
     color: var(--color-texto-menu);
 }
-.barra-lateral .navegacion a:hover{
+.navegacion a:hover{
     background-color: var(--amarillo-ing-color);
     color: var(--color-menu-hover-texto);
 }
