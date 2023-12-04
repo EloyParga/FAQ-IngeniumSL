@@ -18,14 +18,14 @@
     
   },
   {
-    "modelo":"Pantallas",
+    "modelo":"Origen",
     "problema":"Codigo del menú de videoportería no conocido. ",
     "solucion": "Codigo ajustes de fábrica. Se puede utilizar tanto el codigo 5555 como 666"
   },
   { 
     "modelo": "Origen",
-    "problema": "",
-    "solucion": ""
+    "problema": "Prueba lorem ipsum lorem ipsum lorem",
+    "solucion": "prueba prueba lorem ipsum lorem los safsafsafasfsaf saafa sa sa das dasd sad sadsa dsad sadsadfafgasf as sasd as asdasd sa dad adsadsadasdasdsa"
     
   },
   { 
@@ -63,17 +63,17 @@
     
   },
   { 
-    "modelo": "bi-16",
+    "modelo": "Bi-16",
     "problema": "",
     "solucion": ""
     
   },{ 
-    "modelo": "bi-16",
+    "modelo": "Bi-16",
     "problema": "",
     "solucion": ""
     
   },{ 
-    "modelo": "bi-16",
+    "modelo": "Bi-16",
     "problema": "",
     "solucion": ""
     
