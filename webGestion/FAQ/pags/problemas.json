@@ -17,6 +17,11 @@
   },
   {
     "modelo": "Pantallas",
+    "problema": "Pantalla VIIP con hora incorrecta/No se actualiza",
+    "solucion": "Revisar conexión a internet>Menú>Ajustes>Conexiones>Comprobar conexión >Si da error de conexión entonces>WI-FI>Selección de red>Una vez conectado volver a intentar crear usuario.En caso de no ser posible establecer una conexióna internet contactar con SAT para resolver incidencia."
+  },
+  {
+    "modelo": "Pantallas",
     "problema": "Pantalla en negro, o bloqueada en blanco",
     "solucion": "Reiniciar pantalla quitando tensión si no se soluciona llamar a tecnico SAT de zona"
   },
@@ -53,6 +58,16 @@
     "modelo": "Termostatos",
     "problema": "Solo TLZ o TZ: Molestia de brillo en stand by del equipo/Termostato apagado ",
     "solucion": "Mantener pulsado boton de encendido hasta que aparezca un menú de brillo B0.0> el más alto sería B0.5 y el más bajo B0.0 llegando a apagarse en este nivel.Si el equipo no se enciende al pulsar sobre el mismo llamar SAT de zona"
+  },
+  {
+    "modelo": "Termostatos",
+    "problema": "Mi termostato está apagado",
+    "solucion": "Mantener pulsado boton de encendido hasta que aparezca un menú de brillo B0.0> el más alto sería B0.5 y el más bajo B0.0 llegando a apagarse en este nivel.Si el equipo no se enciende al pulsar sobre el mismo llamar SAT de zona."
+  },
+  {
+    "modelo": "Termostatos",
+    "problema": "Mi termostato no marca temperatura o bien es 0 ºC",
+    "solucion": "Contactar con SAT de zona para resolución de su incidencia  https://www.figma.com/file/Nypf7qnQRqVBDak6yrj2f3/ingenium---identity-(Copy)?node-id=860%3A4979&mode=dev" 
   },
 
   {
