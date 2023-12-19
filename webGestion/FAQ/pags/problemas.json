@@ -12,8 +12,8 @@
   },
   {
     "modelo": "Pantallas",
-    "problema": "Error al crear usuario/Actualizar/Pantalla domotica desconectada en la app",
-    "solucion": "Revisar conexión a internet>Menú>Ajustes>Conexiones>Comprobar conexión >Si da error de conexión entonces>WI-FI>Selección de red>Una vez conectado volver a intentar crear usuario"
+    "problema": "Error al crear usuario / Actualizar / Pantalla domotica desconectada en la app",
+    "solucion": "Revisar conexión a internet, Para ello nos dirigimos a:  Menú > Ajustes > Conexiones > Comprobar conexión. Si da error de conexión entonces accederemos a: WI-FI y seleccionaremos una red. Una vez conectado, volveremos a intentar crear usuario"
   },
   {
     "modelo": "Pantallas",
@@ -67,7 +67,8 @@
   {
     "modelo": "Termostatos",
     "problema": "Mi termostato no marca temperatura o bien es 0 ºC",
-    "solucion": "Contactar con SAT de zona para resolución de su incidencia  https://www.figma.com/file/Nypf7qnQRqVBDak6yrj2f3/ingenium---identity-(Copy)?node-id=860%3A4979&mode=dev" 
+    "solucion": "Contactar con SAT de zona para resolución de su incidencia "
+   
   },
 
   {
