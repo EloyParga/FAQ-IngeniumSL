@@ -2,14 +2,10 @@
   { 
     "modelo": "Pantallas",
     "problema": "Alarma activada, candado en la VIIP icono cerrado, pide codigo para desactivar",
-    "solucion": "Codigo de fábrica '1234'"
+    "solucion": "Intruducir el codigo de fábrica '1234'"
     
   },
-  {
-    "modelo": "Pantallas",
-    "problema": "Para instaladores: Codigo de menú de videoportería no conocido, codigo ajustes de fábrica",
-    "solucion": "Se puede utilizar tanto '5555' como '666'"
-  },
+  
   {
     "modelo": "Pantallas",
     "problema": "Error al crear usuario / Actualizar / Pantalla domotica desconectada en la app",
@@ -18,7 +14,7 @@
   {
     "modelo": "Pantallas",
     "problema": "Pantalla VIIP con hora incorrecta/No se actualiza",
-    "solucion": "Revisar conexión a internet>Menú>Ajustes>Conexiones>Comprobar conexión >Si da error de conexión entonces>WI-FI>Selección de red>Una vez conectado volver a intentar crear usuario.En caso de no ser posible establecer una conexióna internet contactar con SAT para resolver incidencia."
+    "solucion": "Revisar conexión a internet, para ello accedemos a  Menú > Ajustes > Conexiones > Comprobar conexión > Si da error de conexión entonces pulsaremos en la opcion WI-FI > Selección de red , Una vez conectado volver a intentar crear usuario.En caso de no ser posible establecer una conexióna internet contactar con SAT para resolver incidencia."
   },
   {
     "modelo": "Pantallas",

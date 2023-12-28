@@ -1,0 +1,72 @@
+[
+  {
+    "modelo": "Pantallas",
+    "problema": "Alarm activated, VIIP lock icon closed, requests code to deactivate",
+    "solucion": "Enter the factory code '1234'"
+  },
+  {
+    "modelo": "Pantallas",
+    "problema": "Error creating/updating user / Domotic screen disconnected in the app",
+    "solucion": "Check internet connection, Go to: Menu > Settings > Connections > Check connection. If there is a connection error, go to: Wi-Fi and select a network. Once connected, try creating the user again."
+  },
+  {
+    "modelo": "Pantallas",
+    "problema": "VIIP screen with incorrect time/Not updating",
+    "solucion": "Check internet connection, go to: Menu > Settings > Connections > Check connection > If there is a connection error, click on the Wi-Fi option > Network selection. Once connected, try creating the user again. If unable to establish an internet connection, contact SAT to resolve the issue."
+  },
+  {
+    "modelo": "Pantallas",
+    "problema": "Black screen or stuck in white",
+    "solucion": "Restart the screen by removing power. If the issue persists, call the local SAT technician."
+  },
+  {
+    "modelo": "Pantallas",
+    "problema": "ST does not connect to my home Wi-Fi network",
+    "solucion": "Try connecting to another network, such as the shared mobile data network from your phone. If it works, the issue is with the home Wi-Fi network. If it doesn't connect, call local SAT."
+  },
+  {
+    "modelo": "Luces",
+    "problema": "",
+    "solucion": ""
+  },
+  {
+    "modelo": "Persianas",
+    "problema": "The blind does not adjust to the requested percentage",
+    "solucion": "When performing several partial movements, the blind accumulates errors in its positioning. Perform a maneuver to the upper and another to the lower end; the blind will reset its reference positions and make a more precise adjustment. If this does not solve the problem, contact your installer, as travel times may be incorrectly set."
+  },
+  {
+    "modelo": "Persianas",
+    "problema": "The blind moves in the opposite direction to the requested",
+    "solucion": "If you can hear the actuator: Blinds specialist. If the actuator does not change the relay states: SAT. (Valid only for relays that are not TRIAC)."
+  },
+  {
+    "modelo": "Persianas",
+    "problema": "The blind does not move",
+    "solucion": "If you can hear the actuator: Blinds specialist. If the actuator does not change the relay states: SAT. (Valid only for relays that are not TRIAC)."
+  },
+  {
+    "modelo": "Termostatos",
+    "problema": "Only TLZ or TZ: Glare annoyance in standby mode/Thermostat off",
+    "solucion": "Hold down the power button until a brightness menu B0.0 appears. The highest would be B0.5 and the lowest B0.0, turning off at this level. If the equipment does not turn on when pressed, call local SAT."
+  },
+  {
+    "modelo": "Termostatos",
+    "problema": "My thermostat is off",
+    "solucion": "Hold down the power button until a brightness menu B0.0 appears. The highest would be B0.5 and the lowest B0.0, turning off at this level. If the equipment does not turn on when pressed, call local SAT."
+  },
+  {
+    "modelo": "Termostatos",
+    "problema": "My thermostat does not display temperature or it is 0 ºC",
+    "solucion": "Contact local SAT for resolution of the incident."
+  },
+  {
+    "modelo": "Apps",
+    "problema": "",
+    "solucion": ""
+  },
+  {
+    "modelo": "Otros",
+    "problema": "",
+    "solucion": ""
+  }
+]

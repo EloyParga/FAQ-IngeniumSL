@@ -1552,7 +1552,6 @@ form .btn-4 input{
     .product{
         padding: 30px;
     }
-
     .product-content{
         grid-template-columns: repeat(2,1fr);
         gap: 30px;
@@ -1595,18 +1594,15 @@ form .btn-4 input{
         justify-content: center;
         align-items: center;
         padding: 20px 0;
-        /* ... Otros estilos ... */
     }
 
     .footer-perfil {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* ... Otros estilos ... */
     }
 
     .footer-2-txt {
-        /* ... Tus estilos anteriores ... */
         margin-bottom: 10px; /* Agrega un margen inferior para separar el texto de las imágenes */
     }
 
@@ -1708,7 +1704,8 @@ form .btn-4 input{
 
     
     .sticker-instalacion{
-        /*Contenedor,modificarparaqueeltamañoseahorizontal*/padding: 30px;
+        /*Contenedor,modificar para que el tamaño sea horizontal*/
+        padding: 30px;
         width: 500px;
         border-radius:10% ;
         box-shadow: rgb(58, 58, 58,0.8);
