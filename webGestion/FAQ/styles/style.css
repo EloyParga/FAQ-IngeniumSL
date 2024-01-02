@@ -66,9 +66,13 @@ footer{
 }
 
 .top-nav ul li a {
-  text-decoration: none;
+  
   font-size: 20px;
   color: #fefcfb;
+}
+
+.nav-txt:not(:first-child) {
+  display: none;
 }
 
 /*  main */

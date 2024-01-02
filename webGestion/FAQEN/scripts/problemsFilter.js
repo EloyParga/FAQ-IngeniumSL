@@ -9,85 +9,87 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const inputFilter = document.getElementById('inputFilter');
 const problemsList = document.getElementById('problemsList');
-const modeloBotones = document.querySelectorAll('.modeloBoton');
-let problemas = [];
-let modeloSeleccionado = null;
+const modelButtons = document.querySelectorAll('.modelButton');
+let problems = [];
+let selectedModel = null;
 
-fetch('problemas.json')
+fetch('problems.json')
   .then(response => response.json())
   .then(data => {
-    problemas = data;
-    actualizarModeloSeleccionado();
-    filtrarYMostrarProblemas();
+    problems = data;
+    updateSelectedModel();
+    filterAndShowProblems();
   })
-  .catch(error => console.error('Error al cargar el archivo JSON:', error));
+  .catch(error => console.error('Error loading JSON file:', error));
 
-function actualizarModeloSeleccionado() {
+function updateSelectedModel() {
   const urlParams = new URLSearchParams(window.location.search);
-  modeloSeleccionado = urlParams.get('modelo');
+  selectedModel = urlParams.get('model');
 }
 
-modeloBotones.forEach(boton => {
-  boton.addEventListener('click', () => {
-    modeloSeleccionado = modeloSeleccionado === boton.value ? null : boton.value;
-    modeloBotones.forEach(btn => {
-      btn.classList.toggle('selected', btn === boton && modeloSeleccionado !== null);
+modelButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    selectedModel = selectedModel === button.value ? null : button.value;
+    modelButtons.forEach(btn => {
+      btn.classList.toggle('selected', btn === button && selectedModel !== null);
     });
-    actualizarURL(modeloSeleccionado); // Actualiza la URL con la categoría seleccionada
-    filtrarYMostrarProblemas();
+    updateURL(selectedModel); // Update the URL with the selected category
+    filterAndShowProblems();
   });
 });
 
-inputFilter.addEventListener('input', filtrarYMostrarProblemas);
+inputFilter.addEventListener('input', filterAndShowProblems);
 
-function filtrarYMostrarProblemas() {
-  const filtroTexto = inputFilter.value.toLowerCase();
-  let problemasFiltrados = problemas;
+function filterAndShowProblems() {
+  const filterText = inputFilter.value.toLowerCase();
+  let filteredProblems = problems;
 
-  if (modeloSeleccionado) {
-    problemasFiltrados = problemasFiltrados.filter(problema =>
-      problema.modelo === modeloSeleccionado
+  if (selectedModel) {
+    filteredProblems = filteredProblems.filter(problem =>
+      problem.model.toLowerCase() === selectedModel.toLowerCase()
     );
   }
 
-  problemasFiltrados = problemasFiltrados.filter(problema =>
-    problema.problema.toLowerCase().includes(filtroTexto)
+  filteredProblems = filteredProblems.filter(problem =>
+    problem.issue.toLowerCase().includes(filterText)
   );
 
-  mostrarProblemas(problemasFiltrados, filtroTexto);
+  showProblems(filteredProblems, filterText);
 }
 
 const urlParams = new URLSearchParams(window.location.search);
-const modeloParametro = urlParams.get('modelo');
+const modelParameter = urlParams.get('model');
 
-// Busca el botón que coincida con 'modeloParametro' y actívalo
-if (modeloParametro) {
-  const botonSeleccionado = Array.from(modeloBotones).find(
-    boton => boton.getAttribute('value') === modeloParametro
+// Find the button that matches 'modelParameter' and activate it
+if (modelParameter) {
+  const selectedButton = Array.from(modelButtons).find(
+    btn => btn.getAttribute('value') === modelParameter
   );
-  if (botonSeleccionado) {
-    botonSeleccionado.click(); // Simula un clic en el botón encontrado
+  if (selectedButton) {
+    selectedButton.click(); // Simulate a click on the found button
   }
+}else{
+  filterAndShowProblems();
 }
 
-function actualizarURL(modelo) {
+function updateURL(model) {
   const url = new URL(window.location.href);
-  if (modelo) {
-    url.searchParams.set('modelo', modelo);
+  if (model) {
+    url.searchParams.set('model', model);
   } else {
-    url.searchParams.delete('modelo');
+    url.searchParams.delete('model');
   }
   history.pushState({}, '', url);
 }
 
-function mostrarProblemas(lista, filtroTexto) {
+function showProblems(lista, filterText) {
   problemsList.innerHTML = '';
 
   const problemasPorModelo = lista.reduce((acumulador, problema) => {
-    if (!acumulador[problema.modelo]) {
-      acumulador[problema.modelo] = [];
+    if (!acumulador[problema.model]) {
+      acumulador[problema.model] = [];
     }
-    acumulador[problema.modelo].push(problema);
+    acumulador[problema.model].push(problema);
     return acumulador;
   }, {});
 
@@ -109,13 +111,13 @@ function mostrarProblemas(lista, filtroTexto) {
       problemaParrafo.classList.add('p-problema');
       const botonMostrarSolucion = document.createElement('button');
 
-      const problemaConResaltado = problema.problema.replace(
-        new RegExp(filtroTexto, 'gi'),
+      const problemaConResaltado = problema.issue.replace(
+        new RegExp(filterText, 'gi'),
         match => `<span class="resaltado">${match}</span>`
       );
 
       problemaParrafo.innerHTML = `<strong class="problemaTitulo">Problema:</strong> ${problemaConResaltado}`;
-      solucionParrafo.innerHTML = `<strong class="solucion">Solución:</strong> ${problema.solucion}`;
+      solucionParrafo.innerHTML = `<strong class="solucion">Solución:</strong> ${problema.solution}`;
       botonMostrarSolucion.classList.add('solucionBtn');
 
       problemaDiv.appendChild(problemaParrafo);

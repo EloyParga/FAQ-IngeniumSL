@@ -71,6 +71,10 @@ footer{
   color: #fefcfb;
 }
 
+.nav-txt:not(:first-child) {
+  display: none;
+}
+
 /*  main */
 input[type="search"] {
   box-sizing: border-box;

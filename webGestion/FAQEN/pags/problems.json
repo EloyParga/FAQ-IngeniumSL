@@ -1,0 +1,127 @@
+[
+  {
+    "model": "Screens",
+    "issue": "I don't know the deactivation code for the alarm.",
+    "solution": "The default deactivation code is \"1234\"; if you have changed it and don't remember, you will need to contact your installer."
+   },
+  
+   {
+    "model": "Screens",
+    "issue": "Can I change the deactivation code for my home alarm?",
+    "solution": "Yes. To do this, access the Settings menu on your device and go to the Security option. Here, you will find the option to Change the alarm password. You will need to enter the previous code, which is default \"1234\", and then the new desired code."
+   },
+   {
+    "model": "Others",
+    "issue": "Does my VIIP screen have a camera?",
+    "solution": "No, the upper hole in the screen frame corresponds to the microphone, as this device has the ability to communicate with the video intercom system in your home."
+   },
+   {
+    "model": "Screens",
+    "issue": "How can I create a user to access from the official Ingenium app?",
+    "solution": "To create a user, access the Settings menu on your device and click on the Cloud option. From here, you can set up your cloud installation by adding your desired username and password. We recommend remembering and/or writing down the entered password. If the process is not completed successfully, check your device's Wi-Fi connection or look for the error message on our platform."
+   },
+   
+   {
+    "model": "Screens",
+    "issue": "My device does not allow me to create a user 2.",
+    "solution": "If the device fails to create the user correctly, remember that you cannot add symbols or spaces in this record."
+   },
+   {
+    "model": "Screens",
+    "issue": "My device does not allow me to create a user 3.",
+    "solution": "If the device fails to create the user correctly, you should know that there cannot be an existing username on the server that is the same as one already in use. Repeat the registration with a different username."
+   },
+   {
+    "model": "Screens",
+    "issue": "I can't get the screen to perform a complete startup or it stays blank",
+    "solution": "If the screen started behaving this way after a period of use, it is recommended to contact your installer to perform a review of your installation. In some cases, repair or replacement may be necessary."
+   },
+  
+   {
+    "model": "Screens",
+    "issue": "I want to configure my video intercom, but it asks for a code.",
+    "solution": "Contact your installer. This configuration is only allowed for qualified installers."
+   },
+  
+   {
+    "model": "Screens",
+    "issue": "How do I know if my device is updated to the latest version? (Viip)",
+    "solution": "To check if the device is updated to the latest version, go to the settings menu and click on the Update option. If it is correctly connected to the Internet and has the latest version, the message \"Your device already has the latest version installed\" will appear. If it is not updated, you can download and update the latest available version. Remember that you can configure automatic updates in the General -> Automatic Updates menu."
+   },
+   {
+    "model": "Screens",
+    "issue": "Why does my screen show a different schedule?",
+    "solution": "Check your network connection; if it is correct, access the settings menu and click on the General option. In this option, you will see the possibility to update your time zone depending on where in the world you are."
+   },
+   {
+    "model": "Thermostats",
+    "issue": "The brightness of my ORIGEN thermostats is too intense.",
+    "solution": "If you have ORIGEN thermostats, contact your installer to adjust the brightness. You can check if your thermostat is ORIGEN by looking at the bottom of the thermostat; it will be labeled on the glass."
+   },
+   {
+    "model": "Thermostats",
+    "issue": "The brightness of my Z thermostats is too intense.",
+    "solution": "If you have ZCLIM thermostats, you can adjust the brightness by pressing the \"OFF\" button until you see a scale from 0 to 5. To check if my thermostat is ZCLIM, it is only necessary to check the labeling on the glass."
+   },
+   {
+    "model": "Thermostats",
+    "issue": "Why does my thermostat show an incorrect temperature? 1.",
+    "solution": "It is important to know that each thermostat has its own temperature sensor, and depending on the area of the house, the measured temperature may be different from other rooms. If the variation is excessive, check for drafts in the mechanism box behind the thermostat. If there are none, contact your installer to check the installation."
+   },
+   {
+    "model": "Thermostats",
+    "issue": "Why does my thermostat show a temperature of 0°C? 2.",
+    "solution": "If your thermostat shows 0°C, contact your installer; it is possible that the temperature sensor is malfunctioning."
+   },
+   {
+    "model": "Blinds",
+    "issue": "My blind does not adjust to the requested percentage.",
+    "solution": "If, when sending a percentage command to your blind, it does not adjust as desired, contact your installer; it is possible that travel times or end positions need to be readjusted."
+   },
+   {
+    "model": "Blinds",
+    "issue": "My blind moves in the opposite direction to what is requested.",
+    "solution": "Contact your installer requesting a review of the wiring in your installation. The failure may be due to incorrect wiring of the home automation equipment with your blind."
+   },
+   {
+    "model": "Blinds",
+    "issue": "My blind does not execute any movement.",
+    "solution": "We recommend contacting the installer of your home. This may be due to wiring problems in your installation."
+   },
+   {
+    "model": "Lights",
+    "issue": "Why do I turn on the light in one room and another one lights up?",
+    "solution": "There may be a wiring or equipment programming error; contact your installer for more information."
+   },
+   {
+    "model": "Lights",
+    "issue": "My motion sensor does not turn on the light when I walk.",
+    "solution": "Consult with your installer; possibly, the sensor is sending the programmed command, and it does not match with the equipment that turns on the light."
+   },
+   {
+    "model": "Lights",
+    "issue": "My dimmable bulb/LED maintains a faint glow when I send the turn-off command",
+    "solution": "This happens due to the specifications of the bulb/LED in the house. Consult with your installer to modify the parameters of the equipment that issues the turn-off command."
+   },
+   {
+    "model": "Apps",
+    "issue": "Disconnected screen - What does it mean?",
+    "solution": "This message indicates that the screen/web server responsible for sending home automation installation data to the cloud is not connected to the home's internet network. Review the network settings of your screen and ensure that your home router is functioning correctly."
+   },
+   {
+    "model": "Apps",
+    "issue": "I have been banned - What can I do?",
+    "solution": "This security measure is used to allow access to the app only for those who know the credentials of the user created on the home automation device. If you make several failed attempts to access the app, it will suspend access for approximately 30 minutes."
+   },
+   
+   {
+    "model": "Apps",
+    "issue": "I don't know my credentials to access the app - What can I do? 2",
+    "solution": "In case you don't know them and want to add new ones, you have the option to delete the user and create it again with different credentials. This modification will not affect the correct functioning of your installation."
+   },
+   {
+    "model": "Apps",
+    "issue": "I don't like the names of the icons in my installation.",
+    "solution": "You can change the names of the icons in the Change Labels option within the Visualization menu located in the main menu. These names will be modified both in the app and on the control screen of your installation. If they are not updated, perform synchronization by accessing the Cloud menu on your screen."
+   }
+]

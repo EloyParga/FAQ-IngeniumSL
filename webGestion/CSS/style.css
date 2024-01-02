@@ -85,6 +85,7 @@ a{
 }
 
 .menu .navbar ul li {
+    display: none;  /*TEMPORAL*/
     position: relative;
     float: left;
 }
@@ -136,6 +137,7 @@ a{
 
 .header-txt{
     display: flex;
+    display: none; /*TEMPORAL*/
     flex-direction: column;
     align-items: center;
 }
@@ -246,6 +248,9 @@ h2{
     display: flex;
     justify-content: space-between;
     padding: 50px;
+}
+.footer{
+    display: none; /*TEMPORAL*/
 }
 
 .footer-content{
