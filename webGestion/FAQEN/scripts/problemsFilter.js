@@ -117,7 +117,7 @@ function showProblems(lista, filterText) {
       );
 
       problemaParrafo.innerHTML = `<strong class="problemaTitulo">Problema:</strong> ${problemaConResaltado}`;
-      solucionParrafo.innerHTML = `<strong class="solucion">Solución:</strong> ${problema.solution}`;
+      solucionParrafo.innerHTML = `<strong class="solucion">Solution:</strong> ${problema.solution}`;
       botonMostrarSolucion.classList.add('solucionBtn');
 
       problemaDiv.appendChild(problemaParrafo);

@@ -23,14 +23,10 @@
    
    {
     "modelo": "Pantallas",
-    "problema": "Mi dispositivo no me permite crear un usuario 2. ",
-    "solucion": "Si el dispositivo no consigue realizar la creación del usuario correctamente, recuerde que no se pueden añadir signos ni espacios en este registro."
+    "problema": "Mi dispositivo no me permite crear un usuario",
+    "solucion": "Si el dispositivo no consigue realizar la creación del usuario correctamente se puede deber a varias causas: 1- Compruebe la conexión del dispositivo a la red de internet a su vivienda. 2- Recuerde que no se pueden añadir signos ni espacios en este registro. 3- Tenga en cuenta que no puede existir en el servidor un nombre de usuario igual a uno ya existente. Realice de nuevo el registro con un nombre de usuario distinto"
    },
-   {
-    "modelo": "Pantallas",
-    "problema": "Mi dispositivo no me permite crear un usuario 3. ",
-    "solucion": "Si el dispositivo no consigue realizar la creación del usuario correctamente, debe saber que no puede existir en el servidor un nombre de usuario igual a uno ya existente. Realice de nuevo el registro con un nombre de usuario distinto."
-   },
+   
    {
     "modelo": "Pantallas",
     "problema": "No consigo que la pantalla realice el arranque completo o se queda en blanco",
@@ -116,8 +112,8 @@
    
    {
     "modelo": "Apps",
-    "problema": "No conozco mis credenciales para acceder desde la app, ¿Qué puedo hacer? 2",
-    "solucion": "En el caso de que no las conozca y quiera añadir unas nuevas, tiene la opción de eliminar el usuario y crearlo de nuevo con otras credenciales distintas. Esta modificación no afectará al correcto funcionamiento de su instalación."
+    "problema": "No conozco mis credenciales para acceder desde la app, ¿Qué puedo hacer?",
+    "solucion": "Se recuerda que dispone de la posibilidad de acceder a su instalación escaneando el código QR que aparece en el menú 'Cloud' de su pantalla. Si su pantalla no dispone de esta opción puede borrar el usuario y generar uno nuevo en el mismo apartado anterior de su pantalla domótica. Esta opción no afectará a la configuración de su instalación domótica"
    },
    {
     "modelo": "Apps",

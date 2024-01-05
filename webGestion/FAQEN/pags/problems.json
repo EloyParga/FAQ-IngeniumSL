@@ -23,14 +23,10 @@
    
    {
     "model": "Screens",
-    "issue": "My device does not allow me to create a user 2.",
-    "solution": "If the device fails to create the user correctly, remember that you cannot add symbols or spaces in this record."
+    "issue": "My device does not allow me to create a user ",
+    "solution": "If the device fails to create the user successfully, it may be due to several reasons: 1- Check the device's connection to your home internet network. 2- Remember that you cannot add signs or spaces in this registration. 3- Note that a username identical to an existing one cannot exist on the server. Please try the registration again with a different username."
    },
-   {
-    "model": "Screens",
-    "issue": "My device does not allow me to create a user 3.",
-    "solution": "If the device fails to create the user correctly, you should know that there cannot be an existing username on the server that is the same as one already in use. Repeat the registration with a different username."
-   },
+  
    {
     "model": "Screens",
     "issue": "I can't get the screen to perform a complete startup or it stays blank",
@@ -56,22 +52,22 @@
    {
     "model": "Thermostats",
     "issue": "The brightness of my ORIGEN thermostats is too intense.",
-    "solution": "If you have ORIGEN thermostats, contact your installer to adjust the brightness. You can check if your thermostat is ORIGEN by looking at the bottom of the thermostat; it will be labeled on the glass."
+    "solution": "If you have ORIGEN thermostats, contact your installer to adjust the brightness. You can check if your thermostat is ORIGEN by looking at the bottom of the thermostat; it will be written on the glass."
    },
    {
     "model": "Thermostats",
-    "issue": "The brightness of my Z thermostats is too intense.",
-    "solution": "If you have ZCLIM thermostats, you can adjust the brightness by pressing the \"OFF\" button until you see a scale from 0 to 5. To check if my thermostat is ZCLIM, it is only necessary to check the labeling on the glass."
+    "issue": "The brightness of my ZCLIM thermostats is too intense.",
+    "solution": "If you have ZCLIM thermostats, you can adjust the brightness by pressing the \"OFF\" button until you see a scale from 0 to 5. To check if my thermostat is ZCLIM, it is only necessary to check the brand written on the glass."
    },
    {
     "model": "Thermostats",
-    "issue": "Why does my thermostat show an incorrect temperature? 1.",
+    "issue": "Why does my thermostat show an incorrect temperature? ",
     "solution": "It is important to know that each thermostat has its own temperature sensor, and depending on the area of the house, the measured temperature may be different from other rooms. If the variation is excessive, check for drafts in the mechanism box behind the thermostat. If there are none, contact your installer to check the installation."
    },
    {
     "model": "Thermostats",
-    "issue": "Why does my thermostat show a temperature of 0°C? 2.",
-    "solution": "If your thermostat shows 0°C, contact your installer; it is possible that the temperature sensor is malfunctioning."
+    "issue": "Why does my thermostat show a temperature of 0°C? ",
+    "solution": "If your thermostat shows 0°C, contact your installer; it is possible that the temperature sensor is not working properly."
    },
    {
     "model": "Blinds",
@@ -106,7 +102,7 @@
    {
     "model": "Apps",
     "issue": "Disconnected screen - What does it mean?",
-    "solution": "This message indicates that the screen/web server responsible for sending home automation installation data to the cloud is not connected to the home's internet network. Review the network settings of your screen and ensure that your home router is functioning correctly."
+    "solution": "This message indicates that the screen/web server responsible for sending home automation installation data to the cloud is not connected to the home's internet network. Review the network settings of your screen and make sure that your home router is working correctly."
    },
    {
     "model": "Apps",
@@ -116,8 +112,8 @@
    
    {
     "model": "Apps",
-    "issue": "I don't know my credentials to access the app - What can I do? 2",
-    "solution": "In case you don't know them and want to add new ones, you have the option to delete the user and create it again with different credentials. This modification will not affect the correct functioning of your installation."
+    "issue": "I don't know my credentials to access the app - What can I do?",
+    "solution": "It is reminded that you have the possibility to access your installation by scanning the QR code that appears in the 'Cloud' menu on your screen. If your screen does not have this option, you can delete the user and generate a new one in the same previous section of your home automation screen. This option will not affect the configuration of your home automation installation"
    },
    {
     "model": "Apps",

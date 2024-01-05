@@ -84,6 +84,22 @@ a{
 
 }
 
+.languages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .languages a:first-of-type {
+    margin-right: 5px;
+  }
+  
+  .language-flag {
+    width: 18px;
+    height: 12px;
+    margin: 0 2px;
+  }
+
 .menu .navbar ul li {
     display: none;  /*TEMPORAL*/
     position: relative;
