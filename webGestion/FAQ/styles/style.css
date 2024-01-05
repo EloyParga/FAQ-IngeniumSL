@@ -231,9 +231,8 @@ li.problemaItem {
 .solucionBtn {
   color: white;
   border: none;
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 5px 10px;
-  margin-top: 5px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
   background-image: url("../img/mas.png");
