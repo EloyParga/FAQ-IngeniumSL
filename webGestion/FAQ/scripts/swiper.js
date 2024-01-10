@@ -19,13 +19,13 @@ const swiper = new Swiper('.swiper', {
       },
       768:{
           autoHeight:true,
-          direction: 'horizontal',
+          direction: 'vertical',
           loop: false,
           slidesPerView: 1,
           },
       300:{
             autoHeight:true,
-            direction: 'horizontal',  
+            direction: 'vertical',  
             loop: false,
             slidesPerView: 1,
       }
