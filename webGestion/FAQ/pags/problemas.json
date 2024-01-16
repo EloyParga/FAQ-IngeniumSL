@@ -56,12 +56,12 @@
    },
    {
     "modelo": "Termostatos",
-    "problema": "El brillo de mis termostatos Z es demasiado intenso.",
+    "problema": "El brillo de mis termostatos Zclim es demasiado intenso.",
     "solucion": "En el caso de tener termostatos ZCLIM, podrá alterar el brillo pulsando sobre el botón \"OFF\" hasta que observe una escala de 0 a 5. Para comprobar si mi termostato es ZCLIM, solo es necesario comprobar el rotulado del cristal"
    },
    {
     "modelo": "Termostatos",
-    "problema": "¿Por qué mi termostato marca una temperatura incorrecta? 1.",
+    "problema": "¿Por qué mi termostato marca una temperatura incorrecta?",
     "solucion": "Es importante saber que cada termostato posee su propia sonda de temperatura y dependiendo de la zona de la vivienda, puede ser distinta la temperatura medida de las demás estancias. Si la variación es excesiva, compruebe que no hay corrientes de aire en la caja de mecanismos que se encuentra detrás del termostato. Si estas no existen, contacte con su instalador para que revise la instalación."
    },
    {
