@@ -211,18 +211,26 @@
   </footer>
 
 
-  <script type="text/javascript">
-    (function(d, t) {
-        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        v.onload = function() {
-          window.voiceflow.chat.load({
-            verify: { projectID: '65c08e34a2c8db259434469f' },
-            url: 'https://general-runtime.voiceflow.com',
-            versionID: 'production'
-          });
-        }
-        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
-    })(document, 'script');
+  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+        "composerPlaceholder": "Chat with DomoBot",
+        "botConversationDescription": "Asistente Virtual",
+        "botId": "ecbb68c2-a9f4-4ccc-a7b8-588f8ec607c7",
+        "hostUrl": "https://cdn.botpress.cloud/webchat/v1",
+        "messagingUrl": "https://messaging.botpress.cloud",
+        "clientId": "ecbb68c2-a9f4-4ccc-a7b8-588f8ec607c7",
+        "webhookId": "7fb47e43-2bf2-428c-a062-4ac2c61b1677",
+        "lazySocket": true,
+        "themeName": "prism",
+        "botName": "DomoBot",
+        "stylesheet": "https://webchat-styler-css.botpress.app/prod/3718a7f8-5886-45d8-b4cb-eea604e0d40f/v74628/style.css",
+        "frontendVersion": "v1",
+        "useSessionStorage": true,
+        "enableConversationDeletion": true,
+        "theme": "prism",
+        "themeColor": "#2563eb"
+    });
   </script>
 
 
