@@ -1,0 +1,123 @@
+[
+  {
+    "modelo": "Pantallas",
+    "problema": "No conozco el código de desactivación de la alarma.",
+    "solucion": "El código de desactivación por defecto es \"1234\", en el caso de haberlo modificado y no recordarlo será necesario que contacte con su instalador. "
+   },
+  
+   {
+    "modelo": "Pantallas",
+    "problema": "¿Puedo cambiar el código de desactivación de la alarma de mi vivienda?",
+    "solucion": "Si. Para ello, acceda al menú de Ajustes de su dispositivo y vaya a la opción de Seguridad, aquí tendrá la opción de Cambiar la contraseña de alarma. Deberá añadir el código previo, por defecto es \"1234\"  y, posteriormente, el nuevo deseado."
+   },
+   {
+    "modelo": "Otros",
+    "problema": "¿Mi pantalla VIIP dispone de cámara?",
+    "solucion": "No, este orificio superior del marco de la pantalla se corresponde con el micrófono, ya que este dispositivo tiene la capacidad de comunicarse con la videoportería de su vivienda."
+   },
+   {
+    "modelo": "Pantallas",
+    "problema": "¿Cómo puedo crear un usuario para poder acceder desde la aplicación oficial de Ingenium?",
+    "solucion": "Para crear un usuario, acceder al menú de Ajustes de su dispositivo y pulsar en la opción de Cloud, desde aquí, podrá disponer de su instalación en la nube añadiendo su usuario y contraseña deseado. Le recomendamos recordar y\/o apuntar la contraseña introducida. Si el proceso no se completa correctamente se recomienda revisar la conexión Wi-Fi de su dispositivo o buscar el mensaje de error en nuestra plataforma."
+   },
+   
+   {
+    "modelo": "Pantallas",
+    "problema": "Mi dispositivo no me permite crear un usuario",
+    "solucion": "Si el dispositivo no consigue realizar la creación del usuario correctamente se puede deber a varias causas: 1- Compruebe la conexión del dispositivo a la red de internet a su vivienda. 2- Recuerde que no se pueden añadir signos ni espacios en este registro. 3- Tenga en cuenta que no puede existir en el servidor un nombre de usuario igual a uno ya existente. Realice de nuevo el registro con un nombre de usuario distinto"
+   },
+   
+   {
+    "modelo": "Pantallas",
+    "problema": "No consigo que la pantalla realice el arranque completo o se queda en blanco",
+    "solucion": "Si la pantalla empezó con este comportamiento tras un tiempo de uso se recomienda contactar con su instalador para que realice una revisión de su instalación. En algunos casos puede ser necesaria su reparación o reemplazo."
+   },
+  
+   {
+    "modelo": "Pantallas",
+    "problema": "Quiero configurar mi videoportero, pero me solicita un código.",
+    "solucion": "Contacte con su instalador. Esta configuración solo está permitida para los instaladores cualificados."
+   },
+  
+   {
+    "modelo": "Pantallas",
+    "problema": "¿Cómo sé si tengo mi dispositivo actualizado a la última versión? (Viip)",
+    "solucion": "Para comprobar si el equipo está actualizado a la última versión, ir al menú de ajustes y pulsar sobre la opción de Actualizar, si este se encuentra correctamente conectado a la red de Internet y posee la última versión, aparecerá el siguiente mensaje \"Su dispositivo ya tiene instalada la última versión\". Si no está actualizado  podrá descargar y actualizar la última versión disponible.  Recuerde que puede configurar actualizaciones automáticas en el menú General -> Actualizaciones automáticas."
+   },
+   {
+    "modelo": "Pantallas",
+    "problema": "¿Por qué mi pantalla muestra un horario diferente?",
+    "solucion": "Compruebe su conexión de red, en el caso de ser correcta, acceda al menú de ajustes y pulse sobre la opción General. En esta opción, veremos la posibilidad de actualizar nuestra zona horaria dependiendo en que lugar del mundo nos encontremos."
+   },
+   {
+    "modelo": "Termostatos",
+    "problema": "El brillo de mis termostatos ORIGEN es demasiado intenso.",
+    "solucion": "En el caso de tener termostatos ORIGEN, contacte con su instalador para que pueda modificarle el brillo.  Puede revisar si su termostato es ORIGEN revisando la parte inferior del termostato, estará rotulado en el cristal"
+   },
+   {
+    "modelo": "Termostatos",
+    "problema": "El brillo de mis termostatos Zclim es demasiado intenso.",
+    "solucion": "En el caso de tener termostatos ZCLIM, podrá alterar el brillo pulsando sobre el botón \"OFF\" hasta que observe una escala de 0 a 5. Para comprobar si mi termostato es ZCLIM, solo es necesario comprobar el rotulado del cristal"
+   },
+   {
+    "modelo": "Termostatos",
+    "problema": "¿Por qué mi termostato marca una temperatura incorrecta?",
+    "solucion": "Es importante saber que cada termostato posee su propia sonda de temperatura y dependiendo de la zona de la vivienda, puede ser distinta la temperatura medida de las demás estancias. Si la variación es excesiva, compruebe que no hay corrientes de aire en la caja de mecanismos que se encuentra detrás del termostato. Si estas no existen, contacte con su instalador para que revise la instalación."
+   },
+   {
+    "modelo": "Termostatos",
+    "problema": "¿Por qué mi termostato marca una temperatura de 0ºC? 2.",
+    "solucion": "Si su termostato marca 0ºC contacte con su instalador, es posible que la sonda de temperatura esté averiada."
+   },
+   {
+    "modelo": "Persianas",
+    "problema": "Mi persiana no se ajusta al porcentaje solicitado.",
+    "solucion": "Si al enviar una orden porcentual de su persiana no se ajusta al deseado, contacte con su instalador, es posible que los tiempos de recorrido o los finales de carrera necesiten ser reajustados."
+   },
+   {
+    "modelo": "Persianas",
+    "problema": "Mi persiana realiza el movimiento inverso al solicitado.",
+    "solucion": "Contacte con su instalador solicitando que revise el conexionado de su instalación. Es posible que el fallo se deba a un mal conexionado de las salidas del equipo domótico con su persiana."
+   },
+   {
+    "modelo": "Persianas",
+    "problema": "Mi persiana no ejecuta ningún movimiento.",
+    "solucion": "Le recomendamos contactar con el instalador de su vivienda. Esto puede deberse a problemas de conexionado en su instalación."
+   },
+   {
+    "modelo": "Luces",
+    "problema": "¿Por qué enciendo la luz de una estancia y se me enciende la de otra diferente?",
+    "solucion": "Es posible que haya un error de conexionado o de programación del equipo, contacte con su instalador para que le de más información"
+   },
+   {
+    "modelo": "Luces",
+    "problema": "Mi sensor de presencia no enciende la luz cuando camino.",
+    "solucion": "Consulte con su instalador, posiblemente el sensor está enviando la orden programada y esta no coincida con la del equipo que realiza el encendido."
+   },
+   {
+    "modelo": "Luces",
+    "problema": "Mi bombilla\/led regulable mantiene un tenue encendido cuando le envío la orden de apagado",
+    "solucion": "Esto sucede por las propias especificaciones de la bombilla\/led de la vivienda. Consulte con su instalador para que modifique los parámetros del equipo que realiza la orden de apagado."
+   },
+   {
+    "modelo": "Apps",
+    "problema": "Pantalla desconectada ¿Qué significa?",
+    "solucion": "Este mensaje indica que la pantalla\/servidor web responsable de enviar los datos de la instalación domótica a la nube no está conectada a la red de internet de la vivienda. Revise la configuración de red de su pantalla y compruebe que el router de su vivienda funciona correctamente."
+   },
+   {
+    "modelo": "Apps",
+    "problema": "He sido baneado ¿Qué puedo hacer?",
+    "solucion": "Este método de seguridad se utiliza para que solo puedan acceder a la app los únicos que conocen las credenciales del usuario creado en el dispositivo domótico. Si realiza varios intentos fallidos a la hora de acceder desde la app, este le suspenderá el acceso durante aproximadamente 30 minutos."
+   },
+   
+   {
+    "modelo": "Apps",
+    "problema": "No conozco mis credenciales para acceder desde la app, ¿Qué puedo hacer?",
+    "solucion": "Se recuerda que dispone de la posibilidad de acceder a su instalación escaneando el código QR que aparece en el menú 'Cloud' de su pantalla. Si su pantalla no dispone de esta opción puede borrar el usuario y generar uno nuevo en el mismo apartado anterior de su pantalla domótica. Esta opción no afectará a la configuración de su instalación domótica"
+   },
+   {
+    "modelo": "Apps",
+    "problema": "No me gusta el nombre de los iconos de mi instalación.",
+    "solucion": "Podrá cambiar los nombres de los iconos en la opción de Cambiar etiquetas dentro del menú Visualización que se encuentra en el menú principal. Estos nombres se modificarán tanto en la app como en la pantalla de control de su instalación. Si no se actualizaran realizar una sincronización accediendo al menú Cloud de su pantalla."
+   }
+]

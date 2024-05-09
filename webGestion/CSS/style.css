@@ -101,7 +101,7 @@ a{
   }
 
 .menu .navbar ul li {
-    display: none;  /*TEMPORAL*/
+    /* display: none;  TEMPORAL */
     position: relative;
     float: left;
 }
@@ -266,7 +266,7 @@ h2{
     padding: 50px;
 }
 .footer{
-    display: none; /*TEMPORAL*/
+  /*TEMPORAL*/
 }
 
 .footer-content{

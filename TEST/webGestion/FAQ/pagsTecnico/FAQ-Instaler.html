@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="Gestion Consumos, Domotica, FAQ, soporte tecnico, preguntas frecuentes">
   <!--Titulo-->
-  <title>FAQ | Otros</title>
+  <title>FAQ-Tecnico</title>
   <!--Favicon-->
   <link rel="icon" type="image/x-icon" href="/webGestion/img/Favicon.png">
   <!--CSS-->
@@ -17,7 +17,8 @@
   <link rel="stylesheet" href="../styles/footer.css">
   <link rel="stylesheet" href="../styles/sidebar.css">
   <link rel="stylesheet" href="../styles/swiper.css">
-  <!--Colors-->
+  <link rel="stylesheet" href="../styles/tecnicStyle.css">
+   <!--Colors-->
   <link rel="stylesheet" href="../styles/colors.css">
   <!--Swiper-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
@@ -29,10 +30,12 @@
 <body>
   <header>
     <div class="languages">
-      <img id="logo-header" src="../../img/Logos-Icons/Logos/ingenium_horizontal_color_white.svg" alt="logo ingenium">
-      <a href="../../FAQEN/pags/Otros.html?modelo=Otros"><img class="language-flag" src="../img/languages/en.png" alt="swap to English"></a>
-      <a href="../../FAQ/pags/Otros.html?modelo=Otros"><img class="language-flag" src="../img/languages/es.png" alt="cambiar a español"></a>
-    
+      <img id="logo-header" src="../../img/Logos-Icons/Logos/ingenium_horizontal_color_white.svg"
+        alt="logo ingenium">
+      <!-- <a href="../english/touch-buttons.html"><img class="language-flag" src="../img/languages/en.png"
+          alt="swap to English"></a>
+      <a href="../pags/pulsadores-y-termostatos.html"><img class="language-flag" src="../img/languages/es.png"
+          alt="cambiar a español"></a>-->
     </div>
     <div class="menu-toggle">
       <button id="toggle-button" class="hamburger">
@@ -43,17 +46,18 @@
     </div>
     <nav class="top-nav">
       <ul>
-        <li class="nav-txt"><a href="../../indexFinalUser.html">inicio</a></li>
-        <li class="nav-txt"><a href="../../FinalUser/perfil.html">perfil</a></li>
-        <li class="nav-txt"><a href="../../FinalUser/instalaciones.html">instalaciones</a></li>
-        <li class="nav-txt"><a href="../../FinalUser/servicios.html">contratación</a></li>
-        <li class="nav-txt"><a href="../../FinalUser/facturas.html">facturas</a></li>
+        <li class="nav-txt"><a href="../../indexInstaler.html">inicio</a></li>
+        <li class="nav-txt"><a href="#">alquileres</a></li>
+        <li class="nav-txt"><a href="#">progreso SIDE</a></li>
+        <li class="nav-txt"><a href="#">puesta en marcha</a></li>
+        <li class="nav-txt"><a href="#">gestion energética</a></li>
       </ul>
     </nav>
     <input type="search" id="inputFilter" placeholder="Buscar...">
   </header>
   <main>
 
+    <!--<h1>Preguntas más frecuentes</h1>-->
     <div class="main-container">
       <div class="left sidebar-container">
         <div class="menu">
@@ -73,50 +77,42 @@
           <nav class="navegacion">
             <ul>
               <li class="li-menu-lateral">
-                <a href="../../FAQ/pags/Pantallas.html?modelo=Pantallas">
-                  <ion-icon name="albums-outline"></ion-icon>
-                  <span>Pantallas</span>
+                <a href="../pagsTecnico/Origen.html?modelo=Origen" class="menu-link" id="origen">
+                  <img class="icon-FAQ" src="../../img/Logos-Icons/Icons/origen-icon-white.svg" alt="Icon Origen">
+                  <span>Origen</span>
                 </a>
               </li>
 
-              <!-- <li class="li-menu-lateral">
-                <a href="../../FAQ/pags/Luces.html?modelo=Luces">
-                  <ion-icon name="sunny-outline"></ion-icon>
-                  <span>Luces</span>
+              <li class="li-menu-lateral">
+                <a href="../pagsTecnico/Bes.html?modelo=Bes"  class="menu-link" id="bes">
+                  <img class="icon-FAQ"  src="../../img/Logos-Icons/Icons/bes-icon-white.svg" alt="Icon Bes">
+                  <span>Bes</span>
                 </a>
               </li>
               <li class="li-menu-lateral">
-                <a href="../../FAQ/pags/Persianas.html?modelo=Persianas">
-                  <ion-icon name="archive-outline"></ion-icon>
-                  <span>Persianas</span>
+                <!-- <a id="inbox" href="#">-->
+                <a href="../pagsTecnico/Zclim.html?modelo=Zclim" class="menu-link" id="zclim">
+                  <img class="icon-FAQ" src="../../img/Logos-Icons/Icons/zclim-icon-white.svg" alt="Icon Zclim">
+                  <span>Zclim</span>
                 </a>
               </li>
               <li class="li-menu-lateral">
-                <a href="../../FAQ/pags/Termostatos.html?modelo=Termostatos">
-                  <ion-icon name="thermometer-outline"></ion-icon>
-                  <span>Termostatos</span>
+                <a href="../pagsTecnico/Wings.html?modelo=Wings" class="menu-link" id="wings">
+                  <img class="icon-FAQ"  src="../../img/Logos-Icons/Icons/wings-icon-white.svg" alt="Icon Wings">
+                  <span>Wings</span>
                 </a>
-              </li> -->
+              </li>
               
               <li class="li-menu-lateral">
-                <a href="../../FAQ/pags/Apps.html?modelo=Apps">
-                  <ion-icon name="qr-code-outline"></ion-icon>
-                  <span>Apps</span>
-                </a>
-              </li>
-
-              <li class="li-menu-lateral">
-                <a id="inbox" href="../../FAQ/pags/Otros.html?modelo=Otros">
-                  <ion-icon name="construct-outline"></ion-icon>
-                  <span>Otros</span>
+                <a href="../pagsTecnico/Bi-16.html?modelo=Bi-16" class="menu-link" id="bi">
+                  <img class="icon-FAQ" src="../../img/Logos-Icons/Icons/b16-icon-white.svg" alt="Icon Bi-16">
+                  <span>Bi-16</span>
                 </a>
               </li>
 
             </ul>
           </nav>
-
         </div>
-
       </div>
 
 
@@ -128,43 +124,17 @@
       </div>
 
 
+
       <div class="right swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper video-container">
           <!-- Slides -->
-          <div class="swiper-slide" data-category="update viip screen">
-            <a href="#">
-              <!--<img src="" alt=""> -->
-            </a>
-          </div>
 
-          <div class="swiper-slide" data-category="check viip internet connection">
-            <a href="#">
-              <!--<img src="" alt=""> -->
-            </a>
-          </div>
-
-          <div class="swiper-slide" data-category="connect viip screen to internet">
-            <a href="#">
-              <!--<img src="" alt=""> -->
-            </a>
-          </div>
-
-          <div class="swiper-slide" data-category="upload project to viip cloud projects">
-            <a href="#">
-              <!--<img src="" alt=""> -->            </a>
-          </div>
-
-          <div class="swiper-slide" data-category="associate gestures to viip screen hand gesture">
-            <a href="#">
-              <!-- <img src="" alt=""> -->
-            </a>
-          </div>
 
         </div>
 
-        <!-- If we need pagination 
-        <div class="swiper-pagination"></div>-->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
         <!-- BOTONES ATRAS Y ADELANTE VIDEOS 
         <div class="swiper-button-prev"></div>
@@ -173,15 +143,13 @@
         <!-- Flecha de navegación izquierda 
         <div class="custom-swiper-button-prev">
           <ion-icon name="arrow-back-outline"></ion-icon>
-        </div>-->
+        </div>
 
-        <!-- Flecha de navegación derecha 
+         Flecha de navegación derecha 
         <div class="custom-swiper-button-next">
           <ion-icon name="arrow-forward-outline"></ion-icon>
-        </div>-->
-
-
-
+        </div>
+      -->
       </div>
 
     </div>
@@ -210,18 +178,15 @@
     </div>
   </footer>
 
-
-  <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/ecbb68c2-a9f4-4ccc-a7b8-588f8ec607c7/webchat/config.js" defer></script>
-
-  <script src="../scripts/problemsFilter.js"></script>
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-  <script src="../scripts/sidebar.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-  <script src="../scripts/swiper.js"></script>
-  <script> src = "../scripts/cambiarHover.js"</script>
-
+   <!--JS-->
+   <script src="../scripts/swiper.js"></script>
+   <script src="../scripts/problemsFilter.js"></script>
+   <script src="../scripts/sidebar.js"></script>
+   <!--Ionicons-->
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <!--Swiper-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 </body>
 
