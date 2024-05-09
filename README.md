@@ -1,6 +1,4 @@
-Aquí tienes una adaptación del estilo de README que proporcionaste para tu proyecto "FAQ Ingenium SL":
-
----
+ 
 
 <a name="readme-top"></a>
 

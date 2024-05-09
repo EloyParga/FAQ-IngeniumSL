@@ -35,7 +35,7 @@
 
 - **Commit de tus cambios**: Una vez estés satisfecho con tus cambios, haz commit de ellos con un mensaje claro y descriptivo.
 - **Push a tu fork**: Haz push de tu rama con los cambios a tu fork en GitHub utilizando `git push origin nombre-de-tu-rama`.
-- **Crea un Pull Request (PR)**: En GitHub, ve a tu fork de 'La velada del año 4' y haz clic en "Pull request" para iniciar uno. Asegúrate de describir claramente qué cambios has realizado y por qué son necesarios o útiles para el proyecto.
+- **Crea un Pull Request (PR)**: En GitHub, ve a tu fork de 'FAQ-IngeniumSL' y haz clic en "Pull request" para iniciar uno. Asegúrate de describir claramente qué cambios has realizado y por qué son necesarios o útiles para el proyecto.
 
 ### Buenas prácticas 🌟
 
@@ -50,4 +50,4 @@
 
 Si tienes alguna pregunta o necesitas ayuda, no dudes en abrir un "issue" en el repositorio. Nuestro equipo y la comunidad estarán encantados de ayudarte.
 
-¡Gracias por contribuir a 'La velada del año 4'! Juntos estamos construyendo algo increíble. 🚀
+¡Gracias por contribuir a 'Ingenium SL'! Juntos estamos construyendo algo increíble. 🚀
