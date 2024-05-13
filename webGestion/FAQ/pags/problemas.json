@@ -1,4 +1,81 @@
-[
+[ 
+  {
+    "modelo":"Apps",
+    "problema":"¿Qué opciones existen para controlar la instalación en remoto? ",
+    "solucion":"Las instalaciones se pueden controlar en remoto a través de las aplicaciones móviles gratuitas de Ingenium: Ingenium aSc para Android e Ingenium iSC para iOS. Solamente sería necesario crear un usuario y una contraseña en el servidor web o pantalla (DEBE ESTAR CONECTADA A INTERNET), subir el proyecto a la nube, e introducir estos datos en la aplicación móvil.  "
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Puedo controlar la instalación mediante comandos de voz? ",
+    "solucion":"Sí, se ha desarrollado la integración de sus servidores web con Google Home y Alexa de forma que si se dispone de un servidor web se puede dar de alta de forma gratuita en ambas integraciones, pudiendo, incluso, controlar la instalación desde su coche si este dispone de conectividad a través de Android Auto. Si precisa de contacte con su Instalador ó integrador."
+  },
+  {
+    "modelo":"Otros",
+    "problema":"¿Podría disponer del control de la instalación desde mi ordenador?",
+    "solucion":"Sí, se puede controlar la instalación desde la extensión para Google Chrome desarrollada por Ingenium de la misma forma que se realiza desde una aplicación móvil. Para ello, se instala una extensión emuladora de Android como WRC Welder y se carga en ella el apk de la aplicación Ingenium aSC.  O bien, a través del 'Remote Desktop', software disponible en la pagina web de Ingenium SL"
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Se puede cambiar la orientación de las pantallas? ",
+    "solucion":"No, las pantallas VIIP solamente se disponen en orientación horizontal y las Smart Touch 2, en orientación vertical. "
+  },
+  {
+    "modelo":"Otros",
+    "problema":"¿Debo abrir puertos en mi router para disponer de control en remoto de la instalación? ",
+    "solucion":"No, no es necesario abrir ningún puerto del router, simplemente no se deben de tener bloqueadas las conexiones salientes. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Las pantallas pueden irse a un estado de reposo después de un tiempo? ",
+    "solucion":"Sí, las pantallas pueden irse a reposo tras un tiempo configurable en el menú de las mismas y permaneciendo hasta la siguiente pulsación con un brillo configurable también en el mismo menú, pudiendo quedar también apagadas. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Cómo puedo disponer de la última versión del software de la pantalla? ",
+    "solucion":"En la serie VIIP puede descargar la última versión desde la opción correspondiente del menú de la propia pantalla o descargándola desde el software SiDE KNX a través de la conexión de red. La serie Smart Touch solamente puede actualizarse a través del SiDE KNX. El ETHBUS4-K puede ser actualizado accediendo al menú a través del software Remote Desktop o con el SiDE KNX. El SiDE KNX le mostrará un aviso si precisa descargar en su ordenador una nueva versión de los pantallas o servidores web y si estos necesitan ser actualizados. Se recomienda siempre disponer de la última versión de los equipos."
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Se puede realizar la gestión de alamas técnicas y de intrusión mediante las pantallas táctiles y servidores web?",
+    "solucion":"Sí, desde la VIIP y con el servidor web puede realizar la gestión tanto de las alarmas técnicas como de la alarma de intrusión contando con tiempos de armado y desarmado. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Se puede cambiar el idioma de la pantalla? ",
+    "solucion":"Sí, el idioma de la pantalla se selecciona desde el menú de la pantalla según se explica en el manual de usuario del equipo. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Las pantallas cuentan con termostato interno?",
+    "solucion":" Las pantallas que cuentan con termostato interno son las Smart Touch 2. "
+  },
+  {
+    "modelo":"Apps",
+    "problema":"No veo el mismo proyecto en la aplicación móvil que en la pantalla, ¿qué está ocurriendo? ",
+    "solucion":"Lo que ocurre es que el proyecto de la pantalla o el servidor web ha sido modificado y no se ha sincronizado el nuevo proyecto con la nube. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"No veo el mismo proyecto en la aplicación móvil que en la pantalla, ¿qué está ocurriendo? ",
+    "solucion":"Lo que ocurre es que el proyecto de la pantalla o el servidor web ha sido modificado y no se ha sincronizado el nuevo proyecto con la nube. "
+  },
+
+  {
+    "modelo":"Apps",
+    "problema":"Si realizo un cambio en el proyecto, ¿debo de crear un nuevo usuario y contraseña para que se actualice en la nube? ",
+    "solucion":"No, solamente se debe sincronizar el proyecto con la nube para ver los cambios en las aplicaciones móviles, accediendo con el mismo usuario y contraseña que poseía antes del cambio en el proyecto. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"Cómo realizo la sincronización de un nuevo proyecto con la nube para ver los cambios en las distintas aplicaciones? ",
+    "solucion":"En las pantallas táctiles VIIP y en la Smart Touch 2, la sincronización se realiza desde el menú del dispositivo, accediendo al mismo lugar en el que se creó el usuario y la contraseña y pulsando sobre la opción Sincronizar. En el ETHBUS-K es necesario acceder desde el navegador web o desde el software Remote Desktop para disponer de la posibilidad de llegar a dicha opción en el menú del dispositivo. "
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"Si tengo configurado el servicio de Google Home/ALEXA a través de mi servidor web y realizo un cambio en el proyecto, ¿se sincronizan los cambios también en la aplicación de Google? ",
+    "solucion":"Sí, los cambios se sincronizarán con la aplicación de Google o Alexa a la hora de sincronizar el proyecto con la nube en caso de tener configurado este servicio. Al entrar de nuevo en la aplicación de Google Home o Alexa se reflejarán los cambios añadiendo los nuevos dispositivos del proyecto o eliminando los que hayan sido borrados del mismo. Es posible que deba esperar unos segundos a ver estos cambios tras entrar en la aplicación de Google Home o Alexa, sobre todo, si ha habido un gran número de modificaciones en el proyecto. "
+  },
+  
   {
     "modelo": "Pantallas",
     "problema": "No conozco el código de desactivación de la alarma.",
@@ -49,56 +126,9 @@
     "problema": "¿Por qué mi pantalla muestra un horario diferente?",
     "solucion": "Compruebe su conexión de red, en el caso de ser correcta, acceda al menú de ajustes y pulse sobre la opción General. En esta opción, veremos la posibilidad de actualizar nuestra zona horaria dependiendo en que lugar del mundo nos encontremos."
    },
-   {
-    "modelo": "Termostatos",
-    "problema": "El brillo de mis termostatos ORIGEN es demasiado intenso.",
-    "solucion": "En el caso de tener termostatos ORIGEN, contacte con su instalador para que pueda modificarle el brillo.  Puede revisar si su termostato es ORIGEN revisando la parte inferior del termostato, estará rotulado en el cristal"
-   },
-   {
-    "modelo": "Termostatos",
-    "problema": "El brillo de mis termostatos Zclim es demasiado intenso.",
-    "solucion": "En el caso de tener termostatos ZCLIM, podrá alterar el brillo pulsando sobre el botón \"OFF\" hasta que observe una escala de 0 a 5. Para comprobar si mi termostato es ZCLIM, solo es necesario comprobar el rotulado del cristal"
-   },
-   {
-    "modelo": "Termostatos",
-    "problema": "¿Por qué mi termostato marca una temperatura incorrecta?",
-    "solucion": "Es importante saber que cada termostato posee su propia sonda de temperatura y dependiendo de la zona de la vivienda, puede ser distinta la temperatura medida de las demás estancias. Si la variación es excesiva, compruebe que no hay corrientes de aire en la caja de mecanismos que se encuentra detrás del termostato. Si estas no existen, contacte con su instalador para que revise la instalación."
-   },
-   {
-    "modelo": "Termostatos",
-    "problema": "¿Por qué mi termostato marca una temperatura de 0ºC? 2.",
-    "solucion": "Si su termostato marca 0ºC contacte con su instalador, es posible que la sonda de temperatura esté averiada."
-   },
-   {
-    "modelo": "Persianas",
-    "problema": "Mi persiana no se ajusta al porcentaje solicitado.",
-    "solucion": "Si al enviar una orden porcentual de su persiana no se ajusta al deseado, contacte con su instalador, es posible que los tiempos de recorrido o los finales de carrera necesiten ser reajustados."
-   },
-   {
-    "modelo": "Persianas",
-    "problema": "Mi persiana realiza el movimiento inverso al solicitado.",
-    "solucion": "Contacte con su instalador solicitando que revise el conexionado de su instalación. Es posible que el fallo se deba a un mal conexionado de las salidas del equipo domótico con su persiana."
-   },
-   {
-    "modelo": "Persianas",
-    "problema": "Mi persiana no ejecuta ningún movimiento.",
-    "solucion": "Le recomendamos contactar con el instalador de su vivienda. Esto puede deberse a problemas de conexionado en su instalación."
-   },
-   {
-    "modelo": "Luces",
-    "problema": "¿Por qué enciendo la luz de una estancia y se me enciende la de otra diferente?",
-    "solucion": "Es posible que haya un error de conexionado o de programación del equipo, contacte con su instalador para que le de más información"
-   },
-   {
-    "modelo": "Luces",
-    "problema": "Mi sensor de presencia no enciende la luz cuando camino.",
-    "solucion": "Consulte con su instalador, posiblemente el sensor está enviando la orden programada y esta no coincida con la del equipo que realiza el encendido."
-   },
-   {
-    "modelo": "Luces",
-    "problema": "Mi bombilla\/led regulable mantiene un tenue encendido cuando le envío la orden de apagado",
-    "solucion": "Esto sucede por las propias especificaciones de la bombilla\/led de la vivienda. Consulte con su instalador para que modifique los parámetros del equipo que realiza la orden de apagado."
-   },
+   
+  
+  
    {
     "modelo": "Apps",
     "problema": "Pantalla desconectada ¿Qué significa?",

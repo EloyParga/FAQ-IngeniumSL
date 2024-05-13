@@ -168,7 +168,7 @@ ul {
 }
 
 li {
-  border-bottom: 1px solid var(--primary-color)  ;
+  border-bottom: 1px solid var(--white)  ;
   padding: 10px;
 }
 
@@ -200,9 +200,13 @@ li {
   margin-right: 15px; /* Separar scrollbar de problemsList*/
   padding: 20px; /* Ajusta el relleno según sea necesario */
 }
+
+
+
 ul#problemsList {
   list-style: none;
   padding-right: 100px;
+
 }
 
 li.problemaItem {
@@ -244,6 +248,7 @@ li.problemaItem {
   margin-left: 1em;
 }
 
+
 /* Estilo para el botón cuando está activo */
 .solucionBtn.active {
   background-image: url("../img/menos.png");
@@ -252,7 +257,7 @@ li.problemaItem {
 }
 
 .p-problema{
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .p-solucion {
@@ -286,6 +291,8 @@ li.problemaItem {
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .solucion-div {
