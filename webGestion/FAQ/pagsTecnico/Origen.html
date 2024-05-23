@@ -45,15 +45,15 @@
       </button>
     </div>
     <nav class="top-nav">
-      <ul>
+      <!--<ul>
         <li class="nav-txt"><a href="../../indexInstaler.html">inicio</a></li>
         <li class="nav-txt"><a href="#">alquileres</a></li>
         <li class="nav-txt"><a href="#">progreso SIDE</a></li>
         <li class="nav-txt"><a href="#">puesta en marcha</a></li>
         <li class="nav-txt"><a href="#">gestion energética</a></li>
-      </ul>
+      </ul>-->
     </nav>
-    <input type="search" id="inputFilter" placeholder="Buscar...">
+    <input onkeyup="filtrarVideos()" type="search" id="inputFilter" placeholder="Buscar...">
   </header>
   <main>
 
@@ -103,12 +103,13 @@
                 </a>
               </li>
               
-              <li class="li-menu-lateral">
+              <!--<li class="li-menu-lateral">
                 <a href="../pagsTecnico/Bi-16.html?modelo=Bi-16" class="menu-link" id="bi">
                   <img class="icon-FAQ" src="../../img/Logos-Icons/Icons/b16-icon-white.svg" alt="Icon Bi-16">
                   <span>Bi-16</span>
                 </a>
               </li>
+              -->
 
             </ul>
           </nav>
@@ -129,12 +130,34 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper video-container">
           <!-- Slides -->
+          <div class="swiper-slide" data-category="configurar servidor web Ethbus4 Ethbus 4">
+            <a href="https://www.youtube.com/watch?v=4V5LPb5wGbM">
+              <img src="../img/miniaturasTec/configurar-ethbus4.png" alt="">
+            </a>
+          </div>
 
+          <div class="swiper-slide" data-category="videoportero configuracion configurar">
+            <a href="https://www.youtube.com/watch?v=6qgEx55hF2k&ab_channel=IngeniumSL">
+              <img src="../img/miniaturasTec/config-videoportero.edificios.png" alt="">
+            </a>
+          </div>
+
+          <div class="swiper-slide" data-category="herramienta de diseño cubik cubic">
+            <a href="https://www.youtube.com/watch?v=b8CfNAEpiWM&t=137s">
+              <img src="../img/miniaturasTec/deseño-cubic.png" alt="">
+            </a>
+          </div>
+
+          <div class="swiper-slide" data-category="deteccion automática de nodos SIDE ">
+            <a href="https://www.youtube.com/watch?v=WJMN4cH_zRw&t=1s&ab_channel=IngeniumSL">
+              <img src="../img/miniaturasTec/programar-proyect-side.png" alt="">
+            </a>
+          </div>
 
         </div>
 
         <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
+        <!--<div class="swiper-pagination"></div>-->
 
         <!-- BOTONES ATRAS Y ADELANTE VIDEOS 
         <div class="swiper-button-prev"></div>
@@ -178,15 +201,14 @@
     </div>
   </footer>
 
-  <!--JS-->
-  <script src="../scripts/swiper.js"></script>
   <script src="../scripts/problemsFilter.js"></script>
-  <script src="../scripts/sidebar.js"></script>
-  <!--Ionicons-->
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <!--Swiper-->
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src="../scripts/sidebar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="../scripts/swiper.js"></script>
+  <script src="../scripts/cambiarHover.js"></script>
+  <script src="filtrado.js"></script>
 </body>
 
 </html>

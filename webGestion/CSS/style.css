@@ -171,6 +171,12 @@ a{
     margin-bottom: 0px;
 }
 
+.btn-soporte-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 .btn-1{
     margin-top: 20px;
     display:  inline-block;

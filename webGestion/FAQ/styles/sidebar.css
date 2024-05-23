@@ -221,9 +221,10 @@
 
 @media (max-width: 1300px) {
     .barra-lateral{
+        position: fixed;
         background-color:  var(--secundary-color);
-        margin-top: 8px;
         width: 100%;
+        height: 100%;
     }
     .mini-barra-lateral{
         background-color: transparent;

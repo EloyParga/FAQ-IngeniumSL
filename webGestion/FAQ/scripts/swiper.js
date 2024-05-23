@@ -5,10 +5,6 @@ const swiper = new Swiper('.swiper', {
       clickable:true,
     },
     // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
     breakpoints:{
       1300:{
         autoHeight: true,
@@ -16,19 +12,8 @@ const swiper = new Swiper('.swiper', {
         loop: false,
         slidesPerView: 3
         ,
-      },
-      768:{
-          autoHeight:true,
-          direction: 'vertical',
-          loop: false,
-          slidesPerView: 1,
-          },
-      300:{
-            autoHeight:true,
-            direction: 'vertical',  
-            loop: false,
-            slidesPerView: 1,
       }
+      
     }
   });
 
@@ -58,4 +43,23 @@ const swiper = new Swiper('.swiper', {
       hideNavigationButtons();
     });
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const swiperElement = document.querySelector('.swiper');
+    const gridElement = document.querySelector('.video-grid');
+  
+    function updateVideoDisplay() {
+      if (window.innerWidth <= 1300) {
+        swiperElement.style.display = 'none';
+        gridElement.style.display = 'grid';
+      } else {
+        swiperElement.style.display = 'block';
+        gridElement.style.display = 'none';
+      }
+    }
+  
+    window.addEventListener('resize', updateVideoDisplay);
+    updateVideoDisplay(); // Llamada inicial para configurar el display según el tamaño actual de la ventana
+  });
+  
   

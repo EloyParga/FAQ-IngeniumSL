@@ -32,7 +32,7 @@
       
     </div>
    
-    <input type="search" id="inputFilter" placeholder="Buscar...">
+    <input onkeyup="filtrarVideos()" type="search" id="inputFilter" placeholder="Buscar...">
   </header>
   <main>
 
@@ -48,9 +48,7 @@
           <div>
             <div class="nombre-pagina">
               <ion-icon id="right-arrow" name="arrow-forward-outline"></ion-icon>
-
             </div>
-
           </div>
 
           <nav class="navegacion">
@@ -67,7 +65,7 @@
                   <ion-icon name="sunny-outline"></ion-icon>
                   <span>Integraciones</span>
                 </a>
-              </li> 
+              </li>
               
               
               <li class="li-menu-lateral">
@@ -101,16 +99,15 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper video-container">
           <!-- Slides
-          <div class="swiper-slide" data-category="crear escenas de usuario desde la app aplicacion movil crear escena ">
-            <a href="https://www.youtube.com/watch?v=rkQQjTEsiL">
-              <img src="/webGestion/FAQ/img/miniaturasVideos/App/Crear_escena_app.png" alt="">
-            </a>
-          </div>
+          
           -->
         </div>
-
-
       </div>
+
+      <div class="video-grid" style="display: none;">
+        
+      </div>
+
 
     </div>
   </main>
@@ -133,13 +130,12 @@
             Ingenium Ingeniería y Domótica, S.L.&nbsp; Todos&nbsp;los&nbsp;derechos&nbsp;reservados.
           </font>
         </div>
-
       </div>
     </div>
   </footer>
 
   <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/ecbb68c2-a9f4-4ccc-a7b8-588f8ec607c7/webchat/config.js" defer></script>
+  <script src="https://mediafiles.botpress.cloud/d20316f5-61ba-405d-bb08-b9be870b650f/webchat/  config.js" defer></script>
 
   <script src="../scripts/problemsFilter.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -147,7 +143,6 @@
   <script src="../scripts/sidebar.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="../scripts/swiper.js"></script>
-  <script> src = "../scripts/cambiarHover.js"</script>
 
 
 </body>

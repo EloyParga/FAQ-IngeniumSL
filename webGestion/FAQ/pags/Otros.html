@@ -32,7 +32,7 @@
       <img id="logo-header" src="../../img/Logos-Icons/Logos/ingenium_horizontal_color_white.svg" alt="logo ingenium">
     </div>
     
-    <input type="search" id="inputFilter" placeholder="Buscar...">
+    <input onkeyup="filtrarVideos()" type="search" id="inputFilter" placeholder="Buscar...">
   </header>
   <main>
 
@@ -102,57 +102,15 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper video-container">
           <!-- Slides -->
-          <div class="swiper-slide" data-category="update viip screen">
-            <a href="#">
-              <!--<img src="" alt=""> -->
-            </a>
-          </div>
-
-          <div class="swiper-slide" data-category="check viip internet connection">
-            <a href="#">
-              <!--<img src="" alt=""> -->
-            </a>
-          </div>
-
-          <div class="swiper-slide" data-category="connect viip screen to internet">
-            <a href="#">
-              <!--<img src="" alt=""> -->
-            </a>
-          </div>
-
-          <div class="swiper-slide" data-category="upload project to viip cloud projects">
-            <a href="#">
-              <!--<img src="" alt=""> -->            </a>
-          </div>
-
-          <div class="swiper-slide" data-category="associate gestures to viip screen hand gesture">
-            <a href="#">
-              <!-- <img src="" alt=""> -->
-            </a>
-          </div>
-
+          
         </div>
 
-        <!-- If we need pagination 
-        <div class="swiper-pagination"></div>-->
-
-        <!-- BOTONES ATRAS Y ADELANTE VIDEOS 
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>-->
-
-        <!-- Flecha de navegación izquierda 
-        <div class="custom-swiper-button-prev">
-          <ion-icon name="arrow-back-outline"></ion-icon>
-        </div>-->
-
-        <!-- Flecha de navegación derecha 
-        <div class="custom-swiper-button-next">
-          <ion-icon name="arrow-forward-outline"></ion-icon>
-        </div>-->
-
-
-
       </div>
+
+      <div class="video-grid" style="display: none;">
+        
+      </div>
+
 
     </div>
   </main>
@@ -182,7 +140,7 @@
 
 
   <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
-  <script src="https://mediafiles.botpress.cloud/ecbb68c2-a9f4-4ccc-a7b8-588f8ec607c7/webchat/config.js" defer></script>
+  <script src="https://mediafiles.botpress.cloud/d20316f5-61ba-405d-bb08-b9be870b650f/webchat/config.js" defer></script>
 
   <script src="../scripts/problemsFilter.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

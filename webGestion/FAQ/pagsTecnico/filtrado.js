@@ -8,7 +8,7 @@ function filtrarVideos() {
   videoSlides.forEach((slide) => { //recorre Array Videos
     const categories = slide.getAttribute('data-category').toLowerCase();
 
-    if (categories.includes(filter)) { 
+    if (categories.includes(filter)) {
       slide.style.display = 'block';
     } else {
       slide.style.display = 'none';

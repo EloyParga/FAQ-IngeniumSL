@@ -485,7 +485,13 @@ h2:first-of-type {
 
 @media (max-width: 768px) {
 
-  
+  .mid{
+    margin-left: 10px;
+  }
+
+  .p-problema {
+    font-size: 18px
+  }
 
    .scrollMid { 
     /* Asegura que la barra de desplazamiento solo se muestre cuando sea necesario */
@@ -524,4 +530,14 @@ h2:first-of-type {
     padding-right: 0px;
     }
 
+}
+
+@media (max-width: 550px) {
+  .p-problema{
+    font-size: small;
+  }
+
+  .p-solucion{
+    font-size: smaller;
+  }
 }

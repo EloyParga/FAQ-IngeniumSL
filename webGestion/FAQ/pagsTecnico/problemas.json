@@ -1,81 +1,179 @@
 [
-  { 
-    "modelo": "Wings",
-    "problema": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
-    "solucion": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
-    
-  },
-  { 
-    "modelo": "Wings",
-    "problema": "",
-    "solucion": ""
-    
-  },
-  { 
-    "modelo": "Wings",
-    "problema": "",
-    "solucion": ""
-    
-  },
+
   {
     "modelo":"Origen",
     "problema":"Codigo del menú de videoportería no conocido. ",
     "solucion": "Codigo ajustes de fábrica. Se puede utilizar tanto el codigo 5555 como 666"
   },
-  { 
-    "modelo": "Origen",
-    "problema": "Prueba lorem ipsum lorem ipsum lorem",
-    "solucion": "prueba prueba lorem ipsum lorem los safsafsafasfsaf saafa sa sa das dasd sad sadsa dsad sadsadfafgasf as sasd as asdasd sa dad adsadsadasdasdsa"
-    
+  
+  {
+    "modelo":"Origen",
+    "problema":"¿Las pantallas cuentan con termostato interno?",
+    "solucion": " Las pantallas que cuentan con termostato interno son las ST2. "
   },
-  { 
-    "modelo": "Origen",
-    "problema": "",
-    "solucion": ""
-    
+  {
+    "modelo":"Origen",
+    "problema":"¿No veo el mismo proyecto en la aplicación móvil que en la pantalla, ¿qué está ocurriendo? ",
+    "solucion": " Lo que ocurre es que el proyecto de la pantalla o el servidor web ha sido modificado y no se ha sincronizado el nuevo proyecto con la nube. "
   },
-  { 
-    "modelo": "Bes",
-    "problema": "",
-    "solucion": ""
-    
-  },{ 
-    "modelo": "Bes",
-    "problema": "",
-    "solucion": ""
-    
-  },{ 
-    "modelo": "Bes",
-    "problema": "",
-    "solucion": ""
-    
+  {
+    "modelo":"Origen",
+    "problema":"¿Puedo cargar imágenes o fotos para el fondo de las pantallas? ",
+    "solucion": "Sí, en el SiDE se pueden cargar fondos para todos los servidores web. Todas estas imágenes serán subidas a la nube de manera que se visualicen también desde las aplicaciones móviles. En la serie VIIP puede subir una foto o un plano de la vivienda o estancia y colocar los puntos de control sobre los elementos controlados o en las zonas en las que estos se encuentran, ya que la disposición de los iconos en la pantalla no está fijada a unas coordenadas concretas, sino que es personalizable a la hora de realizar el proyecto. "
   },
-  { 
-    "modelo": "Zclim",
-    "problema": "",
-    "solucion": ""
-    
+  {
+    "modelo":"Origen",
+    "problema":"¿Puedo disponer de la visualización de la temperatura ambiente de un termostato distinto al interno en la parte inferior de la ST2?",
+    "solucion": "Sí, esta opción se configura en el SiDE a la hora de realizar el proyecto. La forma de realizarlo se describe en el manual de programación del dispositivo."
   },
-  { 
-    "modelo": "Zclim",
-    "problema": "",
-    "solucion": ""
-    
+  {
+    "modelo":"Bes",
+    "problema":"¿Con qué pantallas y servidores web cuenta BES en su catálogo?",
+    "solucion": " BES cuenta con las siguientes pantallas táctiles, Viip, disponibles en 7'' y 10'', ST2-K disponible en 4,3'' y dos servidores web de carril DIN  ETHBUS4-K  y ETHBUS-K-IoT. Todas estas referencias, cuentan con servidor web integrado."
   },
-  { 
-    "modelo": "Bi-16",
-    "problema": "El perro de sanroque no tiene rabo porque ramon ramirez se lo ha robado",
-    "solucion": "sdssssssssssssa   dasd   ssssssss sssssdsfsdddd   ddddddddddsfsfgg"
-    
-  },{ 
-    "modelo": "Bi-16",
-    "problema": "",
-    "solucion": ""
-    
-  },{ 
-    "modelo": "Bi-16",
-    "problema": "",
-    "solucion": ""
-    
+  {
+    "modelo":"Bes",
+    "problema":"¿Cómo se conectan los servidores web de BES a Internet?",
+    "solucion": "Las pantallas táctiles 'VIIP' se puede conectar de diferentes maneras, bien a través de ethernet mediante uno de sus puertos que se encuentran en la parte posterior de la pantalla, o bien, a través de conexión WIFI, editable en el propio dispositivo.   La ST2-K se conecta a través de conexión WIFI, editable en el propio dispositivo.     El servidor web ETHBUS-K tiene la posibilidad de conectarse mediante WiFi o conexión cableada Ethernet."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cómo se crea un usuario y contraseña en un ETHBUS4-K? ",
+    "solucion": "Como el servidor web ETHBUS4-K no dispone de display físico, se accede a él a través del navegador web introduciendo en la barra de direcciones lo siguiente: http://IP:8000, donde IP es la dirección IP dada al dispositivo previamente. En caso de que en su navegador no se visualice correctamente, descargue la aplicación de escritorio Remote Desktop de la página web (www.besknx.com/website/productos/ds202020/) e introduzca la IP en el campo correspondiente. Es importante señalar que estos métodos no refrescan la pantalla de forma automática, sino que el servidor web envía la imagen con cada pulsación del ratón sobre el interfaz gráfico. "
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Estos dispositivos de BES se programan mediante el ETS?",
+    "solucion":"No, las pantallas táctiles y servidores web de Bes se programan mediante un software específico llamado SiDE KNX, disponible para su descarga gratuita en la página web www.besknx.com en la página de cada producto. Este software permite crear el proyecto de las pantallas de forma más sencilla y visual y programarlas mediante la conexión WiFi o Ethernet de los equipos."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cómo se configuran los parámetros de red de los equipos?",
+    "solucion":"Los equipos de Bes que disponen de pantalla táctil cuentan en su menú con la opción de WiFi donde se establecen los parámetros de red que permiten la conexión del equipo al router de la vivienda para contar con control remoto o generar una red WiFi local para tener ese control solamente dentro de la vivienda. Los parámetros de red del servidor web ETHBUS4-K, al no disponer de pantalla y contar también con conexión cableada Ethernet, se configura con un software específico llamado 'Remote Desktop' una vez se haya identificado su dirección IP, disponible para su descarga en la página web del dispositivo (www.besknx.com/website/productos/ds202020/). "
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿De dónde obtengo la alimentación auxiliar para las pantallas?",
+    "solucion":"La alimentación auxiliar se puede obtener de la salida auxiliar de 29 VDC con la que cuentan todas las fuentes de alimentación de Bes. También se puede obtener de cualquier fuente de alimentación auxiliar de 12-29 VDC. Se recomienda utilizar fuentes de alimentación de Bes pues con estas se asegura el correcto funcionamiento de las pantallas."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Por qué el software Ingenium Tracker no encuentra en el servidor web?",
+    "solucion":"La primera comprobación que realizar sería si, mediante el comando ping en la ventana de comandos del ordenador, tiene comunicación con el servidor web. Si el servidor web responde, pero, aun así, el Tracker no lo encuentra, deje activa solamente la tarjeta de red de su ordenador por la que se está comunicando con el software (en caso de querer comunicarse con el ETHBUS4-K por su conexión Ethernet, por ejemplo, desactive el WiFi de su ordenador). Si en su ordenador tiene máquinas virtuales configuradas, desactive también de forma momentánea las tarjetas de red de estas."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Por qué no puedo descargar el proyecto al servidor web desde el SiDE KNX?",
+    "solucion":"Lo más probable es que no esté conectado a la misma red. Compruebe si tiene conexión con el servidor web mediante el comando ping en la ventana de comandos de su ordenador. Si el dispositivo no responde, deberá comprobar los parámetros de red del servidor web o de su ordenador para que ambos se encuentren en la misma red."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"La pantalla no enciende, ¿qué ocurre?",
+    "solucion":"Revise si la conexión de la alimentación es correcta y, si en caso de disponer de más elementos conectados a esa línea de alimentación, la pantalla cuenta con suficiente corriente, superior al consumo del equipo especificado en las hojas de características de los mismos. Si el problema persiste, contacte con el servicio técnico de Bes a través del email: tec@besknx.com."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"La pantalla está encendida pero no tengo comunicación con el resto de los equipos conectados al bus KNX, ¿qué está ocurriendo?",
+    "solucion":"Revise el conexionado de la alimentación auxiliar y el bus KNX, es probable que estén conectados al revés"
+  },
+  {
+    "modelo":"Bes",
+    "problema":"Pulso sobre una zona de la pantalla, pero responde otra, las pantallas cambian entre los planos o se abren ventanas sin tocar sobre ellas. ¿Qué está ocurriendo?",
+    "solucion":"Lo que ocurre es que la pantalla táctil se está viendo afectada por ruido eléctrico. Puede tratar de cambiar el cableado de la alimentación de la fuente intercambiando el neutro por la fase. Si persiste, se aconseja incorporar una fuente de alimentación con toma a tierra."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Las pantallas de BES también cuentan con salvapantallas personalizable?",
+    "solucion":"Sí, en las VIIP se pueden introducir imágenes que cambiarán cada cierto tiempo a modo de salvapantallas. En la ST2-K no se pueden incorporar imágenes, pero sí pueden elegirse una serie de relojes con distintos diseños y colores."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuántos elementos puedo controlar desde estos equipos? ",
+    "solucion":"En las ST2-K se pueden controlas 32 elementos colocados en 8 planos, además del termostato interno de la pantalla. En la VIIP y ETHBUS4-K puede contar con hasta 100 planos sin límite de iconos sobre los mismos y hasta 65535 direcciones de grupo. "
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Las pantallas táctiles y servidores web disponen de unidad aritmético lógica (ALU)? ",
+    "solucion":"Sí, tanto la serie VIIP como las ST2-K y el ETHBUS4-K disponen de ALU."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cómo puedo disponer de la última versión del software de la pantalla?",
+    "solucion":"En la serie VIIP puede descargar la última versión desde la opción correspondiente del menú de la propia pantalla o descargándola desde el software SiDE KNX a través de la conexión de red. La serie Smart Touch solamente puede actualizarse a través del SiDE KNX. El ETHBUS4-K puede ser actualizado accediendo al menú a través del software Remote Desktop o con el SiDE KNX. El SiDE KNX le mostrará un aviso si precisa descargar en su ordenador una nueva versión de los pantallas o servidores web y si estos necesitan ser actualizados. Se recomienda siempre disponer de la última versión de los equipos."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Las pantallas cuentan con termostato interno?",
+    "solucion":" Las pantallas que cuentan con termostato interno son las ST2-K. "
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Se pierde la fecha y hora si se va la corriente? ",
+    "solucion":"Si la pantalla o el servidor web dispone de conexión a Internet, no habrá ningún problema con la fecha y la hora puesto que esta se obtiene por esta vía, siendo tan solo necesario establecer la zona horaria en la que se encuentra. Si no dispone de Internet o en el caso de la Smart Touch, que no dispone de esta opción, la hora puede perderse en caso de falta de tensión. Para evitar este problema se recomienda contar en el bus KNX con un equipo RTC (Reloj de Tiempo Real) o con una pantalla que sí cuente con conexión a Internet, ya que estas envían la hora y fecha al bus sincronizando todas las presentes en la instalación."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Qué son los scripts? ",
+    "solucion":"Los scripts están disponibles en todas las pantallas táctiles y servidores web de Bes y sirven para realizar acciones o lógicas complejas mediante un lenguaje de programación sencillo simular al C. Estos scripts se pueden ejecutar mediante direcciones de grupo. El SiDE KNX dispone de un compilador específico embebido que permite corregir el script a la hora de realizar el proyecto."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cada cuánto tiempo se envía la hora al bus KNX? ",
+    "solucion":"Las pantallas y servidores web de Bes envían la fecha y la hora al bus cada cinco minutos de forma automática si se han configurado en el SiDE KNX las direcciones de grupo correspondientes permitiendo la sincronización de todas las pantallas y servidores web de la instalación. Para recibir la hora del bus KNX, también es necesario establecer las direcciones de grupo de las cuales se toman estos datos. El tipo de datos para ambos envíos son los establecidos por el estándar KNX. Si la pantalla no cuenta con conexión a Internet, pero sí dispone alguna otra en la instalación con esta posibilidad, sería recomendable que en la primera no configure las direcciones de envío al bus de fecha y hora, estableciendo solamente las direccione de grupo de recepción de las mismas (aquellas por las que la pantalla o servidor web conectado a Internet envía la hora)."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cómo se alimentan estos equipos?",
+    "solucion":"Las pantallas táctiles, tanto la serie VIIP como Smart Touch, precisan de alimentación auxiliar. A la hora de recibir el equipo se encontrará con un conector en forma de T donde conectar el BUS KNX y la alimentación auxiliar."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Puedo realizar el control de un elemento con pulsación larga y corta desde las pantallas?",
+    "solucion":"Sí, estos parámetros, así como los valores enviados, son configurables desde el SiDE KNX."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"No veo el mismo proyecto en la aplicación móvil que en la pantalla, ¿qué está ocurriendo? ",
+    "solucion":"Lo que ocurre es que el proyecto de la pantalla o el servidor web ha sido modificado y no se ha sincronizado el nuevo proyecto con la nube."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Se puede realizar la gestión de alamas técnicas y de intrusión mediante las pantallas táctiles y servidores web de BES?",
+    "solucion":" Sí, desde la VIIP y con el servidor web ETHBUS4-K puede realizar la gestión tanto de las alarmas técnicas como de la alarma de intrusión contando con tiempos de armado y desarmado."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Puedo mostrar valores numéricos recibidos a través del bus KNX en la pantalla? ",
+    "solucion":"Sí, se pueden mostrar valores numéricos en las etiquetas de los iconos si se configura según se describe en el manual de programación de estos dispositivos, disponibles en la página web. Si desea mostrar solamente un valor numérico sin contar con un icono sobre el mismo, puede introducir un icono transparente en el SiDE KNX."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Puedo cargar imágenes o fotos para el fondo de las pantallas? ",
+    "solucion":"Sí, en el SiDE KNX se pueden cargar fondos para todos los servidores web. Todas estas imágenes serán subidas a la nube de manera que se visualicen también desde las aplicaciones móviles. En la serie VIIP puede subir una foto o un plano de la vivienda o estancia y colocar los puntos de control sobre los elementos controlados o en las zonas en las que estos se encuentran, ya que la disposición de los iconos en la pantalla no está fijada a unas coordenadas concretas, sino que es personalizable a la hora de realizar el proyecto."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Puedo disponer de la visualización de la temperatura ambiente de un termostato distinto al interno en la parte inferior de la ST2-K?",
+    "solucion":" Sí, esta opción se configura en el SiDE KNX a la hora de realizar el proyecto. La forma de realizarlo se describe en el manual de programación del dispositivo."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Se dispone de simulación de presencia en estas pantallas táctiles y servidores web de BES?",
+    "solucion":" La simulación de presencia está disponible en la serie VIIP y ETHBUS4-K. "
+  },
+  {
+    "modelo":"Zclim",
+    "problema":"Esto es un problema de prueba",
+    "solucion":"esto es un texto de prueba que se usa para que la web este encuadrada ya que sus dimensiones se adaptan al contenido."
+  },
+  {
+    "modelo":"Wings",
+    "problema":"Esto es un problema de prueba",
+    "solucion":"esto es un texto de prueba que se usa para que la web este encuadrada ya que sus dimensiones se adaptan al contenido."
+  },
+  {
+    "modelo":"Bi-16",
+    "problema":"",
+    "solucion":""
   }
 ]

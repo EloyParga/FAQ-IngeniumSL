@@ -47,9 +47,7 @@ a {
     font-size: 16px; /* Ajusta el tamaño de fuente para dispositivos móviles */
   }
 
-  main {
-    padding: 10px; /* Ajusta el espaciado del contenido principal en dispositivos móviles */
-  }
+ 
 }
 
 /* Estilos específicos para el footer en dispositivos móviles */
