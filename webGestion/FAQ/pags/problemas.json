@@ -244,8 +244,28 @@
   },
   {
     "modelo":"Apps",
+    "problema":" ¿Qué necesito para usar la aplicación Ingenium iSC en iOS?",
+    "solucion":"La aplicación Ingenium iSC requiere un equipo ETHBUS4 o una pantalla con servidor web integrado (VIIP o ST2). El proyecto debe estar volcado en el servidor de Ingenium, desde donde se cargará la configuración de la instalación cuando el usuario quiera conectarse."
+  },
+  {
+    "modelo":"Apps",
+    "problema":" ¿Cómo puedo gestionar notificaciones push en las aplicaciones Ingenium?",
+    "solucion":"Para recibir notificaciones push, deben ser activadas desde los ajustes del dispositivo móvil. En Android, dirígete a Sonidos y notificaciones > Notificaciones de aplicación y selecciona Ingenium aSC. En iOS, ve al Centro de notificaciones, selecciona Ingenium iSC y configura las alertas según tus preferencias."
+  },
+  {
+    "modelo":"Apps",
+    "problema":"¿Cómo puedo controlar un termostato desde las aplicaciones Ingenium?",
+    "solucion":"Pulsando sobre el icono del termostato, aparece una ventana para encender/apagar el dispositivo, ajustar la temperatura, seleccionar el modo de funcionamiento, y configurar temporizaciones como cronotermostato. Se muestra la temperatura medida y de consigna, y se pueden ajustar mediante controles deslizantes."
+  },
+  {
+    "modelo":"Apps",
     "problema":"¿Qué opciones existen para controlar la instalación en remoto? ",
     "solucion":"Las instalaciones se pueden controlar en remoto a través de las aplicaciones móviles gratuitas de Ingenium: Ingenium aSc para Android e Ingenium iSC para iOS. Solamente sería necesario crear un usuario y una contraseña en el servidor web o pantalla (DEBE ESTAR CONECTADA A INTERNET), subir el proyecto a la nube, e introducir estos datos en la aplicación móvil.  "
+  },
+  {
+    "modelo":"Apps",
+    "problema":"¿Qué debo hacer si quiero actualizar la pantalla ST2 desde un dispositivo móvil?",
+    "solucion":"Tras crear una cuenta en la nube, puedes actualizar la pantalla desde la aplicación móvil introduciendo la IP de la pantalla en el menú de configuración de WiFi. El dispositivo móvil debe estar conectado a la misma red WiFi que la pantalla para realizar la actualización."
   },
   {
     "modelo":"Apps",
