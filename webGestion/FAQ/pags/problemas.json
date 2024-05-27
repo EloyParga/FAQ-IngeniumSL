@@ -1,103 +1,72 @@
 [ 
   {
-    "modelo":"Apps",
-    "problema":"¿Qué opciones existen para controlar la instalación en remoto? ",
-    "solucion":"Las instalaciones se pueden controlar en remoto a través de las aplicaciones móviles gratuitas de Ingenium: Ingenium aSc para Android e Ingenium iSC para iOS. Solamente sería necesario crear un usuario y una contraseña en el servidor web o pantalla (DEBE ESTAR CONECTADA A INTERNET), subir el proyecto a la nube, e introducir estos datos en la aplicación móvil.  "
-  },
-  {
-    "modelo":"Integraciones",
-    "problema":"¿Puedo controlar la instalación mediante comandos de voz? ",
-    "solucion":"Sí, se ha desarrollado la integración de sus servidores web con Google Home y Alexa de forma que si se dispone de un servidor web se puede dar de alta de forma gratuita en ambas integraciones, pudiendo, incluso, controlar la instalación desde su coche si este dispone de conectividad a través de Android Auto. Si precisa de contacte con su Instalador ó integrador."
-  },
-  {
-    "modelo":"Otros",
-    "problema":"¿Podría disponer del control de la instalación desde mi ordenador?",
-    "solucion":"Sí, se puede controlar la instalación desde la extensión para Google Chrome desarrollada por Ingenium de la misma forma que se realiza desde una aplicación móvil. Para ello, se instala una extensión emuladora de Android como WRC Welder y se carga en ella el apk de la aplicación Ingenium aSC.  O bien, a través del 'Remote Desktop', software disponible en la pagina web de Ingenium SL"
-  },
-  {
-    "modelo":"Pantallas",
-    "problema":"¿Se puede cambiar la orientación de las pantallas? ",
-    "solucion":"No, las pantallas VIIP solamente se disponen en orientación horizontal y las Smart Touch 2, en orientación vertical. "
-  },
-  {
-    "modelo":"Otros",
-    "problema":"¿Debo abrir puertos en mi router para disponer de control en remoto de la instalación? ",
-    "solucion":"No, no es necesario abrir ningún puerto del router, simplemente no se deben de tener bloqueadas las conexiones salientes. "
-  },
-  {
-    "modelo":"Pantallas",
-    "problema":"¿Las pantallas pueden irse a un estado de reposo después de un tiempo? ",
-    "solucion":"Sí, las pantallas pueden irse a reposo tras un tiempo configurable en el menú de las mismas y permaneciendo hasta la siguiente pulsación con un brillo configurable también en el mismo menú, pudiendo quedar también apagadas. "
-  },
-  {
-    "modelo":"Pantallas",
-    "problema":"¿Cómo puedo disponer de la última versión del software de la pantalla? ",
-    "solucion":"En la serie VIIP puede descargar la última versión desde la opción correspondiente del menú de la propia pantalla o descargándola desde el software SiDE KNX a través de la conexión de red. La serie Smart Touch solamente puede actualizarse a través del SiDE KNX. El ETHBUS4-K puede ser actualizado accediendo al menú a través del software Remote Desktop o con el SiDE KNX. El SiDE KNX le mostrará un aviso si precisa descargar en su ordenador una nueva versión de los pantallas o servidores web y si estos necesitan ser actualizados. Se recomienda siempre disponer de la última versión de los equipos."
-  },
-  {
-    "modelo":"Pantallas",
-    "problema":"¿Se puede realizar la gestión de alamas técnicas y de intrusión mediante las pantallas táctiles y servidores web?",
-    "solucion":"Sí, desde la VIIP y con el servidor web puede realizar la gestión tanto de las alarmas técnicas como de la alarma de intrusión contando con tiempos de armado y desarmado. "
-  },
-  {
-    "modelo":"Pantallas",
-    "problema":"¿Se puede cambiar el idioma de la pantalla? ",
-    "solucion":"Sí, el idioma de la pantalla se selecciona desde el menú de la pantalla según se explica en el manual de usuario del equipo. "
-  },
-  {
-    "modelo":"Pantallas",
-    "problema":"¿Las pantallas cuentan con termostato interno?",
-    "solucion":" Las pantallas que cuentan con termostato interno son las Smart Touch 2. "
-  },
-  {
-    "modelo":"Apps",
-    "problema":"No veo el mismo proyecto en la aplicación móvil que en la pantalla, ¿qué está ocurriendo? ",
-    "solucion":"Lo que ocurre es que el proyecto de la pantalla o el servidor web ha sido modificado y no se ha sincronizado el nuevo proyecto con la nube. "
-  },
-  {
-    "modelo":"Pantallas",
-    "problema":"No veo el mismo proyecto en la aplicación móvil que en la pantalla, ¿qué está ocurriendo? ",
-    "solucion":"Lo que ocurre es que el proyecto de la pantalla o el servidor web ha sido modificado y no se ha sincronizado el nuevo proyecto con la nube. "
-  },
-
-  {
-    "modelo":"Apps",
-    "problema":"Si realizo un cambio en el proyecto, ¿debo de crear un nuevo usuario y contraseña para que se actualice en la nube? ",
-    "solucion":"No, solamente se debe sincronizar el proyecto con la nube para ver los cambios en las aplicaciones móviles, accediendo con el mismo usuario y contraseña que poseía antes del cambio en el proyecto. "
-  },
-  {
-    "modelo":"Pantallas",
-    "problema":"Cómo realizo la sincronización de un nuevo proyecto con la nube para ver los cambios en las distintas aplicaciones? ",
-    "solucion":"En las pantallas táctiles VIIP y en la Smart Touch 2, la sincronización se realiza desde el menú del dispositivo, accediendo al mismo lugar en el que se creó el usuario y la contraseña y pulsando sobre la opción Sincronizar. En el ETHBUS-K es necesario acceder desde el navegador web o desde el software Remote Desktop para disponer de la posibilidad de llegar a dicha opción en el menú del dispositivo. "
-  },
-  {
-    "modelo":"Integraciones",
-    "problema":"Si tengo configurado el servicio de Google Home/ALEXA a través de mi servidor web y realizo un cambio en el proyecto, ¿se sincronizan los cambios también en la aplicación de Google? ",
-    "solucion":"Sí, los cambios se sincronizarán con la aplicación de Google o Alexa a la hora de sincronizar el proyecto con la nube en caso de tener configurado este servicio. Al entrar de nuevo en la aplicación de Google Home o Alexa se reflejarán los cambios añadiendo los nuevos dispositivos del proyecto o eliminando los que hayan sido borrados del mismo. Es posible que deba esperar unos segundos a ver estos cambios tras entrar en la aplicación de Google Home o Alexa, sobre todo, si ha habido un gran número de modificaciones en el proyecto. "
-  },
-  
-  {
-    "modelo": "Pantallas",
-    "problema": "No conozco el código de desactivación de la alarma.",
-    "solucion": "El código de desactivación por defecto es \"1234\", en el caso de haberlo modificado y no recordarlo será necesario que contacte con su instalador. "
-   },
-  
-   {
-    "modelo": "Pantallas",
-    "problema": "¿Puedo cambiar el código de desactivación de la alarma de mi vivienda?",
-    "solucion": "Si. Para ello, acceda al menú de Ajustes de su dispositivo y vaya a la opción de Seguridad, aquí tendrá la opción de Cambiar la contraseña de alarma. Deberá añadir el código previo, por defecto es \"1234\"  y, posteriormente, el nuevo deseado."
-   },
-   {
-    "modelo": "Otros",
-    "problema": "¿Mi pantalla VIIP dispone de cámara?",
-    "solucion": "No, este orificio superior del marco de la pantalla se corresponde con el micrófono, ya que este dispositivo tiene la capacidad de comunicarse con la videoportería de su vivienda."
-   },
-   {
     "modelo": "Pantallas",
     "problema": "¿Cómo puedo crear un usuario para poder acceder desde la aplicación oficial de Ingenium?",
     "solucion": "Para crear un usuario, acceder al menú de Ajustes de su dispositivo y pulsar en la opción de Cloud, desde aquí, podrá disponer de su instalación en la nube añadiendo su usuario y contraseña deseado. Le recomendamos recordar y\/o apuntar la contraseña introducida. Si el proceso no se completa correctamente se recomienda revisar la conexión Wi-Fi de su dispositivo o buscar el mensaje de error en nuestra plataforma."
    },
-   
+  {
+    "modelo": "Pantallas",
+    "problema": "¿Qué es la ST2?",
+    "solucion": "La ST2 es una interfaz táctil vertical que permite el control y la monitorización de instalaciones BUSing. Soporta hasta 4 páginas de control, con un máximo de 8 iconos por página."
+   },
+  {
+    "modelo": "Pantallas",
+    "problema": " ¿Qué es la pantalla VIIP?",
+    "solucion": "Es una pantalla táctil capacitiva a color disponible en tamaños de 7.1” y 10.1”, que permite la monitorización y el control del sistema domótico BUSing."
+   },
+  {
+    "modelo": "Pantallas",
+    "problema": "¿Qué tipo de conectividad ofrece la ST2?",
+    "solucion": "La ST2 incluye conectividad Wi-Fi con un servidor web integrado, permitiendo el control local y remoto a través de aplicaciones móviles para plataformas Android e iOS. También soporta control por voz con Alexa y Google Home."
+   },
+  {
+    "modelo": "Pantallas",
+    "problema": "¿Cuántos iconos y escenas puede manejar la ST2?",
+    "solucion": "La ST2 puede manejar hasta 32 iconos distribuidos en 4 páginas y puede almacenar hasta 16 escenas programables."
+   },
+  {
+    "modelo": "Pantallas",
+    "problema": "¿Qué conectividad ofrece la VIIP?",
+    "solucion": "Ofrece conectividad Wi-Fi y puede funcionar en modo punto de acceso para crear una red Wi-Fi local. Soporta protocolos como ZWave, Zigbee, KNX, BUSing, entre otros."
+   },
+  {
+    "modelo": "Pantallas",
+    "problema": "¿Qué funciones adicionales ofrece la VIIP?",
+    "solucion": "Permite la edición de escenas, control de alarmas técnicas, gestión de la alarma de intrusión, temporizaciones anuales, y puede actuar como videoportero."
+   },
+   {
+     "modelo": "Pantallas",
+     "problema": "¿Qué es ETHBUS4?",
+     "solucion": "Es un servidor web que permite el control remoto de la instalación BUSing desde aplicaciones móviles y navegador web. Incluye conectividad Wi-Fi y un puerto Ethernet RJ45."
+    },
+    {
+      "modelo": "Pantallas",
+      "problema": "¿Qué funciones soporta ETHBUS4?",
+      "solucion": "Soporta temporizaciones anuales, notificaciones push, IFTTT, y alarmas técnicas. Es compatible con Google Home y Alexa, y permite configuración como servidor Modbus."
+    },
+    {
+      "modelo": "Pantallas",
+      "problema": " ¿La ST2 incluye sensores?",
+      "solucion": "Sí, la ST2 incluye un sensor de temperatura interno para la gestión del clima y ofrece la función de cronotermostato."
+    },
+    {
+      "modelo": "Pantallas",
+      "problema": "¿Qué temas de personalización ofrece la ST2?",
+      "solucion": "Ofrece hasta 6 temas diferentes, tres de los cuales son personalizables. Los temas pueden ser cambiados automáticamente según franjas horarias."
+    },
+    {
+      "modelo": "Pantallas",
+      "problema": "¿Qué tipos de usuario existen en la ST2?",
+      "solucion": "Existen dos niveles de usuario: administrador y usuario estándar. El administrador puede proteger el uso de la pantalla con una contraseña."
+    },
+    {
+      "modelo": "Pantallas",
+      "problema": "¿Qué es la función de atajos en la ST2?",
+      "solucion": "Permite configurar atajos para ejecutar escenas mediante un movimiento vertical sobre la pantalla en estado de espera."
+    },
+    
+
+
    {
     "modelo": "Pantallas",
     "problema": "Mi dispositivo no me permite crear un usuario",
@@ -126,28 +95,255 @@
     "problema": "¿Por qué mi pantalla muestra un horario diferente?",
     "solucion": "Compruebe su conexión de red, en el caso de ser correcta, acceda al menú de ajustes y pulse sobre la opción General. En esta opción, veremos la posibilidad de actualizar nuestra zona horaria dependiendo en que lugar del mundo nos encontremos."
    },
+ 
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Se puede cambiar la orientación de las pantallas? ",
+    "solucion":"No, las pantallas VIIP solamente se disponen en orientación horizontal y las Smart Touch 2, en orientación vertical. "
+  },
+  
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Las pantallas pueden irse a un estado de reposo después de un tiempo? ",
+    "solucion":"Sí, las pantallas pueden irse a reposo tras un tiempo configurable en el menú de las mismas y permaneciendo hasta la siguiente pulsación con un brillo configurable también en el mismo menú, pudiendo quedar también apagadas. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Cómo puedo disponer de la última versión del software de la pantalla? ",
+    "solucion":"En la serie VIIP puede descargar la última versión desde la opción correspondiente del menú de la propia pantalla o descargándola desde el software SiDE KNX a través de la conexión de red. La serie Smart Touch solamente puede actualizarse a través del SiDE KNX. El ETHBUS4-K puede ser actualizado accediendo al menú a través del software Remote Desktop o con el SiDE KNX. El SiDE KNX le mostrará un aviso si precisa descargar en su ordenador una nueva versión de los pantallas o servidores web y si estos necesitan ser actualizados. Se recomienda siempre disponer de la última versión de los equipos."
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Se puede realizar la gestión de alamas técnicas y de intrusión mediante las pantallas táctiles y servidores web?",
+    "solucion":"Sí, desde la VIIP y con el servidor web puede realizar la gestión tanto de las alarmas técnicas como de la alarma de intrusión contando con tiempos de armado y desarmado. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Se puede cambiar el idioma de la pantalla? ",
+    "solucion":"Sí, el idioma de la pantalla se selecciona desde el menú de la pantalla según se explica en el manual de usuario del equipo. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"¿Las pantallas cuentan con termostato interno?",
+    "solucion":" Las pantallas que cuentan con termostato interno son las Smart Touch 2. "
+  },
+  
+  {
+    "modelo":"Pantallas",
+    "problema":"No veo el mismo proyecto en la aplicación móvil que en la pantalla, ¿qué está ocurriendo? ",
+    "solucion":"Lo que ocurre es que el proyecto de la pantalla o el servidor web ha sido modificado y no se ha sincronizado el nuevo proyecto con la nube. "
+  },
+  {
+    "modelo":"Pantallas",
+    "problema":"Cómo realizo la sincronización de un nuevo proyecto con la nube para ver los cambios en las distintas aplicaciones? ",
+    "solucion":"En las pantallas táctiles VIIP y en la Smart Touch 2, la sincronización se realiza desde el menú del dispositivo, accediendo al mismo lugar en el que se creó el usuario y la contraseña y pulsando sobre la opción Sincronizar. En el ETHBUS-K es necesario acceder desde el navegador web o desde el software Remote Desktop para disponer de la posibilidad de llegar a dicha opción en el menú del dispositivo. "
+  },
+  
+  {
+    "modelo": "Pantallas",
+    "problema": "No conozco el código de desactivación de la alarma.",
+    "solucion": "El código de desactivación por defecto es \"1234\", en el caso de haberlo modificado y no recordarlo será necesario que contacte con su instalador. "
+  },
+  
+  {
+    "modelo": "Pantallas",
+    "problema": "¿Puedo cambiar el código de desactivación de la alarma de mi vivienda?",
+    "solucion": "Si. Para ello, acceda al menú de Ajustes de su dispositivo y vaya a la opción de Seguridad, aquí tendrá la opción de Cambiar la contraseña de alarma. Deberá añadir el código previo, por defecto es \"1234\"  y, posteriormente, el nuevo deseado."
+  },
    
-  
-  
-   {
+
+
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Puedo controlar la instalación mediante comandos de voz? ",
+    "solucion":"Sí, se ha desarrollado la integración de sus servidores web con Google Home y Alexa de forma que si se dispone de un servidor web se puede dar de alta de forma gratuita en ambas integraciones, pudiendo, incluso, controlar la instalación desde su coche si este dispone de conectividad a través de Android Auto. Si precisa de contacte con su Instalador ó integrador."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Qué necesito para integrar mis dispositivos Ingenium con Alexa o Google Home?",
+    "solucion":"Para integrar tus dispositivos Ingenium con Alexa o Google Home, necesitas tener instalada la app de Ingenium en tu dispositivo móvil y que tus dispositivos Ingenium estén conectados a la red Wi-Fi."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Puedo controlar los dispositivos Ingenium con Alexa y Google Home?",
+    "solucion":"Sí, los dispositivos Ingenium son compatibles con los asistentes de voz Alexa y Google Home, permitiendo el control por voz de la instalación domótica."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"Si tengo configurado el servicio de Google Home/ALEXA a través de mi servidor web y realizo un cambio en el proyecto, ¿se sincronizan los cambios también en la aplicación de Google? ",
+    "solucion":"Sí, los cambios se sincronizarán con la aplicación de Google o Alexa a la hora de sincronizar el proyecto con la nube en caso de tener configurado este servicio. Al entrar de nuevo en la aplicación de Google Home o Alexa se reflejarán los cambios añadiendo los nuevos dispositivos del proyecto o eliminando los que hayan sido borrados del mismo. Es posible que deba esperar unos segundos a ver estos cambios tras entrar en la aplicación de Google Home o Alexa, sobre todo, si ha habido un gran número de modificaciones en el proyecto. "
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Qué tipo de integración ofrecen los productos de Ingenium con otros sistemas?",
+    "solucion":"Los productos de Ingenium pueden integrarse con otros sistemas y dispositivos inteligentes mediante protocolos como ZWave, Zigbee/CHIP/Matter, KNX, y mediante servicios como IFTTT y MQTT Broker. También son compatibles con asistentes de voz como Google Home y Alexa."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Cómo configuro la integración con Alexa?",
+    "solucion":"1-Abre la app de Alexa en tu dispositivo móvil. 2-Ve al menú y selecciona 'Skills & Games'.    3-Busca la skill 'Ingenium' y actívala.    4-Inicia sesión con tu cuenta de Ingenium.    5-Una vez activada la skill, Alexa buscará dispositivos Ingenium en tu red y los añadirá automáticamente."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":" ¿Puedo crear rutinas en Alexa con dispositivos Ingenium?",
+    "solucion":"Sí, puedes crear rutinas en la app de Alexa que incluyan dispositivos Ingenium. Por ejemplo, puedes crear una rutina llamada “Buenas noches” que apague todas las luces y ajuste el termostato."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Puedo crear rutinas en Google Home con dispositivos Ingenium?",
+    "solucion":"Sí, puedes crear rutinas en la app de Google Home que incluyan dispositivos Ingenium. Por ejemplo, puedes crear una rutina llamada “Buenos días” que encienda las luces y ajuste el termostato a una temperatura específica."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Hay algún retraso en el control por voz con Alexa o Google Home?",
+    "solucion":"El control por voz a través de Alexa o Google Home debería ser casi instantáneo, pero puede haber un pequeño retraso dependiendo de la calidad de la conexión a internet y la configuración de tu red doméstica."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Necesito alguna configuración especial en los dispositivos Ingenium para que funcionen con Alexa y Google Home?",
+    "solucion":"No se necesita una configuración especial, pero asegúrate de que tus dispositivos Ingenium estén correctamente configurados y conectados a la red Wi-Fi. Sigue las instrucciones de configuración en las aplicaciones de Alexa y Google Home para integrarlos."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":"¿Es posible controlar dispositivos individuales y grupos de dispositivos con Alexa y Google Home?",
+    "solucion":"Sí, puedes controlar tanto dispositivos individuales como grupos de dispositivos. Puedes agrupar dispositivos por habitaciones o zonas y controlarlos con un solo comando de voz."
+  },
+  {
+    "modelo":"Integraciones",
+    "problema":" ¿Cómo configuro la integración con Google Home?",
+    "solucion":"1- Abre la app de 'Google Home' en tu dispositivo móvil. 2- Toca el botón '+' para añadir un nuevo dispositivo. 3- Selecciona ' Configurar dispositivo' y luego 'Funciona con Google'.  4-  Buscar 'Ingenium' en el buscador y selecciona 'Ingenium Smarth Home'. 5-Inicia sesión con tu cuenta de Ingenium.  6-Google Home buscará y añadirá tus dispositivos Ingenium automáticamente."
+  },
+
+
+
+
+  {
+    "modelo":"Apps",
+    "problema":" ¿Qué aplicaciones móviles están disponibles para controlar los productos de Ingenium?",
+    "solucion":"Ingenium ofrece aplicaciones móviles para dispositivos iOS (iSC Ingenium) y Android (aSC Ingenium) que permiten el control remoto y local de las instalaciones BUSing®."
+  },
+  {
+    "modelo":"Apps",
+    "problema":" ¿Qué es aSC Ingenium? ",
+    "solucion":"Es una aplicación para el control de instalaciones BUSing desde dispositivos Android. Requiere un equipo ETHBUS4 o una pantalla con servidor web integrado."
+  },
+  {
+    "modelo":"Apps",
+    "problema":" ¿Qué es iSC Ingenium? ",
+    "solucion":"Es una aplicación para el control de instalaciones BUSing desde dispositivos IOS. Requiere un equipo ETHBUS4 o una pantalla con servidor web integrado."
+  },
+  {
+    "modelo":"Apps",
+    "problema":" ¿Cómo se configura una conexión en la app?",
+    "solucion":"Desde la pantalla principal, se puede añadir una nueva conexión local o remota. Se requiere el nombre de la instalación, usuario y contraseña, y la dirección IP para conexiones locales."
+  },
+  {
+    "modelo":"Apps",
+    "problema":"¿Qué notificaciones puede recibir la app Android?",
+    "solucion":"La app puede recibir notificaciones push en tiempo real sobre alarmas técnicas y noticias."
+  },
+  {
+    "modelo":"Apps",
+    "problema":"¿Qué opciones existen para controlar la instalación en remoto? ",
+    "solucion":"Las instalaciones se pueden controlar en remoto a través de las aplicaciones móviles gratuitas de Ingenium: Ingenium aSc para Android e Ingenium iSC para iOS. Solamente sería necesario crear un usuario y una contraseña en el servidor web o pantalla (DEBE ESTAR CONECTADA A INTERNET), subir el proyecto a la nube, e introducir estos datos en la aplicación móvil.  "
+  },
+  {
+    "modelo":"Apps",
+    "problema":"Si realizo un cambio en el proyecto, ¿debo de crear un nuevo usuario y contraseña para que se actualice en la nube? ",
+    "solucion":"No, solamente se debe sincronizar el proyecto con la nube para ver los cambios en las aplicaciones móviles, accediendo con el mismo usuario y contraseña que poseía antes del cambio en el proyecto. "
+  },
+  {
     "modelo": "Apps",
     "problema": "Pantalla desconectada ¿Qué significa?",
     "solucion": "Este mensaje indica que la pantalla\/servidor web responsable de enviar los datos de la instalación domótica a la nube no está conectada a la red de internet de la vivienda. Revise la configuración de red de su pantalla y compruebe que el router de su vivienda funciona correctamente."
-   },
-   {
+  },
+  {
     "modelo": "Apps",
     "problema": "He sido baneado ¿Qué puedo hacer?",
     "solucion": "Este método de seguridad se utiliza para que solo puedan acceder a la app los únicos que conocen las credenciales del usuario creado en el dispositivo domótico. Si realiza varios intentos fallidos a la hora de acceder desde la app, este le suspenderá el acceso durante aproximadamente 30 minutos."
-   },
-   
-   {
+  },
+  {
     "modelo": "Apps",
     "problema": "No conozco mis credenciales para acceder desde la app, ¿Qué puedo hacer?",
     "solucion": "Se recuerda que dispone de la posibilidad de acceder a su instalación escaneando el código QR que aparece en el menú 'Cloud' de su pantalla. Si su pantalla no dispone de esta opción puede borrar el usuario y generar uno nuevo en el mismo apartado anterior de su pantalla domótica. Esta opción no afectará a la configuración de su instalación domótica"
-   },
-   {
+  },
+  {
     "modelo": "Apps",
     "problema": "No me gusta el nombre de los iconos de mi instalación.",
     "solucion": "Podrá cambiar los nombres de los iconos en la opción de Cambiar etiquetas dentro del menú Visualización que se encuentra en el menú principal. Estos nombres se modificarán tanto en la app como en la pantalla de control de su instalación. Si no se actualizaran realizar una sincronización accediendo al menú Cloud de su pantalla."
-   }
+  },
+  {
+    "modelo":"Apps",
+    "problema":"No veo el mismo proyecto en la aplicación móvil que en la pantalla, ¿qué está ocurriendo? ",
+    "solucion":"Lo que ocurre es que el proyecto de la pantalla o el servidor web ha sido modificado y no se ha sincronizado el nuevo proyecto con la nube. "
+  },
+  {
+    "modelo":"Apps",
+    "problema":"¿Cómo se arma o desarma la alarma de intrusión desde la app?",
+    "solucion":"El estado de la alarma se puede consultar y cambiar desde la pantalla principal de la app. Para desarmar la alarma, se requiere el código asociado al usuario de la instalación."
+  },
+  {
+    "modelo":"Apps",
+    "problema":"¿Cómo desactivo la alarma desde la app de Ingenium?",
+    "solucion":"1- Abre la app de Ingenium en tu dispositivo móvil.    2-  En la pantalla principal de la app, localiza el icono de la alarma de intrusión en la parte inferior izquierda. Este icono puede aparecer como un candado.    3-  Pulsa sobre el icono del candado para mostrar el estado actual de la alarma.    4- Si la alarma está armada, pulsa nuevamente sobre el icono para desarmarla.  5-  Aparecerá una ventana solicitando el código PIN de la alarma. Introduce tu código PIN. El código por defecto es 1234 si no ha sido cambiado.    6- Pulsa el botón para confirmar. La app mostrará un mensaje confirmando que la alarma ha sido desactivada."
+  },
+  {
+    "modelo":"Apps",
+    "problema":"¿Cómo activo la alarma desde la app de Ingenium?",
+    "solucion":"1-Abre la app de Ingenium en tu dispositivo móvil.   2-En la pantalla principal de la app, localiza el icono de la alarma de intrusión en la parte inferior izquierda. Este icono puede aparecer como un candado.    3-Pulsa sobre el icono del candado para mostrar el estado actual de la alarma.    4-Si la alarma está desarmada, pulsa nuevamente sobre el icono para armarla.    5-La app mostrará un mensaje indicando que la alarma está siendo armada. El icono parpadeará en blanco y naranja durante el proceso de armado.    6-Una vez que la alarma se haya armado correctamente, el icono dejará de parpadear y mostrará el estado de alarma armada."
+  },
+
+
+
+
+  {
+   "modelo":"Otros",
+   "problema":" ¿Qué es BUSing®?",
+   "solucion":"BUSing® es un protocolo de comunicación utilizado en los productos de Ingenium para la automatización y control de edificios. Permite la interconexión de diferentes dispositivos y sistemas dentro de una instalación domótica."
+  },
+  {
+   "modelo":"Otros",
+   "problema":" ¿Qué es KNX?",
+   "solucion":"KNX es un protocolo de comunicación desarrollado para el control y la automatización de viviendas y edificios. Se trata de un sistema abierto, estandarizado a nivel internacional, europeo y nacional en numerosos países."
+  },
+  {
+   "modelo":"Otros",
+   "problema":"¿Qué es el Remote Desktop de Ingenium y cómo se usa?",
+   "solucion":"El Remote Desktop es un software que permite emular una pantalla VIIP en un servidor web, facilitando el control del sistema domótico BUSing® desde un PC. Se necesita conocer la IP del servidor web y estar conectado a la misma subred para utilizarlo."
+  },
+  {
+   "modelo":"Otros",
+   "problema":"¿Cómo se crea una cuenta en la nube en dispositivos Ingenium?",
+   "solucion":"Desde el menú de configuración de la pantalla, se puede crear una cuenta en la nube definiendo un nombre de usuario y una contraseña. Esto permite el control remoto de la instalación a través de las aplicaciones oficiales de Ingenium para iOS y Android."
+  },
+  {
+    "modelo":"Otros",
+    "problema":"¿Qué opciones de seguridad ofrecen los dispositivos Ingenium?",
+    "solucion":"Los dispositivos pueden ser bloqueados con un código de 4 dígitos y permiten configurar alarmas técnicas que se activan al sobrepasar ciertos límites establecidos."
+  },
+  {
+    "modelo":"Otros",
+    "problema":"¿Debo abrir puertos en mi router para disponer de control en remoto de la instalación? ",
+    "solucion":"No, no es necesario abrir ningún puerto del router, simplemente no se deben de tener bloqueadas las conexiones salientes. "
+  },
+  {
+    "modelo":"Otros",
+    "problema":"¿Podría disponer del control de la instalación desde mi ordenador?",
+    "solucion":"Sí, se puede controlar la instalación desde la extensión para Google Chrome desarrollada por Ingenium de la misma forma que se realiza desde una aplicación móvil. Para ello, se instala una extensión emuladora de Android como WRC Welder y se carga en ella el apk de la aplicación Ingenium aSC.  O bien, a través del 'Remote Desktop', software disponible en la pagina web de Ingenium SL"
+  },
+  {
+    "modelo":"Otros",
+    "problema":"¿Cómo se conecta un dispositivo Ingenium a una red Wi-Fi?",
+    "solucion":"Los dispositivos como la ST2 y VIIP pueden conectarse a una red Wi-Fi desde el menú de configuración, donde se introducen los parámetros de la red (SSID y contraseña) y se configuran opciones como DHCP."
+  },
+  {
+    "modelo":"Otros",
+    "problema":"¿Qué opciones de personalización ofrecen los productos de Ingenium?",
+    "solucion":"Los dispositivos Ingenium, como la ST2, permiten la personalización de la interfaz mediante temas, iconos y fondos. También es posible configurar accesos directos y atajos gestuales para facilitar el control."
+  },
+  {
+    "modelo": "Otros",
+    "problema": "¿Mi pantalla VIIP dispone de cámara?",
+    "solucion": "No, este orificio superior del marco de la pantalla se corresponde con el micrófono, ya que este dispositivo tiene la capacidad de comunicarse con la videoportería de su vivienda."
+  }
 ]
