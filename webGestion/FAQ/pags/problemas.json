@@ -34,12 +34,12 @@
     "problema": "¿Qué funciones adicionales ofrece la VIIP?",
     "solucion": "Permite la edición de escenas, control de alarmas técnicas, gestión de la alarma de intrusión, temporizaciones anuales, y puede actuar como videoportero."
    },
-   {
+  {
      "modelo": "Pantallas",
      "problema": "¿Qué es ETHBUS4?",
      "solucion": "Es un servidor web que permite el control remoto de la instalación BUSing desde aplicaciones móviles y navegador web. Incluye conectividad Wi-Fi y un puerto Ethernet RJ45."
     },
-    {
+  {
       "modelo": "Pantallas",
       "problema": "¿Qué funciones soporta ETHBUS4?",
       "solucion": "Soporta temporizaciones anuales, notificaciones push, IFTTT, y alarmas técnicas. Es compatible con Google Home y Alexa, y permite configuración como servidor Modbus."
@@ -65,8 +65,6 @@
       "solucion": "Permite configurar atajos para ejecutar escenas mediante un movimiento vertical sobre la pantalla en estado de espera."
     },
     
-
-
    {
     "modelo": "Pantallas",
     "problema": "Mi dispositivo no me permite crear un usuario",
@@ -87,7 +85,7 @@
   
    {
     "modelo": "Pantallas",
-    "problema": "¿Cómo sé si tengo mi dispositivo actualizado a la última versión? (Viip)",
+    "problema": "¿Cómo sé si tengo mi VIIP actualizada? ",
     "solucion": "Para comprobar si el equipo está actualizado a la última versión, ir al menú de ajustes y pulsar sobre la opción de Actualizar, si este se encuentra correctamente conectado a la red de Internet y posee la última versión, aparecerá el siguiente mensaje \"Su dispositivo ya tiene instalada la última versión\". Si no está actualizado  podrá descargar y actualizar la última versión disponible.  Recuerde que puede configurar actualizaciones automáticas en el menú General -> Actualizaciones automáticas."
    },
    {
@@ -109,8 +107,8 @@
   },
   {
     "modelo":"Pantallas",
-    "problema":"¿Cómo puedo disponer de la última versión del software de la pantalla? ",
-    "solucion":"En la serie VIIP puede descargar la última versión desde la opción correspondiente del menú de la propia pantalla o descargándola desde el software SiDE KNX a través de la conexión de red. La serie Smart Touch solamente puede actualizarse a través del SiDE KNX. El ETHBUS4-K puede ser actualizado accediendo al menú a través del software Remote Desktop o con el SiDE KNX. El SiDE KNX le mostrará un aviso si precisa descargar en su ordenador una nueva versión de los pantallas o servidores web y si estos necesitan ser actualizados. Se recomienda siempre disponer de la última versión de los equipos."
+    "problema":"¿Cómo puedo disponer de la última versión del software de la pantalla VIIP? ",
+    "solucion":"En la serie VIIP puede descargar la última versión desde la opción correspondiente del menú de la propia pantalla , para ello acceda a la menu correspondiente en el menu principal, si tiene alguna duda en la plataforma tiene un video que le puede servir como guia."
   },
   {
     "modelo":"Pantallas",
@@ -136,7 +134,7 @@
   {
     "modelo":"Pantallas",
     "problema":"Cómo realizo la sincronización de un nuevo proyecto con la nube para ver los cambios en las distintas aplicaciones? ",
-    "solucion":"En las pantallas táctiles VIIP y en la Smart Touch 2, la sincronización se realiza desde el menú del dispositivo, accediendo al mismo lugar en el que se creó el usuario y la contraseña y pulsando sobre la opción Sincronizar. En el ETHBUS-K es necesario acceder desde el navegador web o desde el software Remote Desktop para disponer de la posibilidad de llegar a dicha opción en el menú del dispositivo. "
+    "solucion":"En las pantallas táctiles VIIP y en la Smart Touch 2, la sincronización se realiza desde el menú del dispositivo, accediendo al mismo lugar en el que se creó el usuario y la contraseña y pulsando sobre la opción Sincronizar. En el ETHBUS es necesario acceder desde el navegador web o desde el software Remote Desktop para disponer de la posibilidad de llegar a dicha opción en el menú del dispositivo. "
   },
   
   {
