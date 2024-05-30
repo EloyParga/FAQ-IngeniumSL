@@ -2,6 +2,17 @@
 <html lang="es-es">
 
 <head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QJ1SMJ6BPN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QJ1SMJ6BPN');
+  </script>
+
   <!--Metadatos-->
   <meta charset="UTF-8">
   <meta name="author" content="Eloy Parga">
@@ -30,8 +41,9 @@
 <body>
   <header>
     <div class="languages">
-      <img id="logo-header" src="../../img/Logos-Icons/Logos/ingenium_horizontal_color_white.svg" alt="logo ingenium">
-    </div>
+      <a href="FAQ.html">
+        <img id="logo-header" src="../../img/Logos-Icons/Logos/ingenium_horizontal_color_white.svg" alt="logo_Ingenium">
+      </a>    </div>
     <div class="browser">
       <input onkeyup="filtrarVideos()" type="search" id="inputFilter" placeholder="Buscar...">
     </div>
@@ -222,8 +234,7 @@
             </div>
           </div>
           
-        <!-- If we need pagination 
-        <div class="swiper-pagination"></div>-->
+        
 
         
         </div>
@@ -387,18 +398,8 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   <script src="../scripts/swiper.js"></script>
 
-  <script>
-    const swiper = new Swiper('.swiper-container', {
-      direction: 'vertical',
-      loop: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
   
-  <script src="../scripts/cambiarHover.js"></script>
+  
   <script src="filtrado.js"></script>
 
 
