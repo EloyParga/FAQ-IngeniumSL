@@ -1,0 +1,622 @@
+{
+    "Manuales de Usuario":{
+        
+        "Smart Touch(ST2)":{
+            "DESCRIPCIÓN GENERAL": {
+                "Descripción": "La ST2 es una interfaz táctil vertical que permite el control y la monitorización de instalaciones BUSing, mediante una interfaz personalizada a través de iconos e imágenes alusivas sobre imágenes personalizables. Permite programar hasta 4 páginas, con 8 iconos en cada una de las páginas para el control de equipos BUSing integrable dentro de una instalación domótica."
+                
+            },
+            "CARACTERÍSTICAS GENERALES": {
+                
+                "WiFi":"Conectividad Wi-Fi con servidor web integrado para control local y/o remoto vía aplicaciones móviles para plataformas Android/iOS. Soporta las aplicaciones para control por voz de Alexa y Google Home.",
+                    
+                "Pantalla Principal": "Admite hasta 4 páginas de control. En la imagen de fondo, es posible emplear planos 3d, fotografías, etc.",
+
+                "Iconos":"Soporta hasta 8 iconos de control por página. En total, 32 iconos máximo para escenas, encendidos/apagados, regulaciones, persianas, termostatos, control RGB, etc.",
+
+                "Escenas":"Puede almacenar hasta 16 escenas programables desde el software SIDE. Las escenas son temporizables desde la propia pantalla a nivel de usuario",
+
+                "Sensor de Temperatura":"Incluye un sensor de temperatura interno para la gestión de un área de clima. Cuenta con opción de cronostermostato, que permite temporizar diferentes configuraciones para dicho termostato.",
+
+                "Temas":"Hasta 6 temas distintos, tres de ellos personalizables (iconos, fondo y apariencia de los menús). Es posible programar los cambios de interfaz entre los 6 temas según franjas horarios, alternando los temas incluidos en la pantalla",
+
+                "Tipos de Usuario":" Cuenta con dos niveles de modo usuario: administrador y usuario estándar. El modo administrador, permite proteger la utilización de la pantalla solo bajo contraseña.",
+
+                "Atajos":"Es posible configurar atajos, para ejecutar escenas con un movimiento vertical sobre la pantalla en estado de stand-by."
+
+            },
+            "ÁREA DE TRABAJO":{
+                "Introducción":"La interfaz ST2 cuenta con una zona central donde el usuario encuentra los iconos con los cuales controla todos los elementos de la instalación (luces, persianas, termostatos, etc. En la parte superior de la pantalla, una pestaña permite abrir el menú de opciones. Sólo un usuario Administrador puede tener acceso al menú de las opciones.",
+                "Iconos de control":{
+                    "Luces":"Encender/Apagar iluminación: este icono permite controlar la luz de la correspondiente habitación o zona simplemente presionando en él. El estado de la luz será permanentemente actualizado y la bombilla será conectada o desconectada de acuerdo con esta actualización.Cuando la bombilla esté rellenada de color, la luz estará encendida, y cuando esté vacía de color, la luz estará apagada",
+                    "Reguladores": "Presionando en el icono, aparece un diálogo de control y permite encender/apagar la luz o ajustar un nuevo valor de brillo deslizando el dedo. También es indicado gráficamente, así como numéricamente el valor la intensidad de luz.",
+                    "RGB LEDS":"Control de luces RGB: este icono representa el color actual de una luz LED RGB. Presionando en el icono, aparece un diálogo de control y permite seleccionar un color de una paleta y ajustar el valor de brillo deslizando el dedo. También es indicado gráficamente, así como numéricamente el valor (desde 0 hasta 255) del brillo y las intensidades de cada color. Presionar el botón de OK a la derecha para enviar una nueva configuración de color y brillo.",
+                    "Persianas": {
+                        "Persianas Genericas":"Presionando el icono, aparece un diálogo de control que permite configurar un nuevo valor de posición deslizando el dedo. También se indica gráficamente, así como numéricamente el valor (en porcentaje) de la posición actual.",
+                        "Persianas Venecianas":"La posición de las lamas también está representada por el ancho de los listones y puede ser orientado deslizando del dedo de izquierda a derecha (para cerrar) o de derecha a izquierda (para abrir). Cuando la posición de las lamas cambie, la posición vertical de la persiana cambiará también de acuerdo a los valores recibidos."
+                    },
+                    "Termostatos":{
+                        "Descripción":"Presionando en el icono de termostato, un diálogo de control aparece y permite encender/apagar el termostato (Cuando se presiona el botón de OFF -apagado-, las acciones de apagado son ejecutadas: la calefacción o el aire acondicionado se apagan dependiendo del estado actual) o configurar un nuevo ajuste de temperatura deslizando el dedo sobre la barra de desplazamiento circular (el comando se envía cuando se suelta). La temperatura registrada actual está también indicada en la esquina superior izquierda (de 0 a 51°C). Usando los iconos que hay debajo del punto de control de la barra de deslizamiento, es posible controlar otras características del termostato, como modos de funcionamiento. Presionar la flecha en la parte de abajo a la izquierda para volver a la ventana principal.",
+
+                        "Termostato Interno":"SI se utiliza el propio termostato interno de la pantalla, la temperatura debe ser calibrada por el instalador/integrador en condiciones de uso, es decir, teniendo en cuanta si se va utilizar o no la Wi-Fi interna del equipo, el nivel del brillo de la pantalla y su ubicación en la vivienda.",
+                        "Termostato Externo":"Si se utiliza termostato externo, este viene calibrado de fábrica y no se ve afectado por parámetros externos, salvo, posibles corrientes de aire en tabiquería interior de la vivienda o radiadores situados debajo del mismo",
+
+                        "Modos":{
+                            "Modo verano":"cuando la temperatura de consigna es más baja que la temperatura medida, el termostato se encenderá en el sistema de aire acondicionado.",
+                            "Modo invierno": "cuando la temperatura de consigna es mayor que la temperatura medida, el termostato encenderá el sistema de calefacción.",
+                            "Modo mixto":"activa el modo verano e invierno simultáneamente"
+                        }
+                    },
+                    "Calidad del aire":{
+                        "Descripción":"La ST2 dispone de visualización de las mediciones de calidad del aire con la integración vía Modbus de los equipos Hailin en BUSing. En el SiDE, se configura con la opción Air Quality disponible en Integraciones.",
+
+                        "Parametros":{
+                            "PM":"Materia particulada en µg/m3 ",
+                            "Temperatura":"Temperatura en ºC",
+                            "Humedad":"Humedad",
+                            "CO2":"cantidad de dióxido de carbono en el aire en Partículas Por Millón (PPM)",
+                            "VOC":"Compuestos Orgánicos Volátiles"
+                        },
+                        "Caracteristicas":{
+                            "Control sobre las medidas":"Esto es, cuando se configura y activa la ejecución de determinadas acciones al sobrepasar el nivel máximo o mínimo establecido, se mostrará un icono con a la izquierda del parámetro.",
+                            "Los valores supera el límite que hemos establecido":"la medida pasará a color Haciendo clic sobre el icono de la esquina inferior derecha, se accede a la configuración de los parámetros.",
+                            "Los valores NO supera el límite que hemos establecido":"se mostrará en la pantalla de mediciones el icono que indica que el control está activado y se ejecutarán las escenas según corresponda.",
+                            "valor":"En el campo “valor” se introduce el valor máximo (parte superior de la ventana) o mínimo (parte inferior) del parámetro correspondiente.",
+                            "La medida esté por encima del valor máximo o por debajo del mínimo":"se ejecutará la escena establecida en el campo “macro”."
+                        }
+                    },
+                    "Ventilación Forzada":"La ST2 dispone de la opción de control sobre la ventilación forzada.  De esta forma, puede realizarse el control sobre el sistema para forzar la entrada o salida del aire disponiendo de tres velocidades para cada una. Así mismo, se pueden establecer dos modos, el modo de demanda de calor y el de demanda de frío y una temporización para el filtro.",
+                    "Sonibus":"Es posible realizar el control del dispositivo SoniBUS desde la ST2. Desde la pantalla disponible para tal fin puede cambiase el canal (entre los cuatro disponibles) y variar el volumen.",
+                    "Escenas":{
+                        "Ejecucion de escenas":"los iconos vinculados a escenas (pueden emplearse distintos iconos) permiten ejecutar escenarios programados o eventos, esto quiere decir un grupo de acciones que son ejecutadas simultáneamente, por ejemplo, apagar todas las luces",
+                        "Escenas soportadas":"La ST2 soporta hasta 16 escenas distintas, programadas previamente en la pantalla por el integrador.",
+                        "Temporizacion de escenas":"Todas las escenas podrán ser temporizadas a nivel de usuario utilizando la interfaz táctil de la pantalla como se explica más adelante."
+                    }
+                },
+                "Menu de opciones":{
+                    "Descripción":"El menú de opciones permite configurar la apariencia, las temporizaciones o la configuración Wi-Fi del ST2 entre otras cosas. Si el menú está desbloqueado (modo administrador deshabilitado) cualquier tipo de usuario puede cambiar la configuración. En este caso, usar la barra en la parte superior de la ventana principal para deslizar hacia abajo el menú. Es posible bloquear este menú dependiendo de la programación del dispositivo, así solo podrá estar disponible para administradores. Si el menú está bloqueado, modo administrador habilitado, basta con presionar en el centro de la ventana principal durante 5 segundos aproximadamente y usar el teclado para introducir la contraseña de acceso de administrador definida en programación.",
+                    "Opciones":{
+                        "Tiempo":{
+                            "Descripción":"En esta primera opción de menú, es posible configurar la fecha y la hora de la pantalla, programar horarios (programación de eventos o macros para ser ejecutados automáticamente) o configurar cronotermostatos.",
+                            "Configuración":{
+                                "Configurar Fecha / Hora":"La fecha y la hora actual pueden ser configuradas manualmente con esta opción del menú. Fijar los valores deseados usando las flechas de izquierda y derecha para todos los campos como se muestra a continuación: Presionar la flecha la izquierda para volver a la ventana principal sin guardar los cambios de la fecha y la hora. Presionar OK en la derecha para aceptar la nueva configuración.",
+                                "Configurar Temporizaciones":{
+                                    "Descripción":"La ST2 puede ejecutar macros de forma automática, programadas por el usuario semanalmente usando este menú. Una macro es un evento o grupo de eventos que pueden ser ejecutados simultáneamente. Para poder programar una escena, este debe haber sido programada previamente por el integrador",
+                                    "Opciones":{
+                                        "Numero":"Indica el número de la temporización que se está configurando. Hasta 10 programaciones horarias disponibles.",
+                                        "Habilitar":"Seleccionar “si”, si quiere que la programación sea ejecutada. Seleccionar “no” si se desea que la temporización se inhabilite temporalmente.",
+                                        "Macro":"Permite seleccionar la escena que se desea temporizar. En el listado del siguiente apartado de este documento, figuran la lista de escenas disponibles.",
+                                        "Días":"En los guiones/letras horizontales, es posible activar/desactivar los días de la semana en los que el horario será ejecutado. Basta presionar en cada guion para activar el correspondiente día (guion=día desactivado/ inicial=día activado).",
+                                        "Hora y minuto":"Hora del día en el que la programación será ejecutada."
+                                    }
+                                },
+
+                                "Configurar Escenas/Macros":"Se pueden personalizar las escenas y macros a gusto del Usuario Final bajo pedido al Integrador, o a la persona encargada de su instalación.",
+
+                                "Configurar Cronotermostatos":{
+                                    "Descripción":"En el siguiente submenú, el cronotermostato puede ser definido por el usuario para temporizar configuraciones de funcionamiento del termostato interior, con un periodo semanal.",
+                                    "Opciones":{
+                                        "Numero":"Indica el número de la temporización que se está configurando. Hasta 10 programaciones horarias disponibles",
+                                        "Habilitar":"Seleccionar “si”, si quiere que la programación sea ejecutada. Seleccionar “no” si se desea que la temporización se inhabilite temporalmente.",
+                                        "Días":"En los guiones/letras horizontales, es posible activar/desactivar los días de la semana en los que el horario será ejecutado. Basta presionar en cada guión para activar el correspondiente día (guion=día desactivado/ inicial=día activado).",
+                                        "Hora y minuto":"Hora del día en el que la programación será ejecutada.",
+                                        "Modo":"Este es el modo al que el termostato cambia cuando la temporización es ejecutada. Este puede ser calor, frio, auto (mixto) o apagado.",
+                                        "Consigna":"Es la temperatura de consigna que se establece para esta programación del termostato."
+                                    }
+                                }
+                            }
+                        },
+                        "Wifi":{
+                            "Descripción":"La pantalla ST2 Plus incorpora conectividad Wi-Fi, la cual permite al usuario el control del sistema domótico de forma local y/o remota, a través de dispositivos iOS y Android. En la pantalla de configuración del WiFi, es posible desplazarse verticalmente para acceder a todos los parámetros programables en una conexión de este tipo. Todos los campos son editables pulsando sobre ellos y utilizando el teclado emergente, o empleando las flechas laterales que presentan",
+                            "AP (Modo punto de acceso)":"Si está configurada como “NO”, el dispositivo puede ser conectado a cualquier red WiFi disponible al alcance de la pantalla. Si está configurado como “SI”, el dispositivo trabaja como un punto de acceso creando su propia red WiFi a la que cualquier PC, Smartphone o Tablet puede conectarse en modo red local. La nueva red WiFi es generada por la pantalla ST2 con el nombre (SSID) y la contraseña configurada en este menú. Esta red no tiene acceso a internet, así que no es posible navegar por la web o controlar el resto de la instalación domótica desde fuera de la casa o instalación. El tipo de seguridad de la red generada es wpa y la contraseña debe contener al menos 8 caracteres.",
+                            "DHCP":{
+                                "Descripción":"Configure DHCP a “SI” cuando el dispositivo esté conectado a una red WiFi existente, y la asignación de configuración TCP/IP (Dirección IP, máscara de subred, y puerta de enlace) esté hecha por el router.",
+                                "Configuracion":{
+                                    "Configure DHCP a “NO”":"Configure DHCP a “NO” cuando quiera la configuración TCP/IP sea fijada y asignada manualmente.",
+                                    "Configure DHCP a “SI”":"Cuando dhcp esté configurada en “SI”, espere un minuto después de conectarse a la red para poder ver el ip asignado por el router."
+                                },
+                                "Caracteristicas":{
+                                    "Habilitar / Deshabilitar":"La conexión WiFi puede ser habilitada/deshabilitada presionando el botón de encendido/apagado de la parte superior izquierda de la pantalla.",
+                                    "Aceptar ajustes":"Presionar OK en la esquina inferior derecha para aceptar cada ajuste de configuración y crear una red.",
+                                    "Regresar a la ventana principal":"Presionar la flecha de la izquierda para regresar a la ventana principal sin guardar los cambios"
+                                }
+                            }
+                        },
+                        "Apariencia":{
+                            "Personalización":"El dispositivo ST2 incorpora 3 temas por defecto (predefinidos) para cambiar la apariencia de la pantalla con diferentes colores y estilos de iconos, pero también puede incorporar otros 3 temas que pueden ser personalizados mediante programación (preguntar al integrador de la instalación domótica para más información).",
+                            "Temporización de cambios de apariencia":{
+                                "Cambio de apariencia":"La pantalla puede mostrar un tema fijo o puede cambiar automáticamente a horas programadas. Para realizar esto, basta cambiar el modo apariencia a AUTO en la pestaña inferior derecha y seleccionar el momento del día en el que se desea el cambio. La pantalla ST2 mostrará los temas programados cada día a las horas configuradas para cada uno de ellos.",
+                                "Añadir tema":{
+                                    "Paso 1":"Para seleccionar un tema que se desee incluir en la secuencia de cambio automático, basta presionar en la esquina superior derecha del mismo hasta que aparezca marcado como se muestra en la imagen a continuación.",
+                                    "Paso 2":"Luego, pulsando sobre el tercio inferior de la imagen, donde se muestra el reloj para cada tema, es posible editar la hora a la que se activa el tema seleccionado. Basta con escribir la hora con el teclado, utilizando los dos puntos para separar la hora de los minutos",
+                                    "Paso 3":"Presionar OK en la esquina inferior derecha del teclado para aceptar los ajustes y regrese a la ventana principal guardando los cambios con el botón de la fecha"
+                                }
+                                
+                            }
+                        },
+                        "Cloud":{
+                            "Descripción":"Esta opción del menú permite crear una cuenta en la nube para controlar la instalación domótica a través de Internet, utilizando las aplicaciones oficiales de Ingenium para iOS y Android. Estas APPs son gratuitas y pueden encontrarse en las correspondientes tiendas de aplicaciones ",
+                            "Crear Usuario":{
+                                "Paso 1":"Presionar en “Nuevo Usuario”, y definir el nombre de usuario y la contraseña para la cuenta de la nube empleando el teclado emergente al pulsar sobre el campo a editar. Estos datos de usuario serán utilizados posteriormente en las aplicaciones de iOS y Android para añadir y controlar la instalación en modo remoto",
+                                "Paso 2":"Presionar “OK” para confirmar y comenzar el proceso de carga en el servidor de Ingenium. El dispositivo se reiniciará automáticamente después de esta operación, quedando la cuenta de usuario inmediatamente disponible para el control en remoto de la instalación",
+                                "Paso 3":"Ahora, los valores de nombre de usuario y contraseña pueden ser utilizados en las aplicaciones oficiales de Ingenium para iOS y Android para controlar la pantalla"
+                            },
+                            "Borrar / Modificar Usuario":"Una vez la cuenta de la nube se haya creado, el nombre de usuario y la identificación del dispositivo (id) se mostrarán aquí. Presionar “Borrar Usuario” para eliminar la cuenta del servidor de la nube o cambiar el nombre de usuario o contraseña.",
+                            "Actualizar Pantalla":{
+                                "Paso 1":"Una vez creado usuario en la nube será posible actualizar la pantalla desde el dispositivo móvil utilizando las aplicaciones oficiales de Ingenium para iOS y Android. La opción está disponible en el menú principal",
+                                "Paso 2":"Pedirá introducir la IP de la pantalla, dato que se puede visualizar en el menú “wifi” de la pantalla. Recordar que es necesario que el dispositivo móvil esté conectado a la misma red WiFi que la pantalla.",
+                                "Paso 3":"Tras introducir la IP, presionar “Actualizar pantalla”. La pantalla se reiniciará una vez haya finalizado el proceso de descarga de la actualización"
+                            }
+                        },
+                        "Seguridad":{
+                            "Descripción":"Aprovechando esta opción de menú, la pantalla ST2 puede ser bloqueada con un código de 4 dígitos para impedir su uso. Para ello, basta presionar en el botón correspondiente para habilitar o deshabilitar el bloqueo de la pantalla (este código se requerirá para cualquier cambio de esta función).",
+                            "Codigo":{
+                                "Por defecto":"El código por defecto es 1234",
+                                "Cambiar codigo":"El código puede ser cambiado presionando el correspondiente botón “cambiar contraseña”. En caso de cambiar el código por defecto, se debe asegurar de anotar el nuevo código, ya que no es posible restaurar el código por defecto."
+                            },
+                            "Modo bloqueo":{
+                                "Habilitado":"Si está habilitado el modo bloqueo, la pantalla pedirá el código cada vez que cambie de standby al modo activo.",
+                                "Deshabilitado":"Si el modo bloqueo está deshabilitado, la ST2 podrá ser utilizada por cualquier usuario simplemente presionando la pantalla, sin insertar ninguna contraseña."
+                            },
+                            "Alarmas tecnicas":"En esta pantalla de seguridad se mostrarán también las alarmas técnicas que se hayan activado en la instalación, con el nombre dado en la programación del SiDE.",
+                            "Armar intrusión":"En armar intrusión se podrá armar la alarma de intrusión siempre y cuando se haya programado desde el SiDE. Para ello, igual que al desarmar la misma, se deberá introducir el código de la pantalla, que será la misma que permite el bloqueo de la pantalla."
+                        },
+                        "Ajustes":{
+                            "Descripción":"En la pantalla de ajustes, es posible configurar parámetros relativos al brillo y al idioma de la pantalla.",
+                            "Brillo":{
+                                "Descripción":"Presionar la flecha a la izquierda para regresar a la ventana principal sin guardar los cambios. Presionar OK a la derecha para aceptar la nueva configuración.",
+                                "Parametros":{
+                                    "Activo":"Es el nivel de brillo cuando la pantalla está siendo usada. Ajustable entr 3-15",
+                                    "Reposo (Standby)":"es el nivel de brillo que se establece tras un periodo de tiempo sin actividad en la pantalla. Ajusta este valor de brillo de 0 (completamente apagado) a 15 (máximo) cuando la pantalla ST2 no está siendo utilizada",
+                                    "Tiempo":"Es el tiempo de espera de la pantalla para entrar en modo reposo (standby) desde la última pulsación registrada, se puede configurar ente 5-60 segundos"
+                                }
+                            },
+                            "Idioma":"Utilizando este menú, es posible cambiar el idioma de presentación de la pantalla ST2. Para consultar los diferentes idiomas disponibles, basa desplazarse lateramente empleando las flechas de izquierda y derecha. Presionar la flecha de la zona inferior izquierda para volver a la ventana principal y aceptar los cambios"
+                        }
+                    }
+                },
+                "Acciones por defecto":{
+                    "Control por gestos":"La ST2 permite ejecutar hasta 2 escenas/macros programadas mediante atajos gestuales. Cuando la pantalla está apagada o bloqueada es posible ejecutar algunas acciones sin necesidad de desbloquearla, sólo deslizando el dedo hacia arriba o hacia abajo. Las funciones disponibles pueden ser diferentes dependiendo de las necesidades del usuario y de la programación realizada. El integrador podrá vincular la ejecución de una escena al desplazamiento hacia arriba de un dedo sobre la pantalla, y otra escena al desplazamiento descendente en la misma área de la pantalla."
+                }
+            }
+        },
+        "App Android":{
+            "DESCRIPCIÓN GENERAL":"aSC Ingenium, es la aplicación diseñada por Ingenium para el control de las instalaciones BUSing® desde dispositivos Android. Esta aplicación requiere de un equipo ETHBUS4 o pantalla con servidor web integrado (VIIP o ST2) en la instalación, que permitirá la conexión desde el móvil, tanto en local como en remoto, de la instalación.    El proyecto deberá estar volcado en el servidor de Ingenium, desde donde se cargará la configuración de la instalación cuando el usuario quiera conectarse desde el exterior de la red local donde esté instalado el ETHBUS o pantalla. Cada usuario contará con un nombre y una contraseña asociados a su identificador del ETHBUS / Pantalla, que deberá introducir para poder acceder a la instalación a través de la app. De esta forma, una vez cargado el proyecto, la aplicación permitirá interactuar con el sistema mediante la interfaz táctil, permitiendo cambiar el plano que desea visualizar, accionar los componentes todo/nada mediante pulsaciones, regular luces, controlar termostatos, luminarias, entre otros.",
+            
+            "PANTALLA INICIAL":{
+                    "Descripción":"Desde la pantalla principal podrá añadir una nueva conexión bien mediante el icono central. Esto permitirá acceder a la pantalla de configuración de la conexión. La conexión puede realizarse tanto de forma local (en la misma red donde se encuentra el dispositivo ETHBUS, por ejemplo, en la red wifi doméstica del hogar) como de forma remota (a través de Internet cuando el usuario se encuentre en una red externa).",
+
+                    "Añadir nuevo proyecto":{
+                        "nombre de la instalación":"Se debe asignar un nombre descriptivo cualquiera a la conexión en el campo de la parte superior de la pantalla de configuración.",
+                        "tipos de conexión":{
+                            "conexión remota":"Si se va a requerir acceso remoto de la instalación, se deberá rellenar el usuario y contraseña con el que se registró el dispositivo en la nube y activar la conexión remota, con la barra deslizable situada a la izquierda. La opción seleccionada en la barra deslizable será la que se visualiza en color negro.",
+                            "conexion local": "En caso de realizar una conexión local, se debe mover la barra deslizable hacia la derecha, de forma que se visualice Local en negro. A continuación, se debe introducir la dirección IP del dispositivo en el campo marcado como IP. Para acceder en este modo, el dispositivo móvil debe estar conectado en la misma red wifi que la pantalla o servidor web. Pulse Guardar (botón situado en la esquina superior derecha) y ya tendrá configurada la conexión.    Nota: no se puede acceder desde fuera de la vivienda teniendo activada la opción de conexión local con la ip introducida",
+                            "conexion IOT":""
+                        },
+                        "configurar Dispositivos Wifi":{
+    
+                        },
+                        "Termowifi":{
+    
+                        },
+                        "Guardar": "Pulse Guardar y ya tendrá configurada la conexión. "
+                    },
+                    "Proyectos cargados":{
+                        "descripción":"Tras crear con éxito una primera conexión, aparecerá la instalacion en pantalla. Una vez se acceda a la instalación, en la zona central se podrá navegar entre los diferentes proyectos o instalaciones disponibles que hayan sido configurados. Para desplazarnos por ellos, se debe colocar el dedo encima de los planos en miniatura, manteniendo pulsado y arrastrando hasta encontrar el proyecto que se desee controlar.",
+    
+                        "editar":{
+                            "descripción":"El icono ubicado en la parte inferior derecha de la imagen (en la misma línea que el nombre de la conexión, en este caso PPL) permite acceder a la pantalla de edición, muy similar a la de configuración de la conexión. Con la salvedad de que, en este caso, al tener la instalación ya añadida, también se permite eliminar la conexión.",
+    
+                            "opciones":{
+                                "nombre":"Nombre de la instalación",
+                                "Carga del proyecto":"se accede al proyecto pulsando sobre cualquier parte del recuadro de la instalación",
+                                "Configuración de la instalación":"acceso a edición de nombre, usuario, contraseña, IP local y el borrado del proyecto de la app"
+                            }
+                        }
+    
+                        
+                    },
+                    "Notificaciones 'Push'":{
+                        "descripción":"Las notificaciones tipo “push” son aquellas que aparecen directamente en la barra de notificaciones de su dispositivo y que permiten notificarle en tiempo real sobre nuevas funcionalidades, noticias, así como avisos de alarmas técnicas según se generen en la instalación. Mediante el icono ubicado en la parte inferior izquierda es posible acceder a un historial de las últimas notificaciones recibidas.",
+    
+                        "configuracion de notificaciones":"Para poder visualizar las notificaciones de Ingenium, deben ser activadas desde los ajustes del dispositivo móvil. Dentro de ajustes, se debe entrar en la opción Sonidos y notificaciones. A continuación, se pulsa sobre Notificaciones de aplicación, desde donde se accederá a una lista en la que aparecerá Ingenium aSC y se debe seleccionar"
+                    },
+    
+                    "Alarma de intrusión":{
+                        "descripción":"En la pantalla principal de la app de Ingenium, en la parte inferior izquierda, se encuentra un icono con el texto intrusión. Éste, sirve para consultar el estado de la alarma de intrusión y realizar el armado o desarmado de la misma. Inicialmente se mostrará en color grisáceo, por lo que la primera vez que se pulse encima del icono se devolverá el estado de la alarma. Una vez que se sabe el estado en el que se encuentra dicha alarma, al realizar una nueva pulsación se cambiará el estado de la alarma de intrusión. Es decir, si la alarma de intrusión estaba armada, se desarmará y si se encontraba desarmada se procederá a armar.Además, esta alarma también puede ser armada / desarmada desde el menú rápido disponible en la pantalla principal, una vez dentro de la instalación.Cabe destacar, que para realizar el desarmado de la alarma de intrusión desde un móvil Android, este debe tener el desbloqueo del móvil con huella o pin activado, ya que será lo requerido para realizar el desarmado. En caso de no disponer de ningún tipo de seguridad de desbloqueo, no es posible desarmar la alarma desde el dispositivo móvil. Para realizar el desarmado de la alarma, tanto desde el menú principal como desde el icono del menú de dentro de la aplicación, se pedirá el código asociado al usuario de la instalación. ",
+    
+                        "instalacion BUSing":" En el caso de una instalación BUSing, se debe tener en cuenta que para poder realizar el armado/desarmado de la instalación, debe haber una central de alarmas (Kctr, KA), que pueda contar el tiempo de armado/desarmado. En caso de no haber Kctr/KA e intentar armar la intrusión, se devolverá un mensaje de que ha sido imposible conectar con la Kctr."
+                    }
+            },
+            "TIPOS DE CONEXIÓN":{
+                    "Conexión Remota":{
+                        "descripción":"1. El usuario debe conocer el usuario y contraseña que le permitirán el acceso a través de dicho servidor. Estos valores fueron definidos durante el proceso de carga del proyecto desde la pantalla/servidor web al servidor de Ingenium.    2. Situarse sobre el plano en miniatura identificativo de la instalación a la que deseamos acceder.   3. Pulsar sobre dicho plano para acceder a la instalación. Si es la primera vez que se accede, se descargará el proyecto sincronizado previamente en la nube de Ingenium y se conectará a la instalación. En el caso de ya tener el proyecto descargado con anterioridad, pero se han realizado cambios en la pantalla/ethbus (se han añadido escenas, iconos…), se debe sincronizar el proyecto para descargar la última versión. Este paso se explicará más adelante."
+                    },
+                    "Conexión Local":{
+                        "descripción":"1. El dispositivo Android desde el que se desea acceder debe estar conectado a la misma red wifi a la que se encuentra el dispositivo ETHBUS o pantalla (PPL o Smart Touch) con el que se desea conectar.    2. Se debe introducir la dirección IP del dispositivo en el campo de texto de la configuración del proyecto, así como marcar la etiqueta que activa la conexión local. Se pulsa guardar para volver a la página principal. En este caso, no es necesario usuario y contraseña. 3. Pulsar sobre el plano en miniatura de la página principal de la app. Si es la primera que se realiza la conexión, se conectará y descargará automáticamente la versión."
+                    }
+            },
+    
+            "PANTALLA DE CONTROL":{
+                    "Descripción":"Una vez haya cargado el proyecto y se haya conectado a su instalación se mostrará la ventana principal de control, donde podrá desplazarse entre los planos que tenga configurados en su proyecto y controlar los dispositivos de la instalación. Dependiendo del dispositivo instalado, la visualización puede variar",
+    
+                    "Control de actuadores":{
+                        "Modo Normal":"Para activar o desactivar una salida pulse sobre el icono que desea controlar. Verá que el icono cambia al estado contrario.",
+    
+                        "Modo Persiana":"Al pulsar sobre un actuador en modo persiana, se mostrará una barra de slider en la parte inferior. Desplácela hacia derecha/izquierda hasta el nivel de apertura deseado. Además, el boton de activación de la parte derecha permiten una apertura o cierre total de la persiana, es decir, situar la persiana en el 100 % o 0 %"
+                    },
+    
+                    "Control de reguladores":{
+    
+                        "funcionamiento":"Al pulsar sobre un icono asociado a una salida de un regulador, se mostrará una barra de desplazamiento en la parte inferior, pudiendo desplazarse a izquierda o derecha para subir o bajar, respectivamente, el nivel de regulación, alcanzando así el nivel de intensidad deseado. Además, dispone de una barra deslizable en la parte derecha para simplemente encender al 100% o apagar la luz. Para ocultar la barra pulse en cualquier lugar del plano."
+                    },
+    
+                    "Control de termostatos":{
+    
+                        "funcionamiento":"Al pulsar sobre un componente asociado a un termostato, se visualizará de la forma a las siguientes imágenes. En la parte superior izquierda se mostrará el nombre del termostato, y en la parte derecha una barra deslizante para encender o apagar el termostato. Además, en el centro se muestra un scroll con la temperatura de consigna deseada, y justo debajo un icono de termostato junto con la temperatura ambiente medida. Por otro lado, en la parte inferior se encuentran tres iconos para la selección de modo correspondiente del termostato: frío, calor o mixto.",
+    
+                        "Tipos de demanda":{
+    
+                            "descripción":"Además, mediante un juego de colores se podrá saber la demanda que hay en cada momento. ",
+                            "Casos":{
+                                "Modo Frío y demanda de Frío":"Con temperatura de consigna inferior a la medida.  Pantalla en azul, que indica que el aire acondicionado/frío refrescante está activado.",
+                                "Modo Frío y demanda de Calor":"Con temperatura de consigna superior a la temperatura de ambiente medida. Pantalla en gris, ya que la temperatura de consigna es superior a la medida, y no está activado el clima",
+                                "Modo Calor y demanda de Calor":"Con temperatura de consigna superior a la temperatura de ambiente medida.  Pantalla en rojo, que indica que la calefacción está activada.",
+                                "Modo Calor y demanda de Frío":" Con temperatura de consigna inferior a la temperatura de ambiente medida. Pantalla en gris, ya que la temperatura de consigna es menor a la medida, y no está activado el clima",
+                                "Modo Mixto y demanda de Calor":"Con temperatura de consigna superior a la temperatura de ambiente medida.  Pantalla en rojo que indica que el sistema de calefacción está activado.",
+                                "Modo Mixto y demanda de Frío":"Con temperatura de consigna inferior a la temperatura de ambiente medida. Pantalla en rojo que indica que el sistema de calefacción está activado"
+                            }
+                        }
+    
+                    },
+    
+                    "Control de MeterBUS":{
+                        "Descripción":"Al pulsar sobre una componente asociada a un dispositivo MeterBus se muestra la siguiente pantalla. En cada canal se puede visualizar el consumo, y, además, pulsando sobre la flecha de la parte derecha se desplegará una nueva fila para seleccionar el umbral que no se desea superar para       cada canal.",
+    
+                        "Umbral Máximo":"En la fila umbral es posible configurar el umbral máximo de potencia permitida para cada uno de los canales del MeterBus.  El umbral puede ser modificado pulsando sobre los botones '+' o '-' relativos a cada canal, o bien pulsando encima del valor y escribiendo el valor deseado.",
+    
+                        "Grafica de consumo":"Para poder visualizar una gráfica con el consumo acumulado de la última semana debe pulsar el botón. Situado arriba a la derecha 'Mostrar gráfica semanal de consumo'"
+                    }
+            },
+            "MENÚ DEL SISTEMA":{
+                    "Como Acceder":{
+                        "Smarth Touch":"En el caso de la pantalla Smart Touch, el acceso al menú se realiza pulsando en la línea horizontal situada en el centro de la parte superior",
+    
+                        "VIIP / ETHBUS":"Pulsando sobre el icono de la esquina superior izquierda de la pantalla principal del proyecto, usted podrá acceder al menú del sistema, que le permitirá seleccionar una escena, crear escenas de usuario o temporizaciones, mostrar u ocultar las etiquetas, realizar la sincronización del proyecto, configurar dicha instalación con acceso instantáneo o salir de la conexión a la pantalla principal de la aplicación. Además, en la parte inferior de la vista de la pantalla principal, hay una flecha apuntando hacia arriba, que al pulsar sobre ella se despliega también un menú con acceso directo a las principales opciones: escenas, escenas de usuario, temporizaciones, intrusión y notificaciones."
+                    },
+
+                    "Escenas":{
+                        "Funcionamiento":"Para acceder al menú de escenas, se puede acceder bien a través del menú que aparece al pulsar en la parte superior izquierda, o bien a través del acceso rápido de la parte inferior.Podrá ejecutar cualquier escena que haya configurado previamente en el proyecto BUSing®, basta con pulsar sobre aquella escena que desee ejecutar.",
+    
+                        "Crear y Eliminar": "Estas escenas solo pueden ser modificadas y/o eliminadas por programación a través del SIDE."
+                    },
+    
+                    "Escenas de usuario":{
+                        "Descripción":"Se podrán configurar las escenas que se desee para cualquier proyecto al entrar en el apartado de Escenas de usuario del menú de la instalación. Esta opción solo está disponible en pantallas VIIP o servidores web Ethbus4.",
+    
+                        "Funcionamiento":{
+                            "Crear Escena":"Una vez que se haya accedido al menú de escenas de usuario, bien a través del acceso directo de la pantalla principal de la instalación o a travs del Menú. Deberemos pulsar el botón '+' situado en la esquina superior derecha para crear nuevas escenas. Tras pulsar este boton aparecerá una ventana emergente en pantalla, donde se podrá elegir el nombre que desea para su escena de usuario (, se tiene que establecer previamente la situación en la que se quiere que estén los diferentes controles a incluir. Es decir, si por ejemplo se quiere grabar una escena con todas las persianas subidas, se debe primero llevar las persianas a la posición más alta en la vivienda y a continuación, incluir los iconos correspondientes con dicho estado en la escena de usuario.) A continuación, se tiene que mantener pulsados los iconos disponibles, en la parte izquierda, para que se incorporaren a la nueva escena, en la parte derecha. En la siguiente imagen se puede ver que están añadidos a la escena: una persiana al 10% y una luz encendida.    Una vez añadidos los iconos que se deseen incluir en la escena, se debe pulsar en la flecha superior izquierda para volver al menú principal. Una vez añadidas las escenas de usuario deseadas se debe volver a la pantalla principal para que la pantalla sincronice los cambios en la nube. Mientras está sincronizando, aparecerá un mensaje en pantalla, y al finalizar la sincronización se podrá ver Éxito .",
+    
+                            "Borrar Escena":"Para borrar una escena de usuario se debe acceder a la lista de las Escenas creadas, mantener pulsado sobre el nombre de la escena a borrar y aparecerá un cuadro con un mensaje para confirmar su borrado "
+                        }
+    
+                    }, 
+    
+                    "Temporizaciones":{
+                        "Descripción":"Se podrán configurar temporizaciones de ejecución de escenas de usuario. Una vez se hayan configurado las diferentes escenas, se podrán programar para su ejecución en una fecha y hora concretas, de manera puntual o periódica.",
+    
+                        "Crear Temporización":"En primer lugar accederomos a la opcion de Temporizaciones, bien desde la barra inferior de la pantalla principar o bien desde el Menú del sistema. Una vez en Temporizaciones se presionara el botón '+' situado arriba a la derecha para crear una temporizacion, en pantalla saldra una ventana emergente que le permitara seleccionar la escena que desea temporizar, esta escena se añadira a la lista de temporizaciones para que usted pueda configurarla. Para ello se debe seleccionar la escena que se desea programar y a continuación indicar a qué hora se quiere que se ejecute. Se pulsa en el día que se quiere añadir y aparecerá una pantalla emergente, donde se tiene que indicar si la escena se tiene que ejecutar de forma puntual o periódica.Una vez creadas las temporizaciones deseadas se debe volver a la pantalla principal para que la pantalla sincronice los cambios en la nube. Mientras está sincronizando aparecerá un mensaje en pantalla, y al finalizar la sincronización se podrá ver Éxito. Además se puede activar o desactivar cualquier temporización programada, simplemente activando el tic de la parte derecha."
+                        
+                    },
+    
+                    "Etiquetas (ON / OFF)":{
+                        "funcionamiento":"La modificación de este apartado permite visualizar o no los textos identificativos asociados a cada icono en los planos de la instalación. De esta forma, se podrán mostrar u ocultar en función de los intereses del usuario. Para modificar el estado de etiquetas, basta con pulsar sobre el texto del menú y automáticamente cambiará el texto entre paréntesis. Las etiquetas que se muestran sobre fondo azul, cuentan con texto blanco si se tratan de controles punto a punto o texto amarillo si es una escena lo que está asociado al icono."
+                    },
+    
+                    "Sincronizar":{
+                        "Descripción":"Esta opción solo es necesaria cuando se realiza algún cambio en el proyecto volcado a la pantalla: cambios en los iconos, cambios en escenas del SIDE, iconos añadidos…",
+    
+                        "Funcionamiento":"La primera vez que se añade la instalación en la app y se pulsa en el plano pequeño de la página principal, se conecta con la instalación y se descarga el proyecto que hay en la nube sincronizado. En caso de posteriores cambios reprogramaciones de la pantalla, se debe sincronizar ésta con el servidor de Ingenium. A continuación, se debe entrar en la instalación a través de la app, y dentro del menú se debe pulsar en la opción de sincronizar, de manera que se descargue la última versión del proyecto disponible. Este proceso, se realizará en la pantalla principal del proyecto."
+                    },
+    
+                    "Acceso Instantáneo":{
+                        "Descripción":"La opción de acceso instantáneo permite acceder a la instalación automáticamente al abrir la app de Ingenium. En caso de tener más de una instalación dada de alta, solo se podrá activar la opción de Acceso instantáneo en una de ellas."
+                    },
+    
+                    "Salir":{
+                        "Descripción":"Esta opción de menú permite abandonar la instalación y volver a la pantalla principal."
+                    }
+            }
+            
+        },
+        "APP IOS":{
+            "DESCRIPCIÓN GENERAL":{
+                "Descripción":"iSC Ingenium, es la aplicación diseñada por Ingenium para el control de las instalaciones BUSing® desde dispositivos iOS.Esta aplicación requiere de un equipo ETHBUS4 o pantalla con servidor web integrado (VIIP o ST2) en la instalación, que permitirá la conexión desde el móvil, tanto en local como en remoto, de la instalación.    El proyecto deberá estar volcado en el servidor de Ingenium, desde donde se cargará la configuración de la instalación cuando el usuario quiera conectarse desde el exterior de la red local donde esté instalado el ETHBUS o pantalla. Cada usuario contará con un nombre y una contraseña asociados a su identificador del ETHBUS / Pantalla, que deberá introducir para poder acceder a la instalación a través de la app. De esta forma, una vez cargado el proyecto, la aplicación permitirá interactuar con el sistema mediante la interfaz táctil, permitiendo cambiar el plano que desea visualizar, accionar los componentes todo/nada mediante pulsaciones, regular luces, controlar termostatos, luminarias, entre otros."
+            },
+            "PANTALLA INICIAL":{
+                "Descripción":"Desde la pantalla principal podrá añadir una nueva conexión bien mediante el icono central. Esto permitirá acceder a la pantalla de configuración de la conexión. La conexión puede realizarse tanto de forma local (en la misma red donde se encuentra el dispositivo ETHBUS, por ejemplo, en la red wifi doméstica del hogar) como de forma remota (a través de Internet cuando el usuario se encuentre en una red externa).",
+                "Añadir nuevo proyecto":{
+                    "Configuracion":"Para añadir un nuevo proyecto, basta con presionar el '+' situado en el centro de la pantalla, esto nos abrira la ventana para añadir y configurar el proyecto, en esta ventana hay diferentes campos que debemos rellenar. Además del nombre identificativo, el usuario y la contraseña, también se puede definir si se desea conexión local o remota.",
+
+                    "Nombre":"Se debe asignar un nombre de la instalación descriptivo cualquiera a la conexión en el campo de la parte superior de la pantalla de configuración.",
+
+                    "Tipos de conexión":{
+                        "conexión local":"En caso de escoger la conexión local, se debe introducir la dirección IP asignada al ETHBUS dentro de la red local y el móvil estar conectado a la misma red wifi que la pantalla/ethbus.",
+                        "conexion nube": "Si se va a requerir acceso remoto de la instalación, se deberá rellenar el usuario y contraseña con el que se registró el dispositivo en la nube y activar la conexión Nube"
+                    }
+
+                },
+                "Proyectos cargados":{
+                    "descripción":"Como se ha mencionado anteriormente, en la pantalla inicial disponemos de una zona central con todos los proyectos disponibles que hayan sido configurados con anterioridad. Para desplazarnos por ellos, basta con desplazar el dedo por encima de los planos en miniatura, manteniendo pulsado y arrastrando, hasta encontrar el proyecto que deseemos controlar. Para acceder a las opciones de cada proyecto, basta con hacer una pulsación sobre el icono del engranaje ,sitado en la parte inferior a la derecha. Para cualquier proyecto guardado en la App tenemos varias opciones. ",
+
+                    "opciones":{
+                        "Nombre":"Nombre de la Instalación",
+                        "Configuración de la instalación":"(Acceso a edición de nombre, usuario, contraseña, IP local y el borrado del proyecto de la APP",
+                        "Conectar":"sincronizar componentes: iconos, estado de equipos, etc."
+                    }
+                },
+                
+                "Notificaciones 'Push'":{
+                    "descripción":"Las notificaciones tipo “push” son aquellas que aparecen directamente en la barra de notificaciones de su dispositivo y que permiten notificarle en tiempo real sobre nuevos avisos de alarmas técnicas según se generen en la instalación.",
+
+                    "configuración":"Para poder visualizar las notificaciones de Ingenium deben ser activadas desde los ajustes del dispositivo.  De esta manera, deberá dirigirse al apartado “Centro de notificaciones”. Una vez en esta sección, se deberá acceder a “Ingenium iSC”, dentro del apartado “Incluir”. Y, por último, se deberá seleccionar el estilo de las alertas preferido por el usuario y marcar la casilla “Ver en el centro de notificaciones”"
+                },
+                "Alarma de intrusión":{
+                    
+                    "armado / desarmado":"En la pantalla principal de la app de Ingenium, en la parte inferior izquierda, se encuentra un icono de un candado. Éste, sirve para consultar el estado de la alarma de intrusión y realizar el armado o desarmado. Inicialmente se mostrará en color grisáceo, por lo que la primera vez que se pulse encima del icono se devolverá el estado de la alarma. Una vez que se sabe el estado en el que se encuentra dicha alarma, al realizar una nueva pulsación se cambiará el estado de la alarma de intrusión. Es decir, si la alarma de intrusión estaba armada, se desarmará y si se encontraba desarmada se procederá a armar. Se debe tener en cuenta que para poder realizar el armado/desarmado de la instalación, debe haber una central de alarmas en la instalación que pueda contar el tiempo de armado/desarmado"
+                }
+
+            },
+            "TIPOS DE CONEXIÓN":{
+
+            },
+            "PANTALLA DE CONTROL":{
+
+            },
+            "MENÚ DEL SISTEMA":{
+
+            }
+        },
+        "VIIP / ETHBUS":{
+            "DESCRIPCIÓN GENERAL":{
+                "VIIP":"La pantalla VIIP es una pantalla capacitiva táctil a color, disponible en tamaño de 7.1” y 10.1”, que permite la monitorización y el control del sistema domótico BUSing® de forma rápida e intuitiva gracias a iconos sobre planos 3D a color, fotografías o estancias.Cuenta con conexión Wi-Fi configurable, lo que permite su conexión a la red para diferentes funcionalidades como actualizar su versión software de forma inmediata. También puede funcionar en modo punto de acceso (AP), para generar una red Wi-Fi de forma autónoma, a la que se conecten otros dispositivos de control de forma local (PCs, Tablets y/o Smartphones).     La pantalla táctil cuenta con visualización por estancias o por planos, servidor web integrado para iOS/Android, integración nativa en protocolos ZWave, Zigbee/CHIP/Matter, KNX, BUSing, etc. Soporte IFTTT y MQTT Broker, posibilidad de configuración como cliente o servidor Modbus y programación Python.Incorpora la opción de edición de escenas, permitiendo añadir nuevos eventos a la instalación (además de los incluidos en el SIDE) aprovechando el estado de los nodos asociados a los iconos en los distintos planos de la instalación. Además, permite el control de las alarmas técnicas de la instalación como inundación, gas, incendio, etc., la gestión de la alarma de intrusión en una zona mediante código numérico de 4 dígitos, programación de temporizaciones anuales, pizarra gráfica de notas, etc. VIIP permite que la pantalla actúe también como videoportero, ofreciendo desvío de llamadas cuando se conecta a una red con una unidad exterior SIP de terceros",
+
+                "ETHBUS4":"Servidor web que permite el control remoto de la instalación BUSing® desde las aplicaciones gratuitas de Ingenium para iOS o Android y desde navegador web. Este servidor web incluye conectividad Wi-Fi y un puerto Ethernet RJ45. Es posible visualizar proyectos BUSing® por planos (configurados en la herramienta SIDE) o por estancias (imágenes, etiquetas, iconos, etc. totalmente configurables por el usuario mediante nuestras APPs de iOS / Android). También cuenta con soporte para temporizaciones anuales, IFTTT, alarmas técnicas y notificaciones push. Es compatible con Google Home y Alexa. Incluye la posibilidad de configuración como servidor Modbus.",
+
+                "ETHBUS-IoT":"Nodo IoT con servidor web integrado que permite el control remoto de la instalación BUSing® desde las aplicaciones gratuitas de Ingenium para iOS o Android y desde navegador web, además de incluir soporte para comunicaciones SIP, que permite actuar como servidor de videoportero ofreciendo desvío de llamadas cuando se conecta a una red con una unidad exterior SIP de terceros. Este servidor web incluye conectividad Wi-Fi y un puerto Ethernet RJ45. Es posible visualizar proyectos BUSing por planos (configurados en la herramienta SIDE) o por estancias (imágenes, etiquetas, iconos, etc. totalmente configurables por el usuario desde APPs de iOS / Android).Soporte para temporizaciones anuales, alarmas técnicas y notificaciones push. Así como para IFTTT, y Broker MQTT. Incluye la posibilidad de configuración como cliente o servidor Modbus.   Se incluye soporte para integración nativa con dispositivos de otros protocolos como ZWave, Zigbee/CHIP/Matter, etc.  Es compatible con Google Home y Alexa. Para usuarios avanzados, ofrece posibilidad de programación de scripting en lenguaje Phyton."
+            },
+            "REMOTE DESKTOP":{
+                "Descripción":"Para poder controlar los dispositivos del sistema domótico BUSing® instalado cuando se disponga de un servidor web en lugar de una pantalla se podrán utilizar las aplicaciones gratuitas de Ingenium para iOS o Android o el navegador web. Existe una última opción que permite manejar el servidor web como una pantalla VIIP. Esto es posible usando el software Remote Desktop. Este programa permite emular un servidor web como una pantalla VIIP. Está disponible para su descarga en la página web de Ingenium. Para poder realizar dicha emulación es necesario conocer la IP del servidor web y tener el PC conectado a la misma subred. La IP por defecto es: 192.168.1.6 Se puede consultar la IP del servidor web utilizando el software Ingenium Tracker, disponible en la web de Ingenium. Una vez conocida la IP se introducirá en el apartado de: IP to connect y se pulsará el botón Connect. Tras realizar los pasos anteriores y con la pantalla VIIP emulada disponible en el software de Remote Desktop se podrá utilizar este manual como guía para la monitorización y el control del sistema domótico BUSing® instalado.  Durante todo el documento se hará referencia a una pantalla VIIP siendo extrapolable a un servidor web al tener ambos dispositivos programación equivalente. En los casos en los que difiera se indicará la variación en el apartado correspondiente."
+            },
+
+            "VIDEOS DE AYUDA":{
+                "Descripción":"Existe la posibilidad de acceder a una biblioteca de videos de ayuda que se pueden visualizar desde el mismo videoportero con cuestiones generales y consultas frecuentes. Para acceder a ella se pulsa en la pestaña: 'Acerca de', dentro del menú de ajustes, y se pulsa sobre la opción: 'Vídeo ayuda'.   Se pulsa sobre la opción a revisar, y abrirá una ventana con los videos que integran esa categoría.   Pulsando sobre el vídeo que se quiera visualizar se abre una ventana y el video comienza a reproducirse automáticamente. Para poder actuar sobre él (pausar, reanudar, adelantar, atrasar, o cerrar ventana) se pulsa en la pantalla y saldrán los iconos para ejecutar dichas acciones."
+            },
+            "FUNCIONAMIENTO":{
+                "Tipo de visualización":{
+                    "Descripción":"Existen 2 modos de visualización (modo planos y modo estancias) que se explicarán a continuación con más detalle.  Para cambiar a la vista entre planos y estancias se accede al menú:        Ajustes → General → Tipo de visualización.",
+
+                    "Vista por planos":{
+                        "Descripción":"Esta pantalla está compuesta por los planos del proyecto e iconos. Los iconos se corresponden con los dispositivos (o las salidas de los dispositivos) de la instalación domótica y permiten la monitorización y el control de los equipos.    Para acceder al menú aparecerá una ventana inferior que será visible al deslizar hacia arriba desde la parte inferior de la pantalla principal. Se desplegará el menú de configuración donde se pueden acceder a las escenas, temporizaciones, alarmas, llamadas y a los ajustes de la pantalla.        Además de los planos y los iconos, el nivel de la señal Wi-Fi de la red a la que está conectado se muestra de forma permanente en la esquina superior derecha.   También aparecen en la zona superior derecha los iconos de alarma de intrusión armada, sincronización y notificaciones.   Por otro lado, en la esquina superior izquierda aparece el icono para acceder a una vista general de los planos del proyecto. Y el número de plano que estamos visualizando.  En este menú se puede cambiar el nombre de los planos con una pulsación larga sobre el que se quiera cambiar o acceder rápidamente al plano que se quiera pulsando sobre el correspondiente.",
+
+                        "Navegación entre planos":"Si el proyecto dispone de más de un plano, se puede cambiar entre ellos simplemente arrastrando un dedo a izquierda o derecha, dependiendo del plano que se desea visualizar.       Si se arrastra de derecha a izquierda se cambiará al siguiente plano.   Deslizando de izquierda a derecha la pantalla mostrará el plano anterior.     Por otro lado, se puede acceder a la vista general de los planos existentes pulsando el botón",
+
+                        "Iconos e Interfaces":{
+                            "Bombillas":" Para encender o apagar independientemente cualquiera de los puntos de encendido basta con hacer un simple clic sobre la bombilla dibujada en el plano. Cuando la bombilla está de color amarillo la luz está encendida y por el contrario cuando la bombilla está gris la luz está apagada.   Una vez pulsado el sistema enviará la orden pertinente y el estado de las componentes asociadas a la misma salida cambiará.",
+
+                            "Persianas":"Los iconos de persianas ubicados en los planos indicarán el nivel del estado de la persiana tanto gráficamente como numéricamente.     Una vez que se pulse en el icono de la persiana que interese, se desplegará una ventana con el estado de la persiana y el valor en %.   Existen dos modos de visualización de persianas que varían el modo de actuación sobre ellas. Por defecto estará configurado el control específico, para cambiar de modo presionar sobre la flecha al lado del nombre de la persiana.    Seleccionar Control sin porcentaje para cambiar de modo.    Los dos modos de actuación son los siguientes:              1.Control específico: Es posible escoger un valor determinado deslizando el dedo sobre la persiana o realizando una pulsación sobre el nivel deseado.       2.Control visual: Realizando una pulsación corta en las flechas de subida y de bajada la persiana realizará un pequeño recorrido de subida o bajada. Realizando una pulsación larga en esos mismos iconos la persiana comenzará a moverse. La persiana dejará de moverse cuando se presione el icono de pausa o cuando se cierre o abra la persiana por completo.",
+
+                            "Regulación de luz":"Los iconos de regulación ubicados en los planos indicarán gráficamente el nivel del estado del regulador además de mostrar de forma numérica el valor en porcentaje de regulación en el que se encuentran.     Una vez que se pulse en el icono del regulador que interese, se desplegará una ventana con el estado del regulador y el valor en %.     En esta nueva ventana se puede ajustar la intensidad de la luz. Se puede pulsar sobre la rueda, deslizar o ajustar en los símbolos '+'y '-' hasta obtener el valor deseado. Una vez que levante el dedo, la intensidad de la luz se fijará y el regulador actuará según el nivel deseado.       Cuando se apaga el regulador y se vuelve a encender en el botón On/Off, el regulador coge automáticamente el valor 100. Permitiendo así al usuario un manejo más fácil.",
+
+                            "Termostatos":{
+                                "Termostato":"Los iconos de termostato ubicados en los planos indicarán el estado del termostato.Si el termostato está apagado el icono estará de color gris, si el termostato está encendido el icono se mostrará naranja.         Pulsando sobre el icono del termostato, aparecerá una ventana para encender o apagar el mismo, ajustar la temperatura, establecer el modo de funcionamiento, comprobar el histórico y configurar hasta 10 temporizaciones para funcionar como cronotermostato.   En la parte central de la ventana aparece la temperatura de consigna, que se puede modificar pulsando o deslizando sobre la rueda o pulsando en los iconos '+' y '-' para regular la temperatura. Debajo de esta se encuentra la temperatura medida. En la parte superior de la ventana, se puede encender o apagar el termostato. En la parte inferior de la ventana aparecen los modos del termostato, previamente configurados en el SIDE. Para activar un modo se pulsa sobre él.    ",
+
+                                "Cronotermostato":"Cuando se accede a la opción de cronotermostatos, la pantalla muestra una nueva ventana para configurar hasta 10 horarios semanales vinculados con el termostato.   Para gestionar y configurar cada uno de ellos, simplemente pulse sobre sus números representativos en la línea inferior. Para identificar qué horarios están habilitados y cuáles no, los números están representados en color blanco cuando el cronotermostato está desactivado, y se muestra en naranja cuando está activado.      Para activar o desactivar pulse el botón Habilitado que aparece en la esquina superior derecha. Para cada cronotermostato, el usuario puede especificar la hora en que quiere que el termostato se active  y en qué día de la semana (de lunes a domingo de izquierda a derecha) representado por sus primeras letras. Para añadir o quitar días a la escena, simplemente pulse sobre el día de la semana que desee. Si se muestra la inicial en naranja el día estará habilitado, si se muestra blanca el día no estará habilitado.            Otro punto configurable, es el modo de la función termostato, pudiéndose seleccionar entre frío, caliente,mixto o desactivado; el modo activado aparecerá sombreado, si se desea cambiar de modo bastaría con pulsar sobre el que se quiere establecer.           Como último elemento editable por el usuario, es posible definir el punto de referencia de temperatura.      Para editar este valor, simplemente pulse sobre el número e introduzca el valor deseado.",
+
+                                "Histórico":"Si se accede al histórico se puede visualizar una gráfica con los valores medidos por el termostato las últimas 24 horas. Para visualizar los valores hay que pulsar sobre la gráfica y van apareciendo los valores medidos."
+                            },
+
+                            "RGBW":"Pulsando sobre el icono del RGBW, aparecerá una ventana para encender o apagar el mismo, o ajustar el color. También se pueden seleccionar 10 colores predeterminadas que se pueden editar. Para apagar el RGBW puede seleccionar el color negro (en predeterminado o en paleta de colores).     Para editar los predeterminados se selecciona el color que se desea poner y se pulsa encima del botón donde se quiera dejar predeterminado prolongadamente "
+                        }
+                    },
+
+                    "Vista por estancias":{
+                        "Descripción":"Esta pantalla está compuesta por las estancias del proyecto e iconos. Los iconos se corresponden con los dispositivos (o las salidas de los dispositivos) de la instalación domótica y permiten la monitorización y el control de los equipos. Las estancias son las creadas por el usuario a través de la app de Ingenium. En ellas se agrupan los iconos por estancias, totalmente personalizables por parte del usuario.      En cada estancia se pueden seleccionar hasta 3 accesos directos (3 iconos seleccionados) que se pueden controlar desde la pantalla principal sin tener que entrar en la estancia en la que se encuentra.        Para poder acceder a todos los iconos que hay configurados en una estancia se pulsa sobre ella para abrir la ventana de la estancia.  Para cambiar a la vista por planos se pulsa el botón que aparece en la esquina superior izquierda de la pantalla principal. O se accede al Menú / Ajustes / General y se pulsa en la opción Tipo de visualización.     Para acceder al menú de configuración se pulsa sobre el icono que aparece arriba a la izquierda",
+
+                        "Ventana de estancias":{
+                            "Descripción":"Una vez dentro de la estancia se pueden observar todos los nodos de esa estancia, y todas las escenas que tengan configurado algún nodo de esta estancia.    Por ejemplo, si tuviésemos una escena Todo On para encender todas las luces de la casa, en la estancia Salón saldría la escena Todo On para poder ejecutarla desde esta ventana, ya que en esta escena estaría incluida la luz del salón.      Dentro de esta ventana existe un icono 'Mis escenas' para poder acceder rápidamente a la creación de escenas, el icono 'Temporizaciones' que permite acceder rápidamente a la creación de temporizaciones y el icono 'Accesos directos' que permite la configuración de los accesos directos que aparecerán en la pantalla principal. ",
+
+                            "Accesos directos":"En esta ventana se pueden configurar los accesos directos que se visualizarán en la pantalla principal de estancias.        Para ellos se seleccionan hasta 3 accesos directos pulsando el icono que aparece a la izquierda del nodo que se quiere seleccionar. Para desactivar algún nodo se pulsa el botón que aparece a la izquierda del nodo.  "
+                        },
+
+                        "Iconos e Interfaces":{
+                            "Bombillas":"Para cambiar de estado una salida On/Off es suficiente con pulsar sobre el nodo en el listado o sobre el icono si nos encontramos en la pantalla principal (Acceso directo).",
+
+                            "Persianas":"Al pulsar sobre el icono, se mostrará la siguiente ventana en la que se podrá elegir el porcentaje de apertura de la persiana.     En esta nueva ventana se puede pulsar sobre las persianas y ajustar su nivel (subiendo o bajando, simplemente por la pulsación o el deslizamiento en la pantalla). Cuando el usuario levanta el dedo de la pantalla, el nivel se establece, y la orden se ejecutará.",
+
+                            "Regulador":"En esta nueva ventana se puede ajustar la intensidad de la luz. Se puede pulsar sobre la rueda, deslizar o ajustar en los símbolos '+' y '-' hasta obtener el valor deseado. Una vez que levante el dedo, la intensidad de la luz se fijará y el regulador actuará según el nivel deseado.Cuando se apaga el regulador y se vuelve a encender en el botón On/Off, el regulador coge automáticamente el valor 100. Permitiendo así al usuario un manejo más fácil.",
+
+                            "Termostatos":{
+                                "Termostato":"Pulsando sobre el icono del termostato, aparecerá una ventana para encender o apagar el mismo, ajustar la temperatura, establecer el modo de funcionamiento, comprobar el histórico y configurar hasta 10 temporizaciones para funcionar como cronotermostato.   En la parte central de la ventana aparece la temperatura de consigna, que se puede modificar pulsando o deslizando sobre la rueda o pulsando en los iconos '+' y '-' para regular la temperatura. Debajo de esta se encuentra la temperatura medida. En la parte superior de la ventana, se puede encender o apagar el termostato.      En la parte inferior de la ventana aparecen los modos del termostato, previamente configurados en el SIDE. Para activar un modo se pulsa sobre él.  En la parte superior central, si presionas sobre el nombre del termostato, aparecen 2 opciones: Cronotermostato e Histórico. Para acceder a cada uno de ellos, simplemente hacer clic en el que se desea ver.",
+
+                                "Cronotermostato":"Cuando se accede a la opción de cronotermostatos, la pantalla muestra una nueva ventana para configurar hasta 10 horarios semanales vinculados con el termostato.     Para gestionar y configurar cada uno de ellos, simplemente pulse sobre sus números representativos en línea inferior. Para identificar qué horarios están habilitados y cuáles no, los números están representados en color blanco cuando el cronotermostato está desactivado, y se muestra en naranja cuando está activado.   Para activar o desactivar pulse el botón Habilitado que aparece en la esquina superior derecha.     Para cada cronotermostato, el usuario puede especificar la hora en que quiere que el termostato se active y en qué día de la semana (de lunes a domingo de izquierda a derecha) representado por sus primeras letras. Para añadir o quitar días a la escena, simplemente pulse sobre el día de la semana que desee. Si se muestra la inicial en naranja el día estará habilitado, si se muestra blanca el día no estará habilitado.          Otro punto configurable, es el modo de la función termostato, pudiéndose seleccionar entre frío, caliente, mixto o desactivado; el modo activado aparecerá sombreado, si se desea cambiar de modo bastaría con pulsar sobre el que se quiere establecer.  Como último elemento editable por el usuario, es posible definir el punto de referencia de temperatura.     Para editar este valor, simplemente pulse sobre el número e introduzca el valor deseado.",
+
+                                "Histórico":"Si se accede al histórico se puede visualizar una gráfica con los valores medidos por el termostato las últimas 24 horas. Para visualizar los valores hay que pulsar sobre la gráfica y van apareciendo los valores medidos."
+                            },
+
+                            "RGBW":"Pulsando sobre el icono del RGBW, aparecerá una ventana para encender o apagar el mismo, o ajustar el color. También se pueden seleccionar 10 colores predeterminadas que se pueden editar.     Para apagar el RGBW puede seleccionar el color negro (en predeterminado o en paleta de colores).       Para editar los predeterminados se selecciona el color que se desea poner y se pulsa encima del botón donde se quiera dejar predeterminado prolongadamente."
+                        }
+                    },
+
+                    "Menu de configuración":{
+                        "Descripción":"Dentro del menú principal de configuración se encuentran los siguientes submenús: Escenas, Mis escenas, Temporizaciones, Alarmas, Llamadas y Ajustes. También podemos interactuar con la alarma de intrusión, hacer llamadas al videoportero, utilizar el bloc de notas, y ¡mucho más! Para cerrar este menú y volver a la pantalla principal hay que pulsar el botón situado arriba a la derecha.",
+
+                        "Escenas de proyecto":"En este menú aparece el listado con las escenas de proyecto creadas por el instalador, se pueden ejecutar pulsando el botón 'PLAY' . Este tipo de escenas no se pueden crear, editar o borrar desde la pantalla.    Si la lista de escenas es grande, se puede deslizar para arriba y para abajo para ver el resto de la lista",
+
+                        "Escenas de usuario":{
+                            "Descripción":"Para controlar las escenas creadas por el usuario hay que acceder al icono de Mis escenas. En este menú se visualizarán todas las escenas de usuario creadas, se pueden crear, editar, borrar y ejecutar dichas escenas.",
+
+                            "Crear escena":"Pulsando en el icono '+', se mostrará un teclado en la pantalla que le permitirá introducir el nombre de la escena. Tras esto, se podrán seleccionar los nodos que se quieren añadir a la escena con el estado deseado.     Una vez aparece la pantalla para seleccionar los nodos que se quieren añadir a la escena, basta con seleccionar el nodo y aparecerá una nueva ventana para elegir el estado a ejecutar de cada nodo.                Una vez se hayan seleccionado los nodos que se quieren ejecutar en la escena se pulsa el botón para continuar y aparece la siguiente ventana para finalizar la creación de escenas o temporizar la escena.          Si pulsa Temporizar escena se abrirá la ventana de temporizaciones. Si pulsa Finalizar la creación se cerrará la ventana y le aparecerá la escena creada.",
+
+                            "Luz":"Los estados que se pueden seleccionar son los siguientes: ON (amarillo)  ó OFF (gris).   Una vez se pulse en el estado deseado esta ventana se cerrará y el nodo aparecerá en la columna de la derecha con el estado seleccionado.",
+
+                            "Persiana":"Para modificar el valor de la persiana se utilizan las flechas 'arriba' o 'abajo' hasta conseguir el estado deseado.      Para cerrar se pulsa el botón 'CONFIRMAR'.",
+
+                            "Regulador":"Para modificar el valor del regulador se utilizan los iconos '+' o '-' hasta conseguir el estado deseado. Para cerrar se pulsa el botón CONFIRMAR.",
+
+                            "Termostato":"Para modificar el valor de temperatura utilizar los iconos '+' o '-' hasta conseguir el estado deseado.     Para seleccionar el modo, se pulsa sobre el que se desee seleccionar, pasando a color naranja.       En caso de querer apagar el termostato valdría con no seleccionar ningún modo   Para cerrar se pulsa el botón CONFIRMAR.",
+
+                            "RGBW":"Para modificar el color del RGBW se utiliza la paleta de colores y se selecciona el color deseado. Si se desea apagar se selecciona el color negro en la esquina inferior izquierda de la paleta de colores.        Para cerrar se pulsa el botón CONFIRMAR.",
+
+                            "Editar escena":"Para editar una escena se pulsa sobre la que se quiere editar, aparece el menú de creación de escenas.          Para borrar algún nodo hay que pulsar sobre la papelera que aparece a la derecha del nodo que se desea eliminar.         Para editar nodos se pulsa sobre el que se desea editar y sale la ventana de configuración.            Para añadir nodos, se pulsa en la columna de la izquierda sobre el nodo que se quiere añadir y se configura su estado. ",
+
+                            "Borrar escena":"Manteniendo pulsado sobre el nombre de la escena que se desea borrar, saldrá un mensaje para confirmar el borrado, pulsando ACEPTAR, la escena desaparecerá del listado.       Solamente se pueden borrar las escenas de usuario.",
+
+                            "Ejecutar escena":"Para ejecutar una escena hay que pulsar sobre el icono 'PLAY' que aparece a la derecha de la escena que se desea ejecutar en el listado."
+                        },
+
+                        "Temporizaciones":{
+                            "Descripción":"En el menú temporizaciones se puede configurar la fecha y hora para ejecutar escenas en el momento deseado. En este menú se pueden crear, editar, borrar y activar/desactivar las temporizaciones.",
+
+                            "Crear temporización":{
+                                "Descripción":"Para crear una temporización hay que darle al botón '+' y se muestra un listado con todas las escenas de proyecto y de usuario donde se selecciona la escena que se quiere temporizar. Una vez seleccionada la escena a temporizar se abre la ventana de creación de temporizaciones donde se debe seleccionar el momento deseado para ejecutar la escena.Después de configurar la hora se selecciona el día deseado y aparece la siguiente ventana donde puede realizar la configuración de los parámetros de repetición.       Se pueden realizar las combinaciones de parámetros de repetición que se deseen hasta conseguir la temporización deseada. Por ejemplo, si se desea temporizar una escena todos los días de la semana (de lunes a viernes) se puede temporizar con añadir siempre y luego borrar día de semana, seleccionando un sábado y borrar día de semana, seleccionando un domingo. ",
+
+                                "Parametros de repetición":{
+                                    "Añadir día":" La escena se ejecutará el día seleccionado",
+                                    "Añadir día de semana":": La escena se ejecutará todos los días X de cada semana. Por ejemplo, si hemos elegido un martes, el equipo configurará la temporización para todos los martes.",
+                                    "Añadir mes":" La escena se ejecutará todo el mes del día seleccionado. Por ejemplo, si hemos seleccionado un 20 de Julio, el equipo configurará la temporización para todos los días de Julio.",
+                                    "Añadir siempre":" Usando esta opción, la temporización se ejecutará todos los días.",
+                                    "Despues del amanecer":"La escena se ejecutará todos los días X horas (siendo X la hora seleccionada) después del amanecer. Por ejemplo, si pongo 00:30 “después de amanecer 06:58”, la escena se ejecutará a las 07:28",
+                                    "Despues del ocaso":"La escena se ejecutará todos los días X horas (siendo X la hora seleccionada) después del ocaso. Por ejemplo, si pongo 00:30 “después de ocaso 21:45”, la escena se ejecutará a las 22:15",
+                                    "Borrar día":"Borra la temporización del día seleccionado.",
+                                    "Borrar día de semana":" Borrar temporización todos los días X de la semana.",
+                                    "Borrar mes":"Borrar temporización todo el mes seleccionado.",
+                                    "Borrar siempre":"Borrar temporización todos los días seleccionados.",
+                                    "Antes del amanecer":" La escena se ejecutará todos los días X horas (siendo X la hora seleccionada) antes del amanecer. Por ejemplo, si ponemos 00:30 “antes de amanecer 06:58”, la escena se ejecutará a las 06:28",
+                                    "Antes del ocaso":": La escena se ejecutará todos los días X horas (siendo X la hora seleccionada) antes del ocaso. Por ejemplo, si ponemos 00:30 “antes de ocaso 21:45”, la escena se ejecutará a las 21:15"
+                                    
+                                }
+                            },
+                            "Eliminar temporizaciones":"Para eliminar una temporización hay que realizar una pulsación larga sobre la que se desea eliminar. Saldrá un mensaje de advertencia, se pulsa ACEPTAR para eliminar.",
+
+                            "Editar temporizaciones":"Para editar una temporización existente, es necesario seleccionarla en la lista. En este momento se abre la ventana con el calendario y ahí podemos añadir o quitar fechas para realizar la temporización.  Después de realizar los cambios, tendremos que confirmar la acción para aceptarlos.",
+
+                            "Activar / Desactivar temporizaciones":"La pantalla permite la activación/desactivación de la temporización sin necesidad de su eliminación. Esta opción es interesante si necesita que una temporización no se ejecute temporalmente, pero desea mantener la configuración para recuperarla después sin necesidad de realizar todos los pasos mencionados anteriormente.       Para hacerlo, solamente necesita seleccionar o deseleccionar el icono de la derecha de la temporización en la lista de temporizaciones. Para cambiar el estado del icono, necesita presionar sobre el mismo."
+                        },
+
+                        "Alarmas técnicas":{
+
+                            "Descripción":"En este menú se pueden vincular las alarmas técnicas al correo electrónico, a una cámara o una escena.   También se pueden visualizar las notificaciones de las alarmas y el estado de la alarma de intrusión.       Cada vez que se activa una alarma técnica en la instalación, se mostrará un icono de advertencia junto al icono de la señal Wi-Fi. Si se desea saber a qué alarma se refiere, hacer clic en el icono de advertencia (que parpadeará durante el aviso) o en el menú de alarmas para visualizar las notificaciones.",
+
+                            "Visualización de notificaciones":"En este menú se pueden visualizar todas las notificaciones recibidas de las alarmas.    Las notificaciones se pueden borrar pulsando el icono que aparece a la derecha de la notificación que se desea eliminar.   También se puede borrar todo el listado pulsando sobre Borrar todas.",
+
+                            "Vincular correo electronico":"En el menú principal de alarmas técnicas, es posible vincular direcciones de correo electrónico para enviar notificaciones de alarmas técnicas. Para ello, pulse en el icono: Correo electrónico, y seleccione la opción de añadir un nuevo correo electrónico a la lista de correos , se abre una nueva ventana donde hay que introducir el correo electrónico y pulsar ACEPTAR.    Para eliminar una dirección de la lista, sólo tiene que seleccionar la dirección de correo específica y pulse el icono . También se puede activar/desactivar la vinculación con el correo electrónico pulsando el botón que hay a la izquierda del correo.",
+
+                            "Vincular cámara":"Existe la posibilidad de vincular cámaras IP para cada alarma para el envío de imágenes junto con la advertencia cuando la alarma se dispara. Al tocar este icono, el usuario accederá a una nueva interfaz en la que puede elegir qué cámaras IP de proyecto quiere enlazar a cada alarma. Sólo hay que marcar o desmarcar cada cámara IP para vincularlos a la alarma seleccionada.",
+
+                            "Vincular escena":"En esta opción es posible vincular las escenas creadas a la activación de una alarma. Para ello se selecciona la alarma a la que se quiera vincular una escena en el menú de la izquierda, y se seleccionan las escenas que se quieren vincular en el menú de la derecha, para guardar y salir hay que pulsar el botón situado arriba a la derecha."
+
+                        },
+
+                        "Llamadas":"En este menú se puede ver un listado con las llamadas perdidas desde el videoportero, en ella aparecerán la fecha y la hora de la llamada y una pequeña captura a la derecha que se puede ampliar pulsando sobre ella.  Una vez pulsado, aparece una secuencia de imágenes sacadas en el momento de la llamada. Puede pausar la secuenciación de imágenes pulsando sobre ellas y activarla de nuevo volviendo a pulsar.           Para salir de la visualización hay que pulsar el botón de cerrar que aparece arriba a la derecha.     Para eliminar las llamadas perdidas se debe realizar una pulsación larga sobre la notificación de llamada perdida que se quiera borrar.",
+
+                        "Ajustes":{
+                            "Descripción":"En este apartado, se pueden editar diferentes configuraciones de la pantalla. Cuando presione el botón de ajustes, se abrirá una ventana en la que encontrará las diversas opciones",
+
+                            "Conexiones":{
+                                "Decripción":"En el menú de conexiones puede configurar la conexión a internet, activar el punto de acceso, comprobar la conexión y configurar la opción de videoportero.",
+
+                                "Acceso a Internet":"la opción acceso a internet y el icono irá cambiando según la opción seleccionada: Wi-Fi / Ethernet 1 / Ethernet 2",
+
+                                "Wifi , Ethernet":"En este menú solo aparecerán 2 opciones, la tercera opción se reserva para la configuración del videoportero. De esta manera la opción que se seleccione en el apartado configuración del videoportero no estará disponible para ser configurada por el usuario.                 Pulsando sobre alguna de estas 2 opciones se puede configurar la conexión.      Se puede activar el modo DHCP pulsando sobre el icono de modo On / OFF.     Si el modo DHCP está desactivado hay que introducir los datos de IP, máscara de subred y puerta de enlace manualmente.                    Si el desvío de llamadas automático está activo, la pantalla VIIP podrá recibir las llamadas del videoportero configurado como principal (previamente configurado por el instalador), que deberán estar conectados a la misma red.",
+
+                                "Punto de acceso":"Escogiendo AP, el equipo genera su propia red Wi-Fi actuando como punto de acceso. A esta red Wi-Fi se podrán conectar todos los dispositivos desde los cuales se quiera controlar la instalación.          Se puede activar el punto de acceso pulsando sobre el icono de la derecha ON / OFF",
+
+                                "Configuración del videoportero":"Esta opción solo estará disponible para el instalador.",
+
+                                "Comprobar conexión":"Pulsando sobre esta opción la pantalla VIIP comprueba si tiene conexión a internet, según el estado aparecerán los siguientes mensajes:   ▪ Sin conexión: Error en la conexión de red, compruebe los ajustes.       ▪ Con conexión: ¡La conexión de red funciona correctamente!"
+                            },
+
+                            "Cloud":{
+                                "Descripción":"Esta opción es necesaria para registrar el proyecto en el servidor, y para hacer que sea posible el control remoto de la instalación usando las aplicaciones oficiales para PC, iOS, Android o Samsung Smart TV.",
+
+                                "Crear Usuario":"Para crear un usuario debe pulsar sobre Crear usuario, saldrá una pantalla para introducir el usuario y contraseña, una vez se introduzcan los datos y se pulse CONFIRMAR.     Aparecerá una barra en la parte inferior que mostrará la evolución de la subida de archivos al servidor. Una vez finalizada la creación de usuario la pantalla se reiniciará. Una vez finalizado el proceso ya estará disponible de forma remota.",
+
+                                "Clonar proyecto":"Si ya se dispone de un usuario creado, se puede clonar a la pantalla VIIP, pulsando sobre la opción: Clonar proyecto e introduciendo el usuario y contraseña de la instalación que se desea controlar.       Se podrán clonar diferentes aspectos del usuario. Seleccionar los deseados y pulsar ACEPTAR.      Se realizará la importación, y tras esto la pantalla VIIP se reiniciará con el proyecto clonado y la configuración del usuario ya en el dispositivo.",
+
+                                "Sincronizar proyecto":"La sincronización del proyecto con la nube será necesaria siempre que se realicen cambios en el proyecto. Para subir al servidor el proyecto existente en la pantalla VIIP y su configuración, se pulsa el botón: Sincronizar. Aparecerá una barra en la parte inferior mostrando la evolución de la sincronización.",
+
+                                "Codigo QR":"Una vez creado el usuario o importado el proyecto aparecerá un código QR en la pantalla.       Permitirá añadir la instalación en la aplicación de Ingenium en el teléfono móvil si no se quiere introducir los datos de manera manual. Se podrá escanear el QR utilizando: ▪ La cámara del teléfono una vez descargada la aplicación de Ingenium.           ▪ Abriendo la aplicación de Ingenium y seleccionando la opción orrespondiente al añadir nuevo usuario.   El escaneo del QR permite dos funcionalidades:   ▪ Acceder automáticamente a una instalación ya añadida.       ▪ Añadir nueva instalación: tras escanear el QR solo será necesario añadirle un nombre a la nueva instalación y seleccionar el modo de accesibilidad.   ",
+
+                                "Eliminar usuario": "Existe la posibilidad de borrar el usuario que esté en uso en la pantalla VIIP, para ello se pulsa en eliminar usuario.             Inicialmente aparece el siguiente mensaje: Borrando usuario, cuando la operación se ha realizado con éxito sale el siguiente mensaje: Usuario eliminado con éxito.          En este momento el usuario se borrará del servidor y de la pantalla VIIP, y ya no se podrá acceder a ese usuario desde ningún dispositivo."
+
+                            },
+
+                            "General":{
+                                "Descripción":"En este apartado se encuentran disponibles los ajustes más generales. En él será posible configurar el idioma, la fecha y hora, el sonido, los tipos de visualización, permitir las actualizaciones automáticas,reiniciar el dispositivo y restablecer sus valores de fábrica.",
+
+                                "Idioma":"En la configuración de la pantalla es posible seleccionar el idioma, de forma que los textos que aparezcan en los distintos menús se traduzcan al lenguaje elegido. Para elegir el lenguaje, pulsar sobre Idioma y aparece una ventana para seleccionar el deseado. Pulsar sobre el que se desea establecer y a continuación ACEPTAR.     A continuación, saldrá un mensaje de confirmación que se debe ACEPTAR para finalizar el cambio de idioma. La pantalla VIIP hará un reinicio rápido para reestablecer el idioma.",
+
+                                "Localización":"Desde este menú se puede consultar la geolocalización y configurar la fecha y la hora.      Para obtener la hora de forma automática debe tener acceso a internet en la pantalla VIIP, seleccionar la zona horaria en la que se encuentra y la pantalla VIIP le proporcionará la hora actual.           Para seleccionar la localización se pulsa sobre la Zona horaria y aparece la siguiente ventana: Es suficiente seleccionar el lugar específico y confirmar pulsando ACEPTAR.",
+
+                                "Sonido":"En este menú existen las opciones de modificar los sonidos referidos a las alarmas y la comunicación con las placas de calle.   Este menú no estará disponible para los dispositivos ETHBUS al no ser una pantalla física por lo que la comunicación con las placas de calle se realizará únicamente a través de los dispositivos móviles que tengan la instalación añadida en la aplicación de Ingenium. Para ello será necesario que la instalación tenga creado un usuario en la nube.     Para modificar el sonido de las notificaciones de alarmas ir al submenú de alarmas.     Aparecerá un listado de todas las alarmas existentes con opciones de configuración a su derecha.        Presionando sobre el icono de configuración del sonido de alarma se abrirá una ventana para configurar el nivel del volumen, el tono de la alarma y su duración. Se dispone de un botón para probar el sonido configurado.      En el submenú de Sonido posible configurar el tono y el volumen de las llamadas y del botón abre puertas y activar el modo silencio durante un periodo de tiempo configurable.      Para modificar el tono y el volumen del sonido de la llamada acceder al menú:           Nivel de sonido para tono de llamada.       Es posible modificar los volúmenes del sonido durante la conversación de una llamada si se dispone de una placa de Fermax. De ser así aparecerá un menú adicional para modificar dichos niveles de sonido:  Nivel de sonido durante la conversación.    Se podrá ajustar el nivel de sonido de la conversación escuchado tanto en la vivienda como en el exterior.           Para ello simplemente será necesario deslizar el dedo sobre cada una de las barras porcentuales de la pantalla.           Una vez ajustados se puede probar la nueva configuración pulsando el botón: Probar llamada.    Si dispone de una sola placa llamará directamente a esa, si no, mostrará un listado para seleccionar la placa deseada con la que realizar la prueba.      El botón de Defecto permite resetear los valores de configuración de sonido a los valores por defecto. También es posible temporizar el modo silencio, para ello se pulsa sobre la opción Modo silencio.    Para añadir una temporización se pulsa el botón '+' y aparecerá la siguiente ventana donde se debe seleccionar los días de la semana que se quiere ejecutar, la hora de inicio y la hora de fin.        Para habilitar o deshabilitar una temporización se debe pulsar el icono que aparece a la derecha de la temporización",
+
+                                "Tipo de visualización":"En esta opción se puede cambiar el tipo de visualización a estancias o planos. Una vez se pulse sobre    Tipo de visualización aparecerá la siguiente ventana de confirmación:      Una vez se pulsa ACEPTAR la pantalla se reiniciará y cambiará el tipo de visualización.",
+
+                                "Actualizaciones automáticas":"La opción de actualizaciones automáticas es una funcionalidad útil para mantener la pantalla VIIP actualizada con la última versión disponible.      Cuando esta opción está activada la pantalla VIIP descarga e instala automáticamente la última versión de software, saldrá un mensaje de aviso en pantalla donde se puede ver la evolución de la descarga, cuando finalice este proceso la pantalla VIIP se reiniciará y tendrá instalada la última versión disponible.",
+
+                                "Reiniciar dispositivo":"Si desea reiniciar el dispositivo pulse sobre Reiniciar dispositivo, el equipo se reiniciará completamente.",
+
+                                "Restablecer valores de fábrica":"A este menú solo podrá acceder el instalador."
+                            },
+
+                            "Pantalla":{
+                                "Descripción":"Esta opción del menú nos permite establecer el nivel de brillo de la pantalla activa y en reposo. Aparecen dos barras horizontales con valores de 0 (mínimo) a 15 (máximo). Al deslizar el dedo, por la barra se puede establecer el valor deseado para ambas opciones.   Para seleccionar el tiempo de inactividad para que se active la pantalla de reposo o salvapantallas, se va pulsando hasta que aparezca el tiempo deseado (Nunca, 30s, 1min, 2min, 5min, 10 min, 15min.)",
+
+                                "Salvapantallas":"El salvapantallas es el menú que aparece cuando la pantalla está en reposo.       Es posible cambiar la visualización de dicho menú cambiando la imagen de fondo y su transparencia, añadiendo widgets y configurando la apariencia del reloj.        Para seleccionar el tipo de fondo del salvapantallas realizar pulsación corta en la opción: Tipo de salvapantallas. Si se escoge una imagen se podrá escoger entre varias disponibles realizando pulsaciones cortas en la opción: pulse para cambiar la imagen.                  Para seleccionar el tipo de reloj que se muestra cuando la pantalla entra en reposo, se pulsar sobre dicha opción hasta escoger el diseño deseado: analógico, digital o ninguno.           Para modificar el color del tipo de reloj escogido presione sobre dicho menú. Se abrirá un menú emergente para seleccionar el color, su intensidad y su transparencia. ¡Cuidado! Si se configura la transparencia al 100% dejará de ver el reloj en su salvapantallas.      Para configurar el nivel de oscuridad del fondo del salvapantallas deslizar el dedo por la barra porcentual.    Es posible añadir accesos rápidos de actuadores y escenas para tenerlos más accesibles. Para activarlos realizar una pulsación corta en la opción Widgets. Se podrán ubicar en el lado derecho o izquierdo de la pantalla.                     Una vez activados se pueden escoger hasta 5 actuadores o escenas para añadir como widgets. Para ello realizar una pulsación larga en el menú Widgets y seleccionar los deseados.     Una vez escogidos, pulsar ACEPTAR",
+
+                                "Gestos":"Este menú también ofrece la posibilidad de configurar escenas asociadas a gestos cuando la pantalla está en reposo. Para ello se hace una pulsación prolongada sobre la opción Salvapantallas.        Cuando la pantalla está en reposo se puede ejecutar la escena que se haya asociado a cada gesto realizando esa acción.    Por ejemplo: Tenemos asociada la escena: Todo On, al gesto deslizar hacia arriba. Cuando la pantalla está en reposo, si se desliza con el dedo hacia arriba en cualquier punto de la pantalla se ejecutará la escena: Todo On, en la pantalla aparecerá un mensaje de ejecutando escena."
+                            },
+
+                            "Apariencia":"En el menú apariencia se puede elegir entre diferentes temas principales, pulsando sobre la opción Tema principal se puede modificar el tema seleccionado. Pulsando sobre la opción Apariencia de iconos se puede modificar el tipo de iconos que se quieren visualizar. Es posible elegir entre un tamaño grande y uno pequeño de los iconos ubicados sobre el plano. Solamente con pulsar sobre la opción del menú, se modificará el tamaño. Se puede deshabilitar la opción de mostrar etiquetas pulsando el botón Si se realizan modificaciones en el momento de salir nos saldrá un mensaje preguntando si se desea guardar las modificaciones realizadas, se pulsa ACEPTAR para confirmar los cambios.",
+
+                            "Seguridad":"En este menú es posible configurar las contraseñas de seguridad de las que dispone el dispositivo.     Se puede habilitar un PIN de bloqueo para el dispositivo y el tipo de restricción. Pulsando: Tipo de bloqueo, se puede modificar esta opción, bloqueando el menú general, solo el de ajustes, todo o nada.   Se puede cambiar el PIN del dispositivo pulsando sobre esa opción. Se abre una ventana donde debe introducir la contraseña antigua y la que se quiere establecer. La contraseña por defecto está en blanco. También se puede configurar la contraseña para la alarma de intrusión.    La contraseña por defecto es: 1234       Para confirmar el cambio de contraseña pulsar el botón ACEPTAR.  La configuración: Cambiar contraseña administrador, permite al instalador/integrador de la vivienda modificar la contraseña de los menús restringidos para los usuarios.",
+
+                            "Actualización":"Esta opción automáticamente descarga del servidor la última versión disponible del software para la pantalla (solamente si es diferente de la que se está usando y si la pantalla está conectada a internet).    Si el dispositivo tiene instalada la última versión aparecerá el siguiente mensaje: Su dispositivo ya tiene instalada la última versión.    En caso de que exista una nueva versión y se descargue, la pantalla VIIP preguntará si se desea instalar.",
+
+                            "Acerca de":"En este menú podemos obtener información acerca de la versión del sistema, enlaces de contacto y un menú de videos de ayuda para el usuario.          Dentro del menú: Vídeo ayuda, se pueden encontrar diferentes videos sobre algunas opciones de configuración y uso de la pantalla."
+
+                        },
+
+                        "Botón silencio":"El icono de modo silencio sirve para activar o desactivar el sonido de las llamadas entrantes. Este icono se encuentra situado en la esquina inferior izquierda del menú principal.",
+
+                        "Alarma de intrusión":"El icono de alarma de intrusión que aparece en la parte inferior del menú de configuración permite armar/desarmar la alarma de intrusión.       Cuando el estado de la alarma sea desarmado se puede pulsar sobre el icono para ejecutar la orden de armado, saldrá un mensaje: La alarma está siendo armada y el icono parpadeará blanco y naranja.    También aparecerá el icono del candado parpadeando en la parte superior derecha de la pantalla principal.    Una vez transcurrido el tiempo de armado saldrá el mensaje: La alarma ha sido armada, el icono principal y el de la parte superior derecha de la pantalla principal dejarán de parpadear, y mostrarán el icono de alarma armada .   Para desarmar la alarma se pulsa sobre el icono de armado.    Aparecerá una nueva ventana para introducir el PIN y proceder al desarmado.       Se introduce el PIN de la alarma y se pulsa el botón   La contraseña por defecto es: 1234     Aparecerá un mensaje: La alarma ha sido desactivada, para confirmar el desarmado.     Si la alarma de intrusión está armada y se dispara la alarma, automáticamente aparecerá el cuadro para introducir el PIN y desarmar.",
+
+                        "Videoportero":"La pantalla VIIP permite llamadas entrantes desde cualquier placa con sistema P2P compatible. Cuando se reciba una llamada aparecerá la siguiente pantalla con la visualización de la llamada y 3 botones principales:  ▪ Coger llamada . Pulsando sobre el icono se establecerá la llamada.      ▪ Abre puertas . Pulsando sobre este botón se activará el relé que abre la puerta y el icono parpadeará y se oirá una señal acústica en caso de que se tenga configurada. Este botón puede ser pulsado sin necesidad de haber descolgado la llamada.  ▪ Colgar llamada . Cuando se pulse este botón la llamada finalizará.    También existe la posibilidad de autoencendido pulsando el botón del menú principal. En caso de tener más de una placa configurada, aparecerá un listado con el nombre de configuración de cada placa para que pulse sobre la que de desea realizar la función de autoencendido.     En este caso los iconos que aparecerán serán los siguientes:     ▪ Estado del audio Habilitado Deshabilitado      Pulsando sobre el icono se habilitará o deshabilitará el audio.       ▪ Abre puertas Pulsando sobre este botón se activará el relé que abre la puerta y el icono parpadeará y se oirá una señal acústica en caso de que se tenga configurada. Este botón puede ser pulsado sin necesidad de haber descolgado la llamada. En caso de tener varias puertas configuradas aparecerán varios iconos, uno por cada código abre puertas configurado.    ▪ Colgar llamada   Cuando se pulse este botón la llamada finalizará.      En este caso la llamada se conectará con el audio deshabilitado, ha de pulsarse el icono para habilitarlo.",
+
+                        "Conserje":{
+                            "Descripcioón":"Si la instalación dispone de una pantalla VIIP para el conserje de la comunidad de vecinos se habilitarán funcionalidades extra.La pantalla VIIP del conserje recibirá todas las alarmas técnicas que salten en las viviendas de la comunidad de vecinos, para mayor seguridad ante alertas de fuego, inundación, etc. en el edificio.       Será posible desviar las llamadas de las placas de calle al conserje, útil en los momentos en los que el usuario no vaya a encontrarse en la vivienda y reciba una visita. El conserje recibirá la llamada y podrá atender la visita, pudiendo este dejarle un recado.     Existe la posibilidad de realizar llamadas al conserje y recibirlas. También se podrán recibir mensajes del conserje, tanto individuales como difundidos.      Todas estas opciones están disponibles en el icono del menú principal.",
+
+                            "Desvio de llamadas al conserje":"Es posible activar el desvío de llamadas en rangos de tiempo configurables. Para ello pulsar sobre el icono dentro del menú anterior. Para añadir una nueva restricción de horario para desvío de llamadas al conserje pulsar el icono '+'.   Introducir una hora de inicio y de fin y los días de la semana en los que se habilitará la restricción automáticamente.     Se podrán añadir varias restricciones y habilitar y deshabilitar las creadas pulsando sobre el tic de su derecha.       Para eliminar una restricción mantener pulsado sobre ella, se eliminará de la lista automáticamente.       Pulsar ACEPTAR para guardar los cambios.Las restricciones de horario aparecerán en el menú principal del conserje.",
+
+                            "Llamadas al conserje":"Para realizar llamadas desde la pantalla VIIP al conserje pulsar sobre el icono disponible en el menú del conserje dentro del menu principal.   En este caso los iconos que aparecerán serán los siguientes:              ▪ Estado del audio Habilitado Deshabilitado            Pulsando sobre el icono se habilitará o deshabilitará el audio.          ▪ Colgar llamada     Cuando se pulse este botón la llamada finalizará.        Nota. Se recuerda que este tipo de llamadas solo dispondrán de audio.",
+
+                            "Mensajes del conserje":"El conserje podrá enviar mensajes informativos a las pantallas VIIP de la comunidad de vecinos. Podrá enviar mensajes individuales o difundidos.        Para consultar el historial de mensajes recibidos pulsar sobre el icono"
+                        },
+
+                        "Notas":"La pantalla tiene una pizarra donde es posible dibujar o tomar notas. Para acceder a la pizarra debe tocar en el icono ubicado en la parte inferior de la pantalla  Para dibujar o tomar una nota sólo tiene que deslizar el dedo por la pantalla. Si desea borrar, hay que seleccionar la papelera, en el lado izquierdo.       La pizarra gráfica también permite elegir el tamaño y el color de la línea para conseguir un resultado más gráfico y atractivo.    Para volver a la pantalla principal pulse sobre el icono de confirmación ubicado en la esquina superior izquierda de la pantalla ",
+
+                        "Modo limpieza":"Se debe pulsar el botón (esquina inferior derecha) para ejecutar el modo de limpieza. Este modo bloquea la pantalla para poder tocar sobre ella sin ejecutar nada.    Para salir del modo limpieza hay que mantener pulsado sobre el cuadro sombreado que aparece en el centro de la pantalla. En este momento se volverá a visualizar la pantalla de menú principal."
+                    }
+                }
+            }
+        },
+        "Integración ALEXA":{
+            "Permitir Uso":"El primer paso consiste en permitir el uso de la Skill dentro de la app de Alexa. Para ello en la barra inferior pulsaremos en 'MAS' y nos dirigiremos a 'Skills' donde buscaremos Ingenium Smart Home , donde presionaremos el boton azul 'PERMITIR SU USO'",
+
+            "Usuario y Contraseña":"En este momento pedirá añadir un usuario y contraseña de Ingenium, se trata de un usuario introducido en el servidor de Ingenium.",
+
+            "Integración":"Una vez realizado el paso anterior en la APP de Alexa nos apareceran todos los dispositivos que se puedan controlar desde la aplicación. Pulsando sobre los equipos se podrán controlar los elementos de la instalación."
+        }
+    }
+}

@@ -350,6 +350,38 @@ h2:first-of-type {
   display: none;
 }
 
+/* Assistant Button Styling */
+.assistant-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #ebc224;
+  color: black;
+  border: none;
+  border-radius: 50%;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  z-index: 9999;
+}
+
+.assistant-button:hover {
+  background-color: #b89715;
+  transform: scale(1.1);
+}
+
+.assistant-button ion-icon {
+  font-size: 24px;
+  color: #050505;
+  font-size: 35px;
+}
+
 
 /* Media query específico para pantallas de hasta 1300px */
 

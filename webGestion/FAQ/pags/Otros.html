@@ -151,6 +151,20 @@
     </div>
   </footer>
 
+    <!-- Virtual Assistant Button -->
+  <button id="assistantButton" class="assistant-button"  onclick="handleButtonClick(event)">
+      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+  </button>
+    
+  <script type="text/javascript">
+    function handleButtonClick(event) {
+      event.preventDefault(); // Evita la navegación inmediata
+      const userAgrees = confirm("El asistente se va abrir en una nueva ventana. \n\nPara usar el asistente virtual se necesita una cuenta de OpenAI.\n\n¿Estás de acuerdo?");
+        if (userAgrees) {
+            window.open ("https://chatgpt.com/g/g-5EvyD0Eg7-ingenium-sl","_blank");
+        }
+    }
+  </script>
 
   <!--<script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
   <script src="https://mediafiles.botpress.cloud/d20316f5-61ba-405d-bb08-b9be870b650f/webchat/v2/config.js"></script>-->
