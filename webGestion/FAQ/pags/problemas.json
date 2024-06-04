@@ -76,7 +76,7 @@
     "problema": "No consigo que la pantalla realice el arranque completo o se queda en blanco",
     "solucion": "Si la pantalla empezó con este comportamiento tras un tiempo de uso se recomienda contactar con su instalador para que realice una revisión de su instalación. En algunos casos puede ser necesaria su reparación o reemplazo."
    },
-  
+
    {
     "modelo": "Pantallas",
     "problema": "Quiero configurar mi videoportero, pero me solicita un código.",
@@ -149,8 +149,6 @@
     "solucion": "Si. Para ello, acceda al menú de Ajustes de su dispositivo y vaya a la opción de Seguridad, aquí tendrá la opción de Cambiar la contraseña de alarma. Deberá añadir el código previo, por defecto es \"1234\"  y, posteriormente, el nuevo deseado."
   },
    
-
-
   {
     "modelo":"Integraciones",
     "problema":"¿Puedo controlar la instalación mediante comandos de voz? ",
@@ -211,9 +209,6 @@
     "problema":" ¿Cómo configuro la integración con Google Home?",
     "solucion":"1- Abre la app de 'Google Home' en tu dispositivo móvil. 2- Toca el botón '+' para añadir un nuevo dispositivo. 3- Selecciona ' Configurar dispositivo' y luego 'Funciona con Google'.  4-  Buscar 'Ingenium' en el buscador y selecciona 'Ingenium Smarth Home'. 5-Inicia sesión con tu cuenta de Ingenium.  6-Google Home buscará y añadirá tus dispositivos Ingenium automáticamente."
   },
-
-
-
 
   {
     "modelo":"Apps",
@@ -310,9 +305,6 @@
     "problema":"¿Cómo activo la alarma desde la app de Ingenium?",
     "solucion":"1-Abre la app de Ingenium en tu dispositivo móvil.   2-En la pantalla principal de la app, localiza el icono de la alarma de intrusión en la parte inferior izquierda. Este icono puede aparecer como un candado.    3-Pulsa sobre el icono del candado para mostrar el estado actual de la alarma.    4-Si la alarma está desarmada, pulsa nuevamente sobre el icono para armarla.    5-La app mostrará un mensaje indicando que la alarma está siendo armada. El icono parpadeará en blanco y naranja durante el proceso de armado.    6-Una vez que la alarma se haya armado correctamente, el icono dejará de parpadear y mostrará el estado de alarma armada."
   },
-
-
-
 
   {
    "modelo":"Otros",

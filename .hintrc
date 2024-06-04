@@ -1,6 +1,16 @@
 {
+  "connector": {
+    "name": "puppeteer",
+    "options": {
+      "waitUntil": "networkidle2"
+    }
+  },
   "extends": [
     "development"
+  ],
+  "formatters": [
+    "summary",
+    "html"
   ],
   "hints": {
     "compat-api/css": "off",
@@ -18,6 +28,24 @@
     ],
     "axe/name-role-value": "off",
     "axe/structure": "off",
-    "css-prefix-order": "off"
+    "css-prefix-order": "off",
+    "image-optimization-cloudinary": "off",
+    "performance-budget": [
+      "error",
+      {
+        "resourceTypes": {
+          "document": 30,
+          "image": 50,
+          "script": 120,
+          "total": 250
+        },
+        "resourceSizes": {
+          "document": 30,
+          "image": 500,
+          "script": 300,
+          "total": 1600
+        }
+      }
+    ]
   }
 }

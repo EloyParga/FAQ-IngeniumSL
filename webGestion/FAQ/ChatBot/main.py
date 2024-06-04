@@ -1,7 +1,7 @@
 import os
 from time import sleep
-from packaging import version
 from flask import Flask, request, jsonify
+from packaging import version
 import openai
 from openai import OpenAI
 import functions
