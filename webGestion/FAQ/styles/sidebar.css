@@ -1,23 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
 
-:root{
-    --color-barra-lateral:transparent;
-
-    --color-texto:rgb(255,255,255);
-    --color-texto-menu:rgb(255,255,255);
-
-
-    --color-boton:rgb(0,0,0);
-    --color-boton-texto:rgb(255,255,255);
-
-    --color-linea:rgb(180,180,180);
-
-    --color-switch-base :rgb(201,202,206);
-    --color-switch-circulo:rgb(241,241,241);
-
-    --color-scroll:rgb(192,192,192);
-    --color-scroll-hover:rgb(134,134,134);
-}
 
 *{
     margin: 0;
@@ -37,8 +19,7 @@
     align-items: center;
     border-radius: 50%;
     cursor: pointer;
-    background-color: var(--color-boton);
-    color: var(--color-boton-texto);
+    color: var(--white);
     right: 15px;
     top: 15px;
     z-index: 100;
@@ -82,7 +63,7 @@
 .barra-lateral .nombre-pagina{
     width: 100%;
     height: 45px;
-    color: var(--color-texto);
+    color: var(--white);
     margin-bottom: 40px;
     display: flex;
     align-items: center;
@@ -159,10 +140,10 @@
     align-items: center;
     text-decoration: none;
     border-radius: 10px;
-    color: var(--color-texto-menu);
+    color: var(--white);
 }
 .navegacion a:hover{
-    background-color: var(--amarillo-ing-color);
+    background-color: var(--green-comelit);
     color: var(--color-menu-hover-texto);
 }
 .barra-lateral .navegacion ion-icon{
@@ -181,7 +162,7 @@
 
 /*-------------main*/
 #inbox{
-    background-color: var(--amarillo-ing-color);
+    background-color: var(--green-comelit);
     color: var(--black);
 }
 
