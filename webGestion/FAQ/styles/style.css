@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Verdana;
   background-color: var(--primary-color) ;
 }
 
@@ -319,11 +319,10 @@ a {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 36px;
   color: #fefcfb;
   margin-bottom: 0px;
   margin-top: 10px;
-  font-family: "Bebas Neue", sans-serif;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
