@@ -27,12 +27,12 @@
   {
     "modelo": "Pantallas",
     "problema": "¿Qué conectividad ofrece la VIIP?",
-    "solucion": "Ofrece conectividad Wi-Fi y puede funcionar en modo punto de acceso para crear una red Wi-Fi local. Soporta protocolos como ZWave, Zigbee, KNX, BUSing, entre otros."
+    "solucion": "Ofrece conectividad Wi-Fi y puede funcionar en modo punto de acceso para crear una red Wi-Fi local. Soporta protocolos como ZWave, Zigbee, KNX, BUSing, entre otros. También soporta control por voz con Alexa y Google Home."
    },
   {
     "modelo": "Pantallas",
     "problema": "¿Qué funciones adicionales ofrece la VIIP?",
-    "solucion": "Permite la edición de escenas, control de alarmas técnicas, gestión de la alarma de intrusión, temporizaciones anuales, y puede actuar como videoportero."
+    "solucion": "Permite la creacion y edición de escenas, control de alarmas técnicas, gestión de la alarma de intrusión, temporizaciones anuales, y puede actuar como videoportero."
    },
   {
      "modelo": "Pantallas",
@@ -91,7 +91,7 @@
    {
     "modelo": "Pantallas",
     "problema": "¿Por qué mi pantalla muestra un horario diferente?",
-    "solucion": "Compruebe su conexión de red, en el caso de ser correcta, acceda al menú de ajustes y pulse sobre la opción General. En esta opción, veremos la posibilidad de actualizar nuestra zona horaria dependiendo en que lugar del mundo nos encontremos."
+    "solucion": "Compruebe su conexión de red, en el caso de ser correcta, acceda al menú de ajustes y pulse sobre la opción General. En esta opción, veremos la posibilidad de actualizar nuestra zona horaria dependiendo en qué lugar del mundo nos encontremos."
    },
  
   {
@@ -108,12 +108,12 @@
   {
     "modelo":"Pantallas",
     "problema":"¿Cómo puedo disponer de la última versión del software de la pantalla VIIP? ",
-    "solucion":"En la serie VIIP puede descargar la última versión desde la opción correspondiente del menú de la propia pantalla , para ello acceda a la menu correspondiente en el menu principal, si tiene alguna duda en la plataforma tiene un video que le puede servir como guia."
+    "solucion":"En la serie VIIP puede descargar la última versión desde la opción correspondiente del menú de la propia pantalla , para ello acceda a la menu correspondiente en el menu principal. Si tiene alguna duda en la plataforma tiene un video que le puede servir como guia."
   },
   {
     "modelo":"Pantallas",
     "problema":"¿Se puede realizar la gestión de alamas técnicas y de intrusión mediante las pantallas táctiles y servidores web?",
-    "solucion":"Sí, desde la VIIP y con el servidor web puede realizar la gestión tanto de las alarmas técnicas como de la alarma de intrusión contando con tiempos de armado y desarmado. "
+    "solucion":"Sí, desde la Smart Touch 2 se puede realizar una gestión básica de las alarmas, como la activación de la alarma de intrusión, su desactivación, revisión y borrado de avisos...  Desde la VIIP y con el servidor web se pueden realizar ademas una gestión más avanzada tanto de las alarmas técnicas como de la alarma de intrusión contando con tiempos de armado y desarmado, aviso a correo electrónico, lanzamiento de escenas de usuario, etc. "
   },
   {
     "modelo":"Pantallas",
@@ -148,11 +148,23 @@
     "problema": "¿Puedo cambiar el código de desactivación de la alarma de mi vivienda?",
     "solucion": "Si. Para ello, acceda al menú de Ajustes de su dispositivo y vaya a la opción de Seguridad, aquí tendrá la opción de Cambiar la contraseña de alarma. Deberá añadir el código previo, por defecto es \"1234\"  y, posteriormente, el nuevo deseado."
   },
+
+  {
+    "modelo": "Pantallas",
+    "problema": "¿Puedo cambiar el aspecto visual de mi pantalla Viip?",
+    "solucion": "Si. El escritorio de la pantalla Viip puede mostrar las imágenes cargadas por el instalador en la vista de “planos” o mostrar las imágenes e iconos configurados por el usuario en la vista de “estancias”. Puede encontrar indicaciones en el manual de usuario o en los videos de nuestra plataforma."
+  },
+
+  {
+    "modelo": "Pantallas",
+    "problema": "¿Mi pantalla Viip dispone de salvapantallas?",
+    "solucion": "Sí. La pantalla de reposo o “salvapantallas” dispone de múltiples opciones de configuración a las que puede acceder en el menú de Ajustes de su dispositivo, dentro de la opción “Pantalla”. Puede seleccionar tiempo de espera, brillos y colores de las distintas capas, imágenes, reloj…"
+  },
    
   {
     "modelo":"Integraciones",
     "problema":"¿Puedo controlar la instalación mediante comandos de voz? ",
-    "solucion":"Sí, se ha desarrollado la integración de sus servidores web con Google Home y Alexa de forma que si se dispone de un servidor web se puede dar de alta de forma gratuita en ambas integraciones, pudiendo, incluso, controlar la instalación desde su coche si este dispone de conectividad a través de Android Auto. Si precisa de contacte con su Instalador ó integrador."
+    "solucion":"Sí, se ha desarrollado la integración de sus servidores web con Google Home y Alexa de forma que si se dispone de un servidor web se puede dar de alta de forma gratuita en ambas integraciones, pudiendo, incluso, controlar la instalación desde su coche si este dispone de conectividad a través de Android Auto. Si precisa de más información contacte con su Instalador o integrador."
   },
   {
     "modelo":"Integraciones",
@@ -213,17 +225,17 @@
   {
     "modelo":"Apps",
     "problema":" ¿Qué aplicaciones móviles están disponibles para controlar los productos de Ingenium?",
-    "solucion":"Ingenium ofrece aplicaciones móviles para dispositivos iOS (iSC Ingenium) y Android (aSC Ingenium) que permiten el control remoto y local de las instalaciones BUSing®."
+    "solucion":"Ingenium ofrece aplicaciones móviles gratuitas para dispositivos iOS (iSC Ingenium) y Android (aSC Ingenium) que permiten el control remoto y local de las instalaciones BUSing®."
   },
   {
     "modelo":"Apps",
     "problema":" ¿Qué es aSC Ingenium? ",
-    "solucion":"Es una aplicación para el control de instalaciones BUSing desde dispositivos Android. Requiere un equipo ETHBUS4 o una pantalla con servidor web integrado."
+    "solucion":"Es una aplicación para el control de instalaciones BUSing desde dispositivos Android. Requiere que su instalación domotica disponga de un equipo ETHBUS4 o una pantalla con servidor web integrado (Viip o Smart Touch 2)."
   },
   {
     "modelo":"Apps",
     "problema":" ¿Qué es iSC Ingenium? ",
-    "solucion":"Es una aplicación para el control de instalaciones BUSing desde dispositivos IOS. Requiere un equipo ETHBUS4 o una pantalla con servidor web integrado."
+    "solucion":"Es una aplicación para el control de instalaciones BUSing desde dispositivos IOS. Requiere que su instalación domotica disponga de un equipo ETHBUS4 o una pantalla con servidor web integrado (Viip o Smart Touch 2)."
   },
   {
     "modelo":"Apps",
@@ -354,6 +366,6 @@
   {
     "modelo": "Otros",
     "problema": "¿Mi pantalla VIIP dispone de cámara?",
-    "solucion": "No, este orificio superior del marco de la pantalla se corresponde con el micrófono, ya que este dispositivo tiene la capacidad de comunicarse con la videoportería de su vivienda."
+    "solucion": "No, el orificio superior del marco de la pantalla se corresponde con el micrófono, ya que este dispositivo tiene la capacidad de comunicarse con la videoportería de su vivienda."
   }
 ]
