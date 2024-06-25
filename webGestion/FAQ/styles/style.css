@@ -354,7 +354,7 @@ h2:first-of-type {
   right: 20px;
   width: 60px;
   height: 60px;
-  background-color: #ebc224;
+  background-color: var(--green-comelit);
   color: black;
   border: none;
   border-radius: 50%;
@@ -369,7 +369,7 @@ h2:first-of-type {
 }
 
 .assistant-button:hover {
-  background-color: #b89715;
+  background-color: #00bc7194 ;
   transform: scale(1.1);
 }
 
@@ -543,10 +543,9 @@ h2:first-of-type {
   }
 
   #logo-header {
-    content: url("../../img/Logos-Icons/Icons/icon_ing_amarillo.svg");
-    color: #d68d04;
-    width: 60px;
-    height: 60px;
+   
+    width: 120px;
+   
   }
 
   #problemsList {

@@ -1,2 +1,5 @@
 # Ignora la carpeta TEST
 TEST
+
+# Ignora el BOT
+/webGestion/FAQ/ChatBot

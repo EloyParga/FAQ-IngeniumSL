@@ -7,23 +7,12 @@
     <title>Login</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script>
-        function validateUser() {
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
-            if(username == "Ingenium" && password == "Ingen1um") {
-                window.location.href = "/webGestion/indexFinalUser.html";
-            } else {
-                alert("Usuario o contraseña incorrectos");
-            }
-            return false; // Evita el envío del formulario
-        }
-    </script>
 </head>
 
 <body>
     <div class="wrapper">
-        <form onsubmit="return validateUser()">
+        <!--
+        <form id="loguinForm" onsubmit="return validateUser()">
             <img src="/webGestion/img/ic_ing_round.png" alt="">
 
             <div class="input-box">
@@ -42,8 +31,71 @@
                 <a href="/webGestion/indexFinalUser.html">¿Olvidaste la contraseña?</a>
             </div>
             <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn btnBack" onclick="document.getElementById('registerForm').style.display='block' , document.getElementById('loguinForm').style.display='none'">Registro</button>
         </form>
+        
+        <form id="registerForm" onsubmit="return registerUser()" style="display:none">
+            <div class="input-box">
+                <input type="text" id="newUsername" placeholder="Nuevo Usuario" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="newPassword" placeholder="Nueva Contraseña" required>
+                <i class='bx bxs-lock-open-alt'></i>
+            </div>
+            <button type="submit" class="btn">Registrar</button>
+            <button type="button" class="btn btnBack" onclick="document.getElementById('registerForm').style.display='none' , document.getElementById('loguinForm').style.display='block'">Volver</button>
+        </form>
+        -->
+        
+        <h2 style="margin: 10px; margin-top: 30px;">Selecciona tu tipo de usuario</h2>
+        <img src="/webGestion/img/ic_ing_round.png" alt="">
+        <button class="btn btnBack" onclick="redirectTo('usuarioFinal')">Usuario Final</button>
+        <button class="btn btnBack" onclick="redirectTo('profesional')">Profesional</button>
     </div>
+    
+    <script>
+        async function registerUser() {
+            const newUsername = document.getElementById('newUsername').value;
+            const newPassword = document.getElementById('newPassword').value;
+
+            const userData = `${newUsername},${newPassword}\n`;
+
+            if ('showSaveFilePicker' in window) {
+                // Usar la API showSaveFilePicker para guardar el archivo
+                const opts = {
+                    types: [{
+                        description: 'Text Files',
+                        accept: {'text/plain': ['.txt']}
+                    }]
+                };
+                try {
+                    const handle = await window.showSaveFilePicker(opts);
+                    const writable = await handle.createWritable();
+                    await writable.write(userData);
+                    await writable.close();
+                    alert('Usuario registrado con éxito');
+                } catch (err) {
+                    console.error('Error writing to file', err);
+                    alert('Error al registrar el usuario');
+                }
+            } else {
+                alert('showSaveFilePicker API no es compatible con este navegador.');
+            }
+
+            return false; // Prevent form submission
+        }
+    </script>
+
+    <script>
+        function redirectTo(userType) {
+            if (userType === 'usuarioFinal') {
+                window.location.href = 'webGestion/FAQ/pags/FAQ.html';
+            } else if (userType === 'profesional') {
+                window.location.href = 'webGestion/FAQ/pagsTecnico/FAQ.html';
+            }
+        }
+    </script>
 </body>
 
 </html>
