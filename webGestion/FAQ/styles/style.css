@@ -101,6 +101,11 @@ input[type="search"]:focus {
   color: white;
 }
 
+input::placeholder{
+  color: white;
+  font-size: larger;
+}
+
 .main-container {
   margin-top: 25px;
   display: flex;
