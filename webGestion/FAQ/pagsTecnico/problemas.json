@@ -162,18 +162,324 @@
     "solucion":" La simulación de presencia está disponible en la serie VIIP y ETHBUS4-K. "
   },
   {
-    "modelo":"Zclim",
-    "problema":"Esto es un problema de prueba",
-    "solucion":"esto es un texto de prueba que se usa para que la web este encuadrada ya que sus dimensiones se adaptan al contenido."
+    "modelo":"Bes",
+    "problema":"¿Qué tipo de elementos se pueden controlar con los actuadores de Bes?",
+    "solucion":"Con todos los actuadores que dispongan de salidas a relé puede controlarse cualquier elemento que precise de un contacto para su funcionamiento, es decir, de abrir y cerrar un relé. Algunos elementos que es posible controlar son: luces, fan-coil, termoválvulas, persianas, encendido/apagado de motores, etc."
   },
+  {
+    "modelo":"Bes",
+    "problema":"¿Todos los actuadores de Bes son multifunción?",
+    "solucion":"Sí, pero con algunas puntualizaciones.  Existen dos tipos de actuadores que no pueden ser totalmente considerados multifunción, estos son el 4E4SL-K  y el 7SZ-K . "
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Todos los actuadores se programan con el mismo catálogo?",
+    "solucion":"Sí, todas las referencias de actuadores se programan mediante el ETS con el mismo catálogo de programación."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Se pueden conectar 64 equipos en la misma línea del bus?",
+    "solucion":"No. El concepto de 64 equipos por línea es aplicable para equipos que consuman 5 mA. Se debe, por lo tanto, tener en cuenta el consumo de los equipos como un factor determinante a la hora del dimensionado de las líneas del proyecto y del correspondiente uso de acopladores de línea y fuentes de alimentación."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuánto poder de corte tienen las salidas de los actuadores de Bes?",
+    "solucion":"Todos los actuadores de Bes que dispongan de salidas tienen un poder de corte de 16 A, a excepción de 4E4SL-K y 7SZ-K, cuyas salidas no son a relé. La referencia 6E6S-30A-K dispone de relés con poder de corte de 30 A."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Qué puedo hacer si necesito controlar una carga cuyo consumo es mayor al poder de corte establecido en la hoja de características de los actuadores?",
+    "solucion":"En el caso de necesitar conectar cargas con consumos mayores al poder de corte, se debe intercalar un contactor entre la salida del actuador y la carga, de modo que el actuador trabaje sobre el contactor y no directamente sobre la carga, que dañaría el equipo."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Qué tipo de rejillas de ventilación pueden controlarse con el equipo 7SZ-K?",
+    "solucion":"Pueden controlarse rejillas tanto de 12V como de 24V y de forma combinada, sin necesidad de seleccionar la tensión de trabajo de la rejilla por parámetros o mediante potenciómetros"
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Las entradas son configurables?",
+    "solucion":"Sí, estas pueden ser configuradas como interruptores o como pulsadores (con pulsación larga y corta). Existen diferentes opciones para cada una de ellas de modo que pueda elegirse qué envía el dispositivo al bus KNX al actuar sobre estas entradas."
+  },
+
+
+  {
+    "modelo":"Bes",
+    "problema":"¿Las entradas de los actuadores de Bes están vinculadas con las salidas del mismo actuador?",
+    "solucion":" No, las entradas de los actuadores no están vinculadas con las salidas, sino que desde ellas pueden controlarse cualquier elemento conectado al bus KNX, no necesariamente en las salidas del mismo dispositivo."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuántos objetos de comunicación se dispone para las entradas?",
+    "solucion":"Para las dos configuraciones de las entradas se disponen de, como máximo, dos objetos de comunicación. En el modo interruptor se puede elegir si se quiere trabajar con uno o con dos objetos de comunicación y el flanco en el cual se quiere enviar el dato a través de cada uno de ellos. En el modo pulsador, siempre existen dos objetos de comunicación: uno para la pulsación larga y otro para la corta."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Por qué en algunas ocasiones debo presionar dos veces el pulsador o interruptor conectado a la entrada para actuar sobre una salida?",
+    "solucion":"Porque se está controlando la luz desde más de una entrada y el actuador no ha sido programado de manera correcta, no estando las entradas sincronizadas."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cómo se sincronizan las entradas para controlar una luz desde más de un pulsador o interruptor?",
+    "solucion":"Para controlar un elemento desde distintas entradas de modo que conmute de manera correcta desde cualquiera de ellas, se debe enlazar la dirección de grupo de notificación del estado de la salida controlada con todas las entradas desde las que se controle. Así, si la entrada está configurada para conmutar, el valor enviado será el contrario al enviado anteriormente si la última acción se realizó desde esa misma entrada o el valor contrario del recibido por el bus si se actuó sobre otra. Hay que tener en cuenta que para que esto funcione de manera correcta se debe disponer del flag de escritura activado en los objetos de comunicación correspondientes."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Los actuadores de Bes disponen de escenas?",
+    "solucion":" La simulación de presencia está disponible en la serie VIIP y ETHBUS4-K. "
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Todos los actuadores disponen de unidad aritmético lógica (ALU)?",
+    "solucion":"Sí, todas las referencias de actuadores disponibles en catálogo disponen de ALU que cuenta con 8 operaciones aritmético lógicas y con 8 temporizadores o contadores."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Pueden conectarse luminarias LED en la salida a relé de los actuadores?",
+    "solucion":"Sí, es posible conectar luminarias LED a la salida de lo actuadores de LED, pero debe tenerse en cuenta que este tipo de luminaria, aunque es de bajo consumo, presenta un pico importante de corriente en el arranque por lo que puede ocasionar problemas si se supera el poder de corte del relé."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Pueden conectarse distintas fases o cargas trifásicas a las salidas de los actuadores de Bes?",
+    "solucion":"Sí, los terminales de conexión de los actuadores tienen la distancia suficiente entre cada salida para asegurar que no existirá ningún problema surgido, por ejemplo, con arcos eléctricos, en caso de utilizar una carga trifásica."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Existen actuadores con control manual en la carcasa de los mismos para la comprobación de las salidas?",
+    "solucion":"Sí, de todas las referencias de actuadores de carril DIN, salvo del caso especial del 7SZ-K, se dispone de una referencia con control manual en la carcasa del equipo. En los actuadores de Bes este control manual se realiza con pulsadores capacitivos con sus zonas táctiles claramente indicadas en la pegatina o serigrafía de los mismos"
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Pueden controlarse cargas alimentadas a 110 Vac en las salidas de los actuadores?",
+    "solucion":"Las salidas de los actuadores a relé son libres de potencial, por lo que la tensión del elemento controlado no afecta al funcionamiento del equipo. El parámetro importante a tener en cuenta es el consumo de la carga, que no puede ser nunca superior al poder de corte."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Pueden controlarse cargas normalmente cerradas?",
+    "solucion":"Sí, pueden controlarse tanto cargas normalmente abiertas como normalmente cerradas. Para seleccionar esta polaridad existe un parámetro en la configuración de las salidas binarias o de las salidas de tipo termoválvula, según con qué configuración se esté trabajando. Si se selecciona el tipo normalmente cerrado, el actuador seguirá la lógica inversa, es decir, cerrará el relé enviando un '0' al objeto de comunicación correspondiente y abrirá haciendo lo propio con un '1'."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Se pueden configurar retardos en la actuación sobre las salidas o temporizaciones de escalera?",
+    "solucion":"Sí, en las salidas binarias del actuador pueden configurarse retardos tanto en el encendido o en el apagado, de forma independiente o conjunta, y temporizaciones de escalera. El actuador dispone de un objeto de comunicación por cada salida binaria para actuar sobre ellas con estos retardos o temporizaciones de escalera. La polaridad del elemento controlado, es decir, si es normalmente abierto o cerrado, también se tiene en cuenta a la hora de la ejecución de las temporizaciones de escalera."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Se pueden bloquear las salidas del actuador?",
+    "solucion":"Sí, las salidas de los actuadores se pueden bloquear en todas sus configuraciones de modo que no responda lo recibido por el objeto de escritura. Al desbloquear la salida, se puede seleccionar mediante parámetro si se quiere realizar alguna acción sobre la salida o se desea mantener la misma en el estado en el que estaba antes del bloqueo, sin variación. En el caso de las salidas de tipo binario, se debe tener en cuenta que el bloqueo afecta al objeto de comunicación de actuación on/off y no al de los retardos o temporizaciones de escalera. Si se desea establecer un bloqueo para estos otros objetos, se puede intercalar una puerta lógica de la ALU del propio actuador."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Qué motores de persianas puedo controlar con los actuadores?",
+    "solucion":"Los actuadores de Bes con salida a relé pueden controlar una persiana por cada dos salidas y el motor de la misma debe disponer siempre de final de carrera previamente ajustado de manera correcta. Los motores utilizados son de tres hilos: común, fase de subida y fase de bajada. La fase de subida siempre corresponde con las salidas impares del actuador y el de bajada con las salidas pares."
+  },
+
+  {
+    "modelo":"Bes",
+    "problema":"¿Existen tiempos de subida y de bajada de persianas independientes en los actuadores?",
+    "solucion":"Sí, se disponen de dos parámetros independientes para establecer los tiempos de subida y de bajada de las persianas. Además, existe un parámetro muy importante que se trata del tiempo adicional; tiempo durante el cual el actuador mantiene el relé cerrado tras llegar a las posiciones extremas de la persiana (0% y 100%) asegurando la llegada a los extremos, momento en el que se reajustan los tiempos de persianas evitando desajustes normales durante el funcionamiento en el control por posición de las mismas. Por ello, se recomienda establecer siempre unos segundos de tiempo adicional; la persiana no será dañada pues lo evitará el final de carrera del motor."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Los actuadores de Bes disponen de control para persianas de lamas?",
+    "solucion":"Los actuadores de Bes con capacidad para el control de persianas sí pueden controlar persianas con lamas pero no de tipo Gradhermetic."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Qué tipo de control de fan-coil puede realizarse con estos actuadores?",
+    "solucion":"Los actuadores con capacidad para el control de fan-coil disponen de dos modos de control por contactos. El control denominado como directo sirve para controlar la velocidad de manera que solamente el relé de la velocidad seleccionada esté cerrado. Por lo contrario, el modo llamado jerárquico o secuencial activa no solamente el relé de la velocidad seleccionada sino también el de las velocidades inferiores."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Quién fija la velocidad del fan-coil?",
+    "solucion":"En los parámetros del actuador se establecen tres límites de velocidades en porcentaje (de 0 a 100%). Los termostatos, como la serie Cubik de Bes, envían al actuador el porcentaje al que debe establecerse la velocidad del fan-coil en función de la temperatura medida y la de consigna a través del primer objeto de comunicación disponible para cada fan-coil (Control de velocidad de fan-coil). Si el actuador está establecido en el modo de control automático de fan-coil, éste cerrará y abrirá los relés correspondientes para establecer la velocidad en función del dato recibido por dicho objeto de comunicación y de los límites establecidos por parámetro. Si el actuador está en modo manual, la velocidad solamente cambiará escribiendo por los objetos de comunicación destinados a tal efecto. Si el equipo está en modo automático y se escribe por estos objetos, el dispositivo pasa de forma automática a trabajar en modo manual, obviando los datos recibidos por el primer objeto de comunicación de cada fan-coil."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Qué modos se disponen para el control de termoválvulas?",
+    "solucion":"Para controlar una termoválvula se dispone del control binario (todo/nada tradicional) y del modo PWM. Para este último modo, se dispone de un parámetro para fijar el periodo del ciclo PWM y de un objeto mediante el cual se establece el duty, esto es, el tiempo dentro del ese ciclo en el cual el relé está cerrado (si es normalmente abierto) o abierto (si es normalmente cerrado)."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Se dispone de ciclos antical para las termoválvulas?",
+    "solucion":"Sí, en la opción de termoválvulas puede habilitarse la opción que permite la ejecución de una serie de ciclos de apertura y cierre automáticos para evitar que la termoválvula se dañe debido a la cal."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuándo notifica el actuador el cambio de sus salidas?",
+    "solucion":"En el caso de trabajar con salidas binarias o de tipo válvula, el estado de las salidas se notifica como máximo un segundo más tarde de actuar sobre ella por el objeto de comunicación correspondiente. En el caso de fan-coil, se notifican las velocidades ante el cambio. Para las persianas, se puede seleccionar si se notifica tras llegar a la posición deseada o de forma continua, cada segundo, durante el movimiento de las mismas."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Con qué reguladores cuenta Bes en su catálogo?",
+    "solucion":"Bes cuenta con distintos reguladores en función de las necesidades de la instalación. Entre sus referencias se encuentran los tres reguladores universales RKU1S200 , RKU2S200 y RKU3S200 , aptos para regulación de luminarias incandescentes alógenas o cargas de LED. Además, cuenta con los reguladores RK1102C y el RK1103C de 1-10 V y el RK0104C de 0-10 V. Para tiras de LED se cuenta con los reguladores RGBL-K y RGBWL-K."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuánta potencia máxima admiten los reguladores universales RKU1S200, RKU2S200 y RK3S200?",
+    "solucion":"Las tres referencias de reguladores universales de Bes admiten hasta 200W de potencia por canal."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Qué diferencias existen entre los reguladores universales RKU1S200, RKU2S200 y RK3S200?",
+    "solucion":"La única diferencia entre los reguladores universales es el número de canales de los que dispone. El RKU1S200 tiene un canal, el RKU2S200 cuenta con dos canales y el RKU3S200 con tres. Esto hace que el tamaño y el montaje de estos tres reguladores también varíe en función de la referencia siendo el RKU1S200 un dimmer cuyo montaje puede realizarse sobre el falso techo gracias a su pequeño tamaño, mientras que las otras dos referencias se instalan en carril DIN y cuentan con un tamaño de 4 módulos. El número de entradas varía, también, en función de la referencia: el regulador RKU1S200 no tiene entradas, el regulador RKU2S200 dispone de dos y el RKU3S200 de tres entradas."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Con qué catálogo de ETS se programan los reguladores universales RKU1S200, RKU2S200 y RK3S200?",
+    "solucion":"Los dimmers se programan con el catálogo Dimmers.knxprod de Bes disponible en la página web de los mismos. Los tres se programan con el mismo catálogo pudiendo elegir el número de canales del regulador en la pestaña General del catálogo."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿En qué flanco regulan y cómo los dispositivos RKU1S200, RKU2S200 y RKU3S200?",
+    "solucion":"Las tres referencias regulan por corte de fase en flanco ascendente y a TRIAC."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"Las luces parpadean cuando se acercan al límite máximo y mínimo de regulación, ¿cómo lo puedo evitar?",
+    "solucion":"En la pestaña General del catálogo puede establecer el límite superior e inferior de regulación. Ninguno de estos límites afecta a la regulación puesto que existen siempre los mismos puntos de regulación y, además, son transparentes al usuario. Estos límites dependen de la luminaria y la carga utilizada por lo que es probable que sea necesario ajustarlos a la hora de la puesta en marcha."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Se pueden programar las entradas de los reguladores universales?",
+    "solucion":"No, las entradas vienen preconfiguradas y los reguladores no constan de objetos de comunicación ni de parámetros para ellas. Cada una de las entradas regulan la salida correspondiente mediante pulsación larga (incrementando o reduciendo el nivel de luminosidad) y corta (encendido y apagado del canal). El disponer de las entradas preconfiguradas en los reguladores permite una más sencilla y rápida programación y puesta en marcha."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cómo se regulan cada uno de los canales de los reguladores universales?",
+    "solucion":"Todos los canales disponen de dos objetos de comunicación principales para realizar la regulación de los mismos desde otros dispositivos: uno de 1 byte a través del cual se envían los porcentajes de regulación y otro de 4 bits para la regulación relativa de los canales. Además, cada canal puede controlarse con su entrada correspondiente."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Se dispone de posibilidad de establecer temporizaciones de escalera en los reguladores universales RKU1S200, RKU2S200 y RKU3S200?",
+    "solucion":"Sí, se puede establecer una temporización de escalera por cada canal de modo que tras enviar la orden de encendido al canal se apague de forma automática tras los segundos establecidos en el parámetro correspondiente."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Los reguladores universales RKU1S200, RKU2S200 y RKU3S200 disponen de escenas?",
+    "solucion":"Sí, los reguladores disponen de 4 escenas cuyos valores son configurables por parámetros, pero, además, pueden grabarse hasta 16 escenas por canal a través del objeto de comunicación correspondiente."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Con qué catálogo se programan los reguladores 1-10 V RK1102C y RK1103C?",
+    "solucion":"Los reguladores 1-10 V se programan con el mismo catálogo que los reguladores universales denominado Dimmers. La última versión del catálogo se encuentra disponible para su descarga en la página web del producto. "
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Los reguladores 1-10 V RK1102C y RK1103C disponen de entradas?",
+    "solucion":"No, ninguna de las dos referencias de reguladores 1-10 V disponen de entradas. Los dispositivos deben ser controlados mediante los objetos de comunicación correspondientes desde algún otro dispositivo KNX."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuál es el método de funcionamiento de los reguladores 1-10 V de RK1102C y RK1103C?",
+    "solucion":"Los reguladores 1-10 V regulan su salida entre estos niveles de tensión. Estos reguladores suelen controlar drivers cuyas especificaciones de funcionamiento aconsejan el uso de este tipo de regulación. La característica principal de estos reguladores es que para el 0% la señal de regulación no es nula, sino que es de 1 V por lo que la luminaria o driver no apagará totalmente. Para realizar el apagado total de la luminaria o el driver, se dispone en el propio regulador de un relé el cual abre cuando se regula al 0% y se cierra en caso contrario. El conexionado del driver correcto se basa en pasar la alimentación del mismo por este relé de manera que se apague por corte de alimentación cuando la orden de regulación es de 0%."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"Dispongo de un regulador 1-10 V y no consigo que se apague la luminaria, ¿qué está ocurriendo?",
+    "solucion":"Debe comprobar que la alimentación del driver de la luminaria se pasa por el relé del regulador de modo que se corte la alimentación cuando se regula al 0%. "
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Qué diferencias existen entre los reguladores 1-10 V RK1102C y RK1103C?",
+    "solucion":"La única diferencia es el número de canales y el tamaño de los mismos, siendo el RK1102C de dos canales y con posibilidad de instalarlo en la luminaria o el falso techo, y el RK1103C de tres canales y de carril DIN de 4 módulos."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Con qué características cuentan los reguladores 1-10 V de Bes?",
+    "solucion":"Estos reguladores cuentan con las mismas características anteriormente descritas para los reguladores universales."
+  },
+
+
+  {
+    "modelo":"Bes",
+    "problema":"¿Cómo regula el equipo RK0104C de Bes?",
+    "solucion":"El regulador RK0104C es un regulador con salida 0-10 V a TRIAC. Al contrario que los reguladores 1-10V, estos reguladores sí apagan al enviarles la orden de 0% puesto que la señal es nula para tal porcentaje."
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuál es el método de funcionamiento de los reguladores 1-10 V de RK1102C y RK1103C?",
+    "solucion":""
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuál es el método de funcionamiento de los reguladores 1-10 V de RK1102C y RK1103C?",
+    "solucion":""
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuál es el método de funcionamiento de los reguladores 1-10 V de RK1102C y RK1103C?",
+    "solucion":""
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuál es el método de funcionamiento de los reguladores 1-10 V de RK1102C y RK1103C?",
+    "solucion":""
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuál es el método de funcionamiento de los reguladores 1-10 V de RK1102C y RK1103C?",
+    "solucion":""
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuál es el método de funcionamiento de los reguladores 1-10 V de RK1102C y RK1103C?",
+    "solucion":""
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuál es el método de funcionamiento de los reguladores 1-10 V de RK1102C y RK1103C?",
+    "solucion":""
+  },
+  {
+    "modelo":"Bes",
+    "problema":"¿Cuál es el método de funcionamiento de los reguladores 1-10 V de RK1102C y RK1103C?",
+    "solucion":""
+  },
+
+
+
+  {
+    "modelo":"Zclim",
+    "problema":"¿Con qué reguladores cuenta ZClim en su catálogo?",
+    "solucion":"ZClim cuenta con la gama de equipos siguientes: MasterClima-Z, MasterClima-Z4, Rejibus-Z, Modulo Fancoil-Z 5 salidas , Modulo Fancoil-Z 0-10V, Cubic-TZ, Cubic-TLZ."
+  },
+  {
+    "modelo":"Zclim",
+    "problema":"¿Qué tensión de corte tienen los relés de calor y frio del equipo MasterClima-Z?",
+    "solucion":"Las dos referencias de Masterclima tanto MasterClima-Z(BZ101000) como MasterClima-Z4(BZ102000) cuentan con dos relés con un poder de corte de 3A."
+  },
+  {
+    "modelo":"Zclim",
+    "problema":"¿Con que tensiones trabajan los Rejibus-Z?",
+    "solucion":"Los equipos Rejibus-Z pueden trabajar con rejillas de entre 12-24V de CC."
+  },
+  {
+    "modelo":"Zclim",
+    "problema":"¿Qué tensión alimenta el Bus Z?",
+    "solucion":"El Bus Z suele trabajar entre unos 14-18V de forma nominal la cual es dada por el MasterClima"
+  },
+  {
+    "modelo":"Zclim",
+    "problema":"¿Con que elementos de cada familia puede trabajar la gama ZClim?",
+    "solucion":"La gama ZClim se puede acompañar de cualquier articulo de la gama origen, en caso de necesidad puede funcionar con los módulos de control de Fancoil generales: Fancoil-Z, Fancoil-Z-010 por la parte de clima, pero además facilita la configuración de los modos disponibles para visualización y selección en pantallas."
+  },
+  {
+    "modelo":"Zclim",
+    "problema":"¿Cuál es la ventaja de utilizar MasterClima y no realizar las instalaciones de clima con otros elementos?",
+    "solucion":"El MasterClima es el gran facilitador de las lógicas de clima que puede resolver la gran mayoría de casos que se dan en el control del clima en una instalación, la unión de un gran numero de elementos de control mediante el Bus Z de dos hilos que simplifica la instalación, el cableado y la configuración de la puesta en marcha de las instalaciones. Las 8 zonas de actuación para electroválvulas de suelo radiante, la sonda NTC que facilita el corte frente a condensación (puesto que lo calcula automáticamente a través de los sensores de humedad integrados en los termostatos Z) y los relés de actuación generales de frio y calor son algunas de las facilidades de funcionamiento con las que cuenta."
+  },
+  {
+    "modelo":"Zclim",
+    "problema":"¿De qué modos dispone el masterclima en total?",
+    "solucion":"El MasterClima cuenta con hasta 6 modos de funcionamiento. En modo Calor o modo invierno, se puede optar por Suelo Radiante, Calor por ventilación/Fancoil con o sin rejillas motorizadas, o una combinación de Suelo Radiante y Calor por aire. En modo Frío o modo verano, las opciones incluyen Suelo Refrescante, Frío por ventilación/Fancoil con o sin rejillas motorizadas, o una combinación de Suelo Refrescante y Frío por aire."
+  },
+
+
   {
     "modelo":"Wings",
     "problema":"Esto es un problema de prueba",
     "solucion":"esto es un texto de prueba que se usa para que la web este encuadrada ya que sus dimensiones se adaptan al contenido."
-  },
-  {
-    "modelo":"Bi-16",
-    "problema":"",
-    "solucion":""
   }
+  
 ]
